@@ -16,6 +16,7 @@
             .dkt-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;border-bottom:2px solid var(--dk-ink);padding-bottom:8px;margin-bottom:14px}
             .dkt-title{font-size:1.3rem;margin:0;color:var(--dk-ink)}
             .dkt-sub{font-size:.8rem;color:var(--dk-muted)}
+            @media (max-width:600px){.dkt-sub{display:none}}
             .dkt-grid{display:grid;grid-template-columns:1fr;gap:26px}
             @media (min-width:640px){.dkt-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
             .dkt-tool{min-width:0;display:flex;flex-direction:column;gap:10px;color:var(--dk-ink)}
