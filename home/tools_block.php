@@ -140,7 +140,7 @@
                   if(w==='home'){
                     if(s>=135||d>=85){h.push('<p class="dkt-verdict is-hi">Từ ngưỡng 135/85 mmHg trở lên khi đo tại nhà</p><p>Theo Bộ Y tế, trung bình nhiều lần tự đo tại nhà từ 135/85 mmHg trở lên là tăng huyết áp. Bạn nên đi khám để được xác nhận và tư vấn.</p>')}
                     else{h.push('<p class="dkt-verdict is-ok">Dưới ngưỡng 135/85 mmHg khi đo tại nhà</p><p>Ngưỡng khi tự đo tại nhà thấp hơn ở cơ sở y tế. Hãy dùng trung bình của nhiều lần đo và tiếp tục theo dõi định kỳ.</p>')}
-                  }else{
+                  }else if(!(s<90||d<60)){
                     var lv=function(v,c){var t=[[180,110,6],[160,100,5],[140,90,4],[130,85,3],[120,80,2]];for(var i=0;i<t.length;i++){if(v>=t[i][0]||c>=t[i][1])return t[i][2]}return 1}(s,d);
                     var L={1:['Huyết áp tối ưu','is-ok','Dưới 120/80 mmHg. Hãy duy trì lối sống lành mạnh và đo huyết áp định kỳ.'],2:['Huyết áp bình thường','is-ok','Theo Bộ Y tế, tâm thu 120 đến 129 và/hoặc tâm trương 80 đến 84 mmHg là bình thường.'],3:['Tiền tăng huyết áp','is-mid','Chưa tới ngưỡng tăng huyết áp nhưng nên theo dõi thường xuyên và trao đổi với bác sĩ về lối sống, như ăn bớt mặn.'],4:['Tăng huyết áp độ 1','is-hi','Nếu đo nhiều lần, vào các ngày khác nhau vẫn ở mức này, bạn nên đi khám để được chẩn đoán và tư vấn.'],5:['Tăng huyết áp độ 2','is-hi','Nếu đo nhiều lần, vào các ngày khác nhau vẫn ở mức này, bạn nên đi khám để được chẩn đoán và tư vấn.'],6:['Tăng huyết áp độ 3','is-hi','Đây là mức cao nhất trong bảng phân loại. Bạn nên đi khám sớm.']}[lv];
                     h.push('<p class="dkt-verdict '+L[1]+'">'+L[0]+'</p><p>'+L[2]+' Khi hai số rơi vào hai mức khác nhau, Bộ Y tế xếp theo mức cao hơn.</p>');
