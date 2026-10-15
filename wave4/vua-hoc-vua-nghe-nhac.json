@@ -1,0 +1,62 @@
+{
+ "slug": "vua-hoc-vua-nghe-nhac",
+ "title": "Vừa học vừa nghe nhạc có làm giảm tập trung không?",
+ "seo_title": "Vừa học vừa nghe nhạc có làm giảm tập trung không?",
+ "meta_desc": "Vừa học vừa nghe nhạc có làm giảm tập trung? Nhạc có lời có thể cản trở đọc hiểu, còn tác động chung tùy nhiệm vụ và từng người. Xem bằng chứng.",
+ "focus_kw": "vừa học vừa nghe nhạc",
+ "tags": [
+  "vừa học vừa nghe nhạc",
+  "tập trung",
+  "kỹ năng học tập",
+  "nhạc nền"
+ ],
+ "excerpt": "Nhạc có lời có thể cản trở đọc hiểu, nhưng tác động của nhạc nền còn tùy nhiệm vụ và từng người.",
+ "publish_at": "2026-11-03T11:30:00",
+ "cover_motif": "headphones resting on an open textbook with a pencil",
+ "cover_prompt": "Simple, serious flat editorial illustration, objects only, no people, no faces, no text or letters: a pair of headphones resting on an open textbook, a pencil and a small potted plant on a plain desk, subtle abstract sound waves; muted natural palette, soft shadows, clean composition, 16:9.",
+ "cover_alt": "Minh họa tai nghe đặt trên cuốn sách mở, gợi ý thói quen vừa học vừa nghe nhạc",
+ "cover_query": [
+  "musical instruments still life",
+  "still life with book"
+ ],
+ "sources_checked": [
+  {
+   "url": "https://jyx.jyu.fi/bitstreams/6c4c8795-c1f4-41ea-9e03-75379d438e4a/download",
+   "reachable": true,
+   "what_it_supports": "Cheah, Randall & Coutinho 2025 (CC BY 4.0 self-archived): 98 students, 20 countries; 58% listen in >70% of sessions; reasons 52/33/33/31%; prefer instrumental, softer, slower; ESM energy fell as difficulty rose; summary of their 2022 review: complex/contradictory, task/music/listener factors, introverts vs extraverts; lab tasks short; music may sustain engagement."
+  },
+  {
+   "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1363562/pdf",
+   "reachable": true,
+   "what_it_supports": "Sun et al. 2024 (open access): 90 Chinese college students, Mandarin pop/English pop/no music; lyrical music lowered accuracy vs silence; same-language lyrics worst; habitual listeners better than non-listeners under music; 15 per cell, one university, no instrumental condition."
+  },
+  {
+   "url": "https://eprints-gro.gold.ac.uk/31753/1/03057356221089017.pdf",
+   "reachable": true,
+   "what_it_supports": "Kiss & Linnell 2022 (Goldsmiths repository copy): survey 197; listen during monotonous .87, studying .59, reading .26; avoid when reading .77; arousal and task-complexity account; self-report limitations."
+  },
+  {
+   "url": "https://livrepository.liverpool.ac.uk/3166444/",
+   "reachable": true,
+   "what_it_supports": "Cheah et al. 2022 systematic review record only; publisher full text could not be opened (provenance block); NOT cited."
+  },
+  {
+   "url": "https://eprints.bournemouth.ac.uk/29995/",
+   "reachable": true,
+   "what_it_supports": "Vasilev et al. 2018 meta-analysis record and abstract only; open PDF link could not be opened; NOT cited."
+  }
+ ],
+ "notes": "Dropped: Cheah et al. (2022) Music & Science systematic review and Vasilev et al. (2018) Bayesian meta-analysis on auditory distraction during reading, because their full texts could not be opened with the available tools (only records/abstracts read). Claims from the 2022 review are attributed to Cheah et al. (2025), which summarises it. Cheah et al. (2025) and Kiss & Linnell (2022) volume/issue not shown on the copies read, left out; Kiss & Linnell copy licence not stated (© The Author(s) 2022). \"Người học đại học\" used for university students.",
+ "review": [
+  "Cheah 2025 numbers checked.",
+  "Sun 2024 design and limitations checked.",
+  "Kiss & Linnell proportions checked."
+ ],
+ "content": "<!-- wp:paragraph -->\n<p>Tùy loại nhạc và loại việc. Trong một thực nghiệm, nhạc có lời làm giảm rõ khả năng đọc hiểu so với học trong yên lặng, nhất là khi lời bài hát cùng ngôn ngữ với văn bản đang đọc (Sun và cộng sự, 2024). Nhưng nhìn chung, kết quả nghiên cứu về nhạc nền còn nhiều trái chiều, phụ thuộc vào nhiệm vụ, loại nhạc và từng người (Cheah và cộng sự, 2025).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p><strong>Tóm tắt nhanh:</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Nhiều người học nghe nhạc khi học, chủ yếu để đỡ buồn, che tiếng ồn và giữ tâm trạng.</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Nhạc có lời, đặc biệt lời cùng ngôn ngữ với bài đọc, có thể làm giảm đọc hiểu.</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Với việc đơn giản, nhạc có thể giúp tăng hứng khởi; với việc khó, nó dễ thành gánh nặng.</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Nếu nghe, nhiều người học tự chọn nhạc không lời, nhỏ và chậm.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Người học có hay vừa học vừa nghe nhạc không?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Khá phổ biến. Trong khảo sát 98 người học đại học ở 20 quốc gia, 58% cho biết nghe nhạc trong hơn 70% số buổi học của mình (Cheah và cộng sự, 2025). Lý do hay gặp nhất là có \"bạn đồng hành\" hay lấp khoảng lặng (52%), che tiếng ồn (33%), tăng tập trung (33%) và cải thiện tâm trạng (31%).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Tuy vậy, người ta cũng tự phân biệt việc nào hợp với nhạc. Trong một khảo sát 197 người, tỷ lệ nghe nhạc khi làm việc đơn điệu là 87%, khi học là 59%, nhưng khi đọc chỉ 26%; có tới 77% tránh nghe nhạc khi đọc (Kiss &amp; Linnell, 2022).</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Nhạc có lời ảnh hưởng đến việc đọc hiểu ra sao?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Có thể làm giảm đáng kể. Sun và cộng sự (2024) cho 90 người học đại học ở Trung Quốc làm bài đọc hiểu tiếng Trung và tiếng Anh trong ba điều kiện: nhạc pop tiếng Trung, nhạc pop tiếng Anh, hoặc không nhạc. Cả hai loại nhạc có lời đều làm độ chính xác thấp hơn so với yên lặng. Mức giảm lớn nhất xuất hiện khi lời bài hát cùng ngôn ngữ với văn bản đang đọc.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Người vốn quen nghe nhạc khi học bị ảnh hưởng ít hơn người không có thói quen này. Nghiên cứu có giới hạn: mỗi nhóm chỉ 15 người, tất cả ở một trường đại học, và không có điều kiện nhạc không lời, nên chưa thể so trực tiếp nhạc có lời với nhạc không lời (Sun và cộng sự, 2024). Đây là lý do nên thận trọng với <a href=\"https://dykhoa.com/blog/nghien-cuu-it-nguoi-tham-gia-tin-duoc-den-dau/\">nghiên cứu ít người tham gia</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Vì sao các nghiên cứu về nhạc nền hay trái chiều?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Vì tác động phụ thuộc vào nhiều yếu tố cùng lúc. Cheah và cộng sự (2025) tóm lược rằng bức tranh nghiên cứu phức tạp, có thể giải thích bằng đặc điểm của nhiệm vụ, của bản nhạc và của người nghe; chẳng hạn nhạc nền tác động khác nhau lên người hướng nội và người hướng ngoại.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Kiss và Linnell (2022) đưa ra một cách giải thích dựa trên mức độ hưng phấn: người ta dùng nhạc để \"nạp năng lượng\" khi làm việc đơn giản, dễ nhàm chán, và để hạ bớt căng thẳng khi làm việc phức tạp. Cách giải thích này dựa trên dữ liệu tự báo cáo, chưa đo trực tiếp kết quả công việc. Cheah và cộng sự (2025) cũng lưu ý nhiều thí nghiệm cho thấy tác hại chỉ dùng nhiệm vụ rất ngắn, trong khi nhạc có thể giúp người học duy trì một buổi học dài.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Nếu muốn nghe nhạc khi học, nên chọn thế nào?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Bằng chứng hiện có gợi ý vài nguyên tắc, chưa phải công thức chắc chắn:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Với việc đọc hiểu, ghi nhớ: cân nhắc tắt nhạc, hoặc ít nhất tránh nhạc có lời cùng ngôn ngữ với bài đọc (Sun và cộng sự, 2024).</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Nếu nghe, nhiều người học tự chọn nhạc không lời, nhỏ và chậm khi học; trong dữ liệu ghi nhận theo thời gian thực ở 10 người, việc càng khó thì nhạc họ chọn càng ít sôi động (Cheah và cộng sự, 2025).</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Với việc đơn giản, lặp lại, nhạc có thể giúp đỡ nhàm chán (Kiss &amp; Linnell, 2022).</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Nhạc chỉ là một nguồn xao nhãng; <a href=\"https://dykhoa.com/blog/thong-bao-dien-thoai-anh-huong-tap-trung/\">thông báo điện thoại</a> cũng cần được tắt khi học.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Câu hỏi thường gặp</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Nhạc không lời thì có an toàn cho mọi việc học không?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Chưa thể khẳng định. Kết quả về nhạc nền còn trái chiều và phụ thuộc vào nhiệm vụ cũng như từng người (Cheah và cộng sự, 2025). Cách thực tế là tự so sánh kết quả <a href=\"https://dykhoa.com/blog/tu-kiem-tra-hieu-qua-hon-doc-lai/\">tự kiểm tra</a> sau buổi học có nhạc và không nhạc.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Người quen nghe nhạc khi học có bị ảnh hưởng ít hơn không?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Có vẻ như vậy. Trong thực nghiệm của Sun và cộng sự (2024), nhóm quen nghe nhạc làm bài tốt hơn nhóm không quen khi có nhạc, dù cả hai vẫn bị ảnh hưởng.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Điều gì nên nhớ?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Nhạc nền không tốt hay xấu tuyệt đối. Với việc đọc và ghi nhớ, nhạc có lời dễ cản trở; với việc đơn giản, nhạc có thể giúp duy trì hứng thú. Hãy chọn theo nhiệm vụ và kết hợp với <a href=\"https://dykhoa.com/blog/on-tap-ngat-quang-la-gi/\">ôn tập ngắt quãng</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><strong>Đôi lời giới thiệu</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Bài viết này được tổng hợp bởi Nguyễn Hoàng Anh Khoa (<a href=\"https://dykhoa.com/blog/dy-khoa-la-ai/\">Dy Khoa</a>), giảng viên Khoa Quan hệ công chúng và Truyền thông, Trường Đại học Văn Lang, và là người tốt nghiệp Thạc sĩ Truyền thông Khoa học và Thu hút Công chúng (Science Communication and Public Engagement) tại Universiti Malaya (UM), Malaysia. Đây là lĩnh vực chuyên môn cốt lõi mà anh được đào tạo bài bản và tiếp tục theo đuổi trong nghiên cứu, giảng dạy và thực hành nghề nghiệp.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Nếu bạn thấy bài viết có sai sót hoặc muốn góp ý, vui lòng gửi email về hi@dykhoa.com.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:details {\"className\":\"dk-refs\"} -->\n<details class=\"wp-block-details dk-refs\"><summary>Tài liệu tham khảo (3 nguồn)</summary><!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>Cheah, Y., Randall, W. M., &amp; Coutinho, E. (2025). Help me study! Music listening habits while studying. <em>Psychology of Music</em>. Advance online publication. https://doi.org/10.1177/03057356251351778 (bản mở: https://jyx.jyu.fi/bitstreams/6c4c8795-c1f4-41ea-9e03-75379d438e4a/download)</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Kiss, L., &amp; Linnell, K. J. (2022). Making sense of background music listening habits: An arousal and task-complexity account. <em>Psychology of Music</em>. https://doi.org/10.1177/03057356221089017 (bản mở: https://eprints-gro.gold.ac.uk/31753/1/03057356221089017.pdf)</li>\n<!-- /wp:list-item --><!-- wp:list-item -->\n<li>Sun, Y., Sun, C., Li, C., Shao, X., Liu, Q., &amp; Liu, H. (2024). Impact of background music on reading comprehension: Influence of lyrics language and study habits. <em>Frontiers in Psychology, 15</em>, Article 1363562. https://doi.org/10.3389/fpsyg.2024.1363562</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list --></details>\n<!-- /wp:details -->",
+ "standard": "B",
+ "cluster": "C10",
+ "categories": [
+  4,
+  13
+ ]
+}
