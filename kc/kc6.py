@@ -62,7 +62,7 @@ d = dict(slug='bai-duoc-chia-se-nhieu-co-dang-tin-hon', title='Bài được chi
     meta_desc='Lượt chia sẻ có nói lên độ tin cậy? Nghiên cứu cho thấy tin sai lan nhanh hơn tin đúng, lượt tương tác cao làm ta bớt kiểm chứng. Cách đọc tỉnh táo.',
     focus_kw='lượt chia sẻ có đáng tin', excerpt='Lượt chia sẻ đo độ lan truyền, không đo sự thật. Tin sai có thể lan nhanh hơn tin đúng, và con số tương tác cao khiến ta bớt kiểm chứng.',
     tags=['kiểm chứng thông tin', 'tin giả', 'mạng xã hội', 'tư duy phản biện', 'thông tin khoa học'], content=c, categories=[3, 9],
-    date='2026-10-23T16:00:00', cover_alt='Minh họa điện thoại hiển thị biểu tượng chia sẻ với con số lớn và chiếc kính lúp soi vào nội dung')
+    date='2026-10-23T16:00:00', cover_alt='Minh họa kính lúp soi vào con số 12,4K lượt chia sẻ trên màn hình điện thoại')
 json.dump(d, open(os.path.join(H, d['slug'] + '.json'), 'w'), ensure_ascii=False, indent=1)
 t = re.sub('<[^>]+>', ' ', c); body = t.split('Đôi lời giới thiệu')[0]
 print('words', len(body.split()), 'banned', [b for b in ['dẫn theo', 'truy cập mở', 'sinh viên', '—', '–', ' - '] if b in c + d['meta_desc'] + d['excerpt'] + d['title']], 'meta', len(d['meta_desc']))
