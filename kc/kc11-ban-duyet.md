@@ -1,0 +1,98 @@
+# Làm sao kiểm tra một "chuyên gia" trên mạng có đáng tin không?
+
+| Trường | Nội dung |
+|---|---|
+| Slug | kiem-tra-chuyen-gia-tren-mang |
+| SEO title | Kiểm tra "chuyên gia" trên mạng: 5 câu hỏi cần hỏi |
+| Meta (158 ký tự) | Làm sao biết một chuyên gia trên mạng có đáng tin? Chiến thuật "chuyên gia giả", số liệu từ Pew Research về người có ảnh hưởng sức khỏe và 5 câu hỏi kiểm tra. |
+| Focus keyword | chuyên gia trên mạng |
+| Chuyên mục | TTKH › Lý thuyết & Mô hình |
+| Tags | chuyên gia, thông tin khoa học, người có ảnh hưởng, tin giả, kiểm chứng |
+| Lịch đăng | 31/10/2026 16:00 |
+
+---
+Một "chuyên gia" trên mạng đáng tin khi họ có chuyên môn thật, đúng lĩnh vực đang nói, và đưa ra được bằng chứng cho tuyên bố của mình. Thiếu một trong ba điều này, danh xưng "chuyên gia", "bác sĩ" hay "tiến sĩ" chưa đủ để tin. Nghiên cứu về thông tin sai lệch còn chỉ ra một chiến thuật phổ biến: dùng những người trông như có chuyên môn nhưng thực ra không phải chuyên gia trong lĩnh vực đó để gieo nghi ngờ, gọi là chiến thuật "chuyên gia giả" (Cook và cộng sự, 2017).
+
+**Tóm tắt nhanh:**
+
+- Một khảo sát 6.334 người có ảnh hưởng về sức khỏe cho thấy 16% không mô tả bất kỳ chuyên môn nào trong phần giới thiệu (Stocking và cộng sự, 2026).
+
+- Chỉ 9% bài đăng của nhóm này dẫn nguồn bên ngoài khi đưa ra tuyên bố sức khỏe (Stocking và cộng sự, 2026).
+
+- Có bằng cấp chưa đủ: cần đúng lĩnh vực và có bằng chứng.
+
+- Biết trước về chiến thuật "chuyên gia giả" giúp giảm ảnh hưởng của thông tin sai (Cook và cộng sự, 2017).
+
+## Vì sao cần kiểm tra "chuyên gia" trên mạng?
+
+Mạng xã hội cho phép bất kỳ ai tự giới thiệu mình là chuyên gia. Trung tâm Nghiên cứu Pew phân tích 535.512 bài đăng trên Instagram, TikTok và YouTube của 6.334 người có ảnh hưởng về sức khỏe từ tháng 2 đến tháng 4/2026 (Stocking và cộng sự, 2026). Một số kết quả đáng chú ý:
+
+- Khoảng 16% không mô tả bất kỳ nền tảng hay chuyên môn nào trong phần giới thiệu.
+
+- Chỉ 9% bài đăng dẫn nguồn bên ngoài khi đưa ra tuyên bố về sức khỏe; nhóm nhà nghiên cứu làm điều này nhiều nhất, ở 30% bài đăng.
+
+- Với các chủ đề y khoa, người đăng nhiều nhất là nhân viên y tế; nhóm không có chuyên môn chỉ dành khoảng 1/10 bài đăng cho bệnh lý.
+
+Như vậy, bức tranh không hoàn toàn tiêu cực: phần lớn người nói về bệnh lý có chuyên môn y tế. Nhưng cần lưu ý, chuyên môn trong nghiên cứu này là do người có ảnh hưởng tự mô tả, chưa được kiểm chứng. Và rất ít bài đăng cho người xem cơ hội tự kiểm tra bằng chứng.
+
+## Chiến thuật "chuyên gia giả" hoạt động thế nào?
+
+Cook và cộng sự (2017) mô tả "chuyên gia giả" là những người trông như có chuyên môn liên quan nhưng thực ra hiếm khi có. Ví dụ trong nghiên cứu là "Kiến nghị Oregon", một danh sách hơn 31.000 người có bằng khoa học ký tên phản đối việc con người gây biến đổi khí hậu. Con số nghe rất lớn, nhưng điều kiện ký chỉ là có bằng cử nhân khoa học, và 31.000 người này chỉ chiếm khoảng 0,3% trong 10,6 triệu người tốt nghiệp ngành khoa học ở Mỹ.
+
+Kết quả thí nghiệm cho thấy thông điệp này làm giảm niềm tin rằng giới khoa học đồng thuận. Tuy nhiên, khi người tham gia được giải thích trước về kỹ thuật "chuyên gia giả", tác động tiêu cực đó gần như bị vô hiệu hóa (Cook và cộng sự, 2017). Đây là nền tảng của [tiêm phòng tâm lý](https://dykhoa.com/blog/tiem-phong-tam-ly-psychological-inoculation-tin-gia-khoa-hoc/) trước tin giả khoa học.
+
+## Năm câu hỏi để kiểm tra một "chuyên gia"
+
+Các câu hỏi dưới đây do người viết tổng hợp từ các nghiên cứu trên, dùng như một công cụ thực hành:
+
+### 1. Họ là ai, làm việc ở đâu?
+
+Tìm tên đầy đủ, nơi công tác và vị trí hiện tại. Một chuyên gia thật thường có thông tin này rõ ràng và kiểm chứng được qua trang của cơ quan, bệnh viện hoặc trường đại học.
+
+### 2. Chuyên môn có đúng lĩnh vực đang nói không?
+
+Một tiến sĩ vật lý không phải là chuyên gia dinh dưỡng; một bác sĩ da liễu chưa chắc là người phù hợp để nói về vắc xin. Đây chính là điểm mấu chốt của chiến thuật "chuyên gia giả": dùng bằng cấp ở lĩnh vực này để tạo uy tín cho lĩnh vực khác (Cook và cộng sự, 2017).
+
+### 3. Họ có dẫn nguồn không?
+
+Chuyên gia đáng tin thường cho biết tuyên bố của mình dựa trên nghiên cứu hoặc hướng dẫn nào. Thực tế, chỉ 9% bài đăng của người có ảnh hưởng về sức khỏe làm điều này (Stocking và cộng sự, 2026), nên một bài có dẫn nguồn rõ ràng là dấu hiệu tốt.
+
+### 4. Ý kiến có khớp với đồng thuận khoa học không?
+
+Một người đi ngược lại hầu hết các chuyên gia khác cần đưa ra bằng chứng mạnh hơn bình thường. Nếu họ chỉ nói "giới y khoa đang che giấu", đó là dấu hiệu cần thận trọng. Bài [làm sao biết thông tin khoa học trên mạng có đáng tin](https://dykhoa.com/blog/thong-tin-khoa-hoc-tren-mang-co-dang-tin/) hướng dẫn cách đối chiếu.
+
+### 5. Họ có lợi ích gì từ lời khuyên này không?
+
+Hỏi xem người đó có đang bán sản phẩm, khóa học hay nhận tài trợ liên quan không. Có lợi ích không có nghĩa là sai, nhưng là lý do để kiểm tra kỹ hơn. Bài [nghiên cứu do doanh nghiệp tài trợ có đáng tin](https://dykhoa.com/blog/nghien-cuu-do-doanh-nghiep-tai-tro-co-dang-tin/) phân tích vấn đề xung đột lợi ích.
+
+## Câu hỏi thường gặp
+
+### Có danh xưng "bác sĩ" là đủ tin chưa?
+
+Chưa đủ. Cần xem họ có đúng chuyên khoa với chủ đề đang nói và có dẫn bằng chứng không. Danh xưng trên mạng xã hội thường do người dùng tự mô tả (Stocking và cộng sự, 2026).
+
+### Người không có bằng cấp thì không nên nghe?
+
+Không hẳn. Người bệnh chia sẻ trải nghiệm cá nhân có giá trị riêng, miễn là họ nói rõ đó là trải nghiệm, không phải lời khuyên y khoa. Vấn đề là khi trải nghiệm được trình bày như bằng chứng chung cho mọi người.
+
+### Nhiều chuyên gia cùng ký tên thì có đáng tin hơn?
+
+Không nhất thiết. Ví dụ Kiến nghị Oregon cho thấy một danh sách dài vẫn có thể gây hiểu lầm nếu người ký không thuộc đúng lĩnh vực (Cook và cộng sự, 2017). Điều quan trọng là ai ký và họ đại diện cho bao nhiêu phần giới chuyên môn.
+
+## Điều gì nên nhớ?
+
+Danh xưng chuyên gia là điểm khởi đầu, không phải điểm kết thúc. Hãy hỏi: họ là ai, có đúng lĩnh vực không, có dẫn nguồn không, có khớp với đồng thuận khoa học không, và họ được lợi gì. Bài [người nổi tiếng nói về khoa học nên tin đến đâu](https://dykhoa.com/blog/nguoi-noi-tieng-noi-ve-khoa-hoc-nen-tin-den-dau/) bàn thêm về những người có ảnh hưởng không phải chuyên gia.
+
+---
+
+**Đôi lời giới thiệu**
+
+Bài viết này được tổng hợp bởi Nguyễn Hoàng Anh Khoa ([Dy Khoa](https://dykhoa.com/blog/dy-khoa-la-ai/)), giảng viên Khoa Quan hệ công chúng và Truyền thông, Trường Đại học Văn Lang, và là người tốt nghiệp Thạc sĩ Truyền thông Khoa học và Thu hút Công chúng (Science Communication and Public Engagement) tại Universiti Malaya (UM), Malaysia. Đây là lĩnh vực chuyên môn cốt lõi mà anh được đào tạo bài bản và tiếp tục theo đuổi trong nghiên cứu, giảng dạy và thực hành nghề nghiệp.
+
+Nếu bạn thấy bài viết có sai sót hoặc muốn góp ý, vui lòng gửi email về hi@dykhoa.com.
+
+## Tài liệu tham khảo (2 nguồn)
+
+- Cook, J., Lewandowsky, S., & Ecker, U. K. H. (2017). Neutralizing misinformation through inoculation: Exposing misleading argumentation techniques reduces their influence. *PLOS ONE, 12*(5), e0175799. https://doi.org/10.1371/journal.pone.0175799
+
+- Stocking, G., Widjaya, R., Lieb, A., Radde, K., Smith, A., & Yam, E. (2026, ngày 7 tháng 10). *Which health and wellness influencers talk about medical topics? Mostly healthcare professionals*. Pew Research Center. https://www.pewresearch.org/data-labs/2026/10/07/which-health-and-wellness-influencers-talk-about-medical-topics-mostly-healthcare-professionals/
