@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675"><defs>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#2a251b" flood-opacity=".22"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="5"/><feColorMatrix values="0 0 0 0 .35  0 0 0 0 .3  0 0 0 0 .22  0 0 0 .06 0"/></filter>
+<radialGradient id="light" cx="60%" cy="40%" r="70%"><stop offset="0" stop-color="#fbf8f1"/><stop offset="1" stop-color="#efebe2"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fb6ff" stop-opacity=".9"/><stop offset="1" stop-color="#7fb6ff" stop-opacity="0"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecd08f"/><stop offset=".5" stop-color="#c8963e"/><stop offset="1" stop-color="#8a6322"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f1f33"/><stop offset="1" stop-color="#2b5876"/></linearGradient>
+<linearGradient id="ice" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f1f6"/><stop offset="1" stop-color="#9fbfd3"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity=".75"/><stop offset=".5" stop-color="#e4ecf2" stop-opacity=".35"/><stop offset="1" stop-color="#ffffff" stop-opacity=".7"/></linearGradient>
+<radialGradient id="lamp" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffe7a8" stop-opacity=".9"/><stop offset="1" stop-color="#ffe7a8" stop-opacity="0"/></radialGradient></defs><rect width="1200" height="675" fill="#efe6da"/><rect width="1200" height="675" fill="url(#light)" opacity=".55"/><rect width="1200" height="675" filter="url(#noise)"/>
+
+<rect x="0" y="540" width="1200" height="135" fill="#d9c9b3"/><rect x="0" y="540" width="1200" height="6" fill="#c4b096"/>
+<g filter="url(#sh)">
+<rect x="150" y="170" width="110" height="370" rx="8" fill="#0e5c3d"/><rect x="160" y="170" width="12" height="370" fill="#0b4a31"/><rect x="185" y="230" width="60" height="6" rx="3" fill="url(#gold)"/><rect x="185" y="480" width="60" height="6" rx="3" fill="url(#gold)"/>
+<text x="215" y="360" font-family="Georgia,serif" font-size="34" font-weight="700" fill="url(#gold)" text-anchor="middle" transform="rotate(-90 215 360)">LUẬT</text>
+<rect x="270" y="210" width="95" height="330" rx="8" fill="#a8264f"/><rect x="280" y="210" width="10" height="330" fill="#8a1f41"/><rect x="300" y="260" width="50" height="6" rx="3" fill="url(#gold)"/><rect x="300" y="490" width="50" height="6" rx="3" fill="url(#gold)"/>
+</g>
+<g filter="url(#sh)" transform="rotate(-8 560 400)">
+<rect x="430" y="300" width="260" height="210" rx="18" fill="url(#ice)"/><rect x="430" y="300" width="260" height="210" rx="18" fill="url(#glass)" opacity=".5"/>
+<g fill="#ffffff" stroke="#8fb0c4" stroke-width="3"><ellipse cx="490" cy="355" rx="26" ry="18"/><ellipse cx="560" cy="355" rx="26" ry="18"/><ellipse cx="630" cy="355" rx="26" ry="18"/><ellipse cx="490" cy="420" rx="26" ry="18"/><ellipse cx="560" cy="420" rx="26" ry="18"/><ellipse cx="630" cy="420" rx="26" ry="18"/></g>
+<g fill="#3d7ea6"><ellipse cx="490" cy="353" rx="16" ry="10"/><ellipse cx="560" cy="353" rx="16" ry="10"/><ellipse cx="630" cy="353" rx="16" ry="10"/><ellipse cx="490" cy="418" rx="16" ry="10"/></g>
+<rect x="450" y="470" width="220" height="10" rx="5" fill="#9fbfd3"/>
+</g>
+<g filter="url(#sh)" transform="rotate(10 880 380)">
+<path d="M760 260 h240 v240 h-240 z" fill="url(#gold)"/>
+<path d="M760 260 h240 v240 h-240 z" fill="none" stroke="#8a6322" stroke-width="4" stroke-dasharray="6 6"/>
+<circle cx="880" cy="380" r="74" fill="none" stroke="#fbf1d6" stroke-width="10" opacity=".85"/><circle cx="880" cy="380" r="56" fill="#e2bf73" opacity=".6"/>
+<path d="M985 275 l-30 0 l30 30 z" fill="#fbf1d6" opacity=".7"/>
+</g>
+<g filter="url(#sh)"><circle cx="1050" cy="170" r="62" fill="#fbf8f1" stroke="#a8264f" stroke-width="10"/><text x="1050" y="185" font-family="Arial,Helvetica,sans-serif" font-size="40" font-weight="800" fill="#a8264f" text-anchor="middle">QC</text></g>
+</svg>
