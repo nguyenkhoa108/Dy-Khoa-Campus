@@ -87,7 +87,7 @@ add_filter( 'the_content', function ( $content ) {
 add_action( 'wp_head', function () {
 	if ( ! is_singular( 'post' ) || ! dk_series_data( get_queried_object_id() ) ) { return; }
 	echo '<style id="dk-series-css">'
-		. '.dkser-a{border:1px solid #cfe3d7;background:#f1f8f3;border-radius:10px;padding:12px 14px;margin:0 0 1.4em}'
+		. '.dkser-a,.dkser-b{font-family:"Be Vietnam Pro",-apple-system,"Segoe UI",Roboto,sans-serif}.dkser-a{border:1px solid #cfe3d7;background:#f1f8f3;border-radius:10px;padding:12px 14px;margin:0 0 1.4em}'
 		. '.dkser-t{font-size:12px;font-weight:700;color:#0e5c3d;letter-spacing:.05em}'
 		. '.dkser-n{font-size:15px;font-weight:700;margin:3px 0 8px;color:#0b1712}'
 		. '.dkser-bar{height:6px;background:#dcebe2;border-radius:3px;overflow:hidden}.dkser-bar i{display:block;height:100%;background:#0e5c3d}'
