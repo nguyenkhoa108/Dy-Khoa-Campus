@@ -1,0 +1,12 @@
+@import url(node_modules/@fontsource/anton/index.css);
+@import url(node_modules/@fontsource/patrick-hand/index.css);
+@import url(node_modules/@fontsource/be-vietnam-pro/400.css);
+@import url(node_modules/@fontsource/be-vietnam-pro/700.css);
+@import url(node_modules/@fontsource/be-vietnam-pro/800.css);
+:root{--ink:#121212;--paper:#f3eee2;--red:#d62828;--yel:#ffd60a;--green:#0e5c3d;--blue:#1d4e89}
+.col{position:relative;width:1300px;height:1200px}
+.cl{position:absolute;box-shadow:0 14px 28px rgba(0,0,0,.18)}
+.tape{position:absolute;width:150px;height:44px;background:rgba(255,246,196,.75);box-shadow:0 2px 4px rgba(0,0,0,.08)}
+.hand{font-family:"Patrick Hand",cursive;color:var(--red);position:absolute;line-height:1}
+.an{font-family:Anton,Impact,sans-serif;text-transform:uppercase;line-height:1.06}
+svg.pen{position:absolute}
