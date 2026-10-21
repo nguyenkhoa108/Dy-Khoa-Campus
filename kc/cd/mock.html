@@ -9,6 +9,8 @@ a{color:inherit;text-decoration:none}img{display:block;width:100%;object-fit:cov
 .tag.m{color:var(--mut)}
 h1,h2,h3{font-family:Newsreader,Georgia,serif;margin:0}
 em{font-style:italic;font-weight:500}
+.sim{position:fixed;top:10px;left:10px;background:#a4504c;color:#fff;font:700 12px sans-serif;padding:6px 10px;border-radius:4px;z-index:9}
+.A .occ{font-family:Newsreader,serif;font-size:1.05rem;font-style:italic;color:#6b746f;margin-top:-6px}
 .lbl{position:fixed;top:10px;right:10px;background:#000;color:#fff;font:700 12px sans-serif;padding:6px 10px;border-radius:4px;z-index:9}
 /* ===== A: Lịch biên tập ===== */
 .A .hd{padding:56px 0 28px;border-bottom:1px solid var(--line)}
@@ -107,33 +109,31 @@ em{font-style:italic;font-weight:500}
 </style></head><body><div id="app"></div>
 <script>
 const U='https://dykhoa.com/blog/wp-content/uploads/2026/10/';
-const T=[
-{s:'ngay-dot-quy-the-gioi',end:'2026-10-29',img:'ngay-dot-quy-the-gioi-banner.webp',pos:'100% 30%',ey:'Ngày Đột quỵ Thế giới',t:'Nhận ra sớm, <em>gọi 115 ngay</em>',l:'Bài viết và công cụ tương tác giúp bạn nhận biết dấu hiệu đột quỵ, hành động đúng trong những phút đầu và kiểm soát huyết áp mỗi ngày.',r:0},
-{s:'vung-vang-tu-ben-trong',end:'2026-11-19',img:'vung-vang-tu-ben-trong-banner-v3.webp',pos:'70% 40%',ey:'Ngày Quốc tế Nam giới',t:'Vững vàng <em>từ bên trong</em>',l:'Bài viết dựa trên bằng chứng và công cụ tương tác về sức khỏe thể chất, sức khỏe tinh thần và những vai trò đang thay đổi của nam giới.',r:0},
-{s:'boc-mac-y-khoa-trong-quang-cao',end:'',img:'boc-mac-y-khoa-banner.webp',pos:'70% 22%',t:'Bóc mác y khoa <em>trong quảng cáo</em>',l:'"10.000 bước", "9/10 nha sĩ khuyên dùng", "đạt chuẩn FDA": những câu quảng cáo nghe như khoa học đến từ đâu, và bằng chứng thật sự nói gì?',r:1,nw:1},
-{s:'kiem-chung-thong-tin-khoa-hoc',end:'',img:'kiem-chung-thong-tin-khoa-hoc-banner-v3.webp',pos:'80% 40%',t:'Kiểm chứng <em>thông tin khoa học</em>',l:'Cách đọc, kiểm chứng và chia sẻ thông tin khoa học, sức khỏe trên mạng: dừng lại, tra nguồn, rồi mới chia sẻ.',r:1},
-{s:'chuyen-de-truyen-thong-khoa-hoc',end:'',img:'chuyen-de-truyen-thong-khoa-hoc-banner.webp',pos:'75% 50%',t:'Truyền thông khoa học: <em>bắt đầu từ đâu?</em>',l:'Lộ trình 4 chặng về nền tảng, kỹ năng, học và làm nghề, và bối cảnh Việt Nam, kèm khóa học liên quan.',r:1},
-{s:'ban-linh-diu-dang',end:'2026-10-20',img:'ban-linh-diu-dang-banner.webp',pos:'72% 30%',ey:'Ngày Phụ nữ Việt Nam',t:'Bản lĩnh <em>dịu dàng</em>',l:'Bài viết dựa trên bằng chứng và công cụ tương tác về sức khỏe, tâm trí, khoa học, truyền thông, nghề nghiệp và góc nhìn của phụ nữ.',r:2}];
+const TODAY='2026-11-13';
+const ALL=[
+{end:'2026-10-29',pub:'2026-10-29',img:'ngay-dot-quy-the-gioi-banner.webp',pos:'100% 30%',ey:'Ngày Đột quỵ Thế giới',t:'Nhận ra sớm, <em>gọi 115 ngay</em>',l:'Bài viết và công cụ tương tác giúp bạn nhận biết dấu hiệu đột quỵ, hành động đúng trong những phút đầu và kiểm soát huyết áp mỗi ngày.'},
+{end:'2026-11-19',pub:'2026-11-12',img:'vung-vang-tu-ben-trong-banner-v3.webp',pos:'70% 40%',ey:'Ngày Quốc tế Nam giới',t:'Vững vàng <em>từ bên trong</em>',l:'Bài viết dựa trên bằng chứng và công cụ tương tác về sức khỏe thể chất, sức khỏe tinh thần và những vai trò đang thay đổi của nam giới.'},
+{end:'',pub:'2026-11-20',img:'boc-mac-y-khoa-banner.webp',pos:'70% 22%',t:'Bóc mác y khoa <em>trong quảng cáo</em>',l:'"10.000 bước", "9/10 nha sĩ khuyên dùng", "đạt chuẩn FDA": những câu quảng cáo nghe như khoa học đến từ đâu, và bằng chứng thật sự nói gì?'},
+{end:'',pub:'2026-10-10',img:'kiem-chung-thong-tin-khoa-hoc-banner-v3.webp',pos:'80% 40%',t:'Kiểm chứng <em>thông tin khoa học</em>',l:'Cách đọc, kiểm chứng và chia sẻ thông tin khoa học, sức khỏe trên mạng: dừng lại, tra nguồn, rồi mới chia sẻ.'},
+{end:'',pub:'2026-10-05',img:'chuyen-de-truyen-thong-khoa-hoc-banner.webp',pos:'75% 50%',t:'Truyền thông khoa học: <em>bắt đầu từ đâu?</em>',l:'Lộ trình 4 chặng về nền tảng, kỹ năng, học và làm nghề, và bối cảnh Việt Nam, kèm khóa học liên quan.'},
+{end:'2026-10-20',pub:'2026-10-13',img:'ban-linh-diu-dang-banner.webp',pos:'72% 30%',ey:'Ngày Phụ nữ Việt Nam',t:'Bản lĩnh <em>dịu dàng</em>',l:'Bài viết dựa trên bằng chứng và công cụ tương tác về sức khỏe, tâm trí, khoa học, truyền thông, nghề nghiệp và góc nhìn của phụ nữ.'}];
+const dm=e=>e.slice(8,10)+'/'+e.slice(5,7);
+const T=ALL.filter(x=>x.pub<=TODAY).map(x=>{const fresh=(new Date(TODAY)-new Date(x.pub))/864e5<=14;let lab;if(x.end&&x.end>TODAY)lab='Mới ra mắt · Hướng tới '+dm(x.end);else if(x.end===TODAY)lab='Hôm nay · '+dm(x.end);else if(x.end)lab=x.ey+' · '+dm(x.end);else lab=fresh?'Mới':'Thường trực';return {...x,lab,fresh,dated:!!x.end,live:x.end>=TODAY}}).sort((a,b)=>a.pub<b.pub?1:-1);
 const im=x=>`<img src="${U+x.img}" style="object-position:${x.pos}" alt="">`;
-const dd=e=>e.slice(8,10),mm=e=>'THG '+(+e.slice(5,7)),dmy=e=>e.slice(8,10)+'/'+e.slice(5,7)+'/'+e.slice(0,4);
-const up=T.filter(x=>x.r==0),pe=T.filter(x=>x.r==1),pa=T.filter(x=>x.r==2);
 const lede='Mỗi chuyên đề tập hợp các bài viết dựa trên bằng chứng và công cụ tương tác quanh một chủ đề hoặc một ngày kỷ niệm.';
-const ann=x=>x.ey+' · '+x.end.slice(8,10)+'/'+x.end.slice(5,7);
-const ev=[...pe,...pa];
-const tagOf=x=>x.r==1?(x.nw?'Mới':'Thường trực'):ann(x);
-function A(){const f=up[0],rest=up.slice(1),cols=(ev.length%3==1||ev.length==2)?2:3;return `<div class="A wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p><div class="stats"><div><b>${T.length}</b><span>chuyên đề</span></div><div><b>${up.length}</b><span>sắp diễn ra</span></div></div></div>
-<a class="feat" href="#">${im(f)}<div class="tx"><div class="tag">Sắp diễn ra · ${f.ey}</div><div class="date"><b>${dd(f.end)}</b><span>${mm(f.end)}</span></div><h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
-${rest.length?`<div class="sec"><div class="sec-h"><h3>Tiếp theo trong lịch</h3><span>Xếp theo ngày</span></div><div class="up ${rest.length==1?'one':''}">${rest.map(x=>`<a href="#">${rest.length==1?im(x):''}<div class="d"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><div><div class="tag">${x.ey}</div><h4>${x.t}</h4><p>${rest.length==1?x.l:x.l.slice(0,95)+'…'}</p></div></a>`).join('')}</div></div>`:''}
-<div class="sec" style="margin-bottom:70px"><div class="sec-h"><h3>Đọc bất cứ lúc nào</h3><span>${ev.length} chuyên đề</span></div><div class="grid" style="grid-template-columns:repeat(${cols},1fr)">${ev.map(x=>`<a class="card" href="#">${im(x)}<div class="tag" style="margin-top:14px">${tagOf(x)}</div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div></div>`}
-function B(){const ord=[...up,...pe,...pa];const n={0:up.length,1:pe.length,d:T.filter(x=>x.end).length};
-return `<div class="B"><div class="wrap"><div class="hd"><div><div class="tag" style="color:#e7b7a4">Dy Khoa Blog</div><h1>Chuyên đề</h1></div><p>${lede} Chuyên đề sắp diễn ra được xếp lên trước.</p></div>
-<div class="tabs"><button class="on" data-f="a">Tất cả<span>${T.length}</span></button><button data-f="0">Sắp diễn ra<span>${n[0]}</span></button><button data-f="1">Chủ đề thường trực<span>${n[1]}</span></button><button data-f="d">Ngày kỷ niệm<span>${n.d}</span></button></div>
-<div class="wall">${ord.map((x,i)=>`<a href="#" data-r="${x.r}" data-d="${x.end?1:0}" class="p ${i==0?'w':''}">${im(x)}<div class="tx"><span class="chip ${x.r==0?'':'perm'}">${x.r==0?'Sắp diễn ra · '+x.end.slice(8,10)+'/'+x.end.slice(5,7):tagOf(x)}</span><h2>${x.t}</h2>${i==0?`<p>${x.l}</p>`:''}</div></a>`).join('')}</div></div></div>`}
-function C(){const doy=e=>+e.slice(5,7)*100+ +e.slice(8,10),t0=1021;const dated=T.filter(x=>x.end).sort((a,b)=>{const ka=(doy(a.end)-t0+1300)%1300,kb=(doy(b.end)-t0+1300)%1300;return ka-kb});
-const rows=dated.map(x=>`<div class="row"><div class="when"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><a href="#">${im(x)}<div class="tx"><div class="tag">${x.r==0?'Sắp tới · ':''}${x.ey}</div><h4>${x.t}</h4><p>${x.l}</p></div></a></div>`).join('');
+const sim=`<div class="sim">Giả lập ngày ${dm(TODAY)}/2026</div>`;
+function A(){const f=T[0],rest=T.slice(1),cols=(rest.length%3==1||rest.length==2)?2:3;return `<div class="A wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p><div class="stats"><div><b>${T.length}</b><span>chuyên đề</span></div></div></div>
+<a class="feat" href="#">${im(f)}<div class="tx"><div class="tag">${f.lab}</div>${f.ey?`<div class="occ">${f.ey}</div>`:''}<h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
+<div class="sec" style="margin-bottom:70px"><div class="sec-h"><h3>Đọc bất cứ lúc nào</h3><span>${rest.length} chuyên đề</span></div><div class="grid" style="grid-template-columns:repeat(${cols},1fr)">${rest.map(x=>`<a class="card" href="#">${im(x)}<div class="tag" style="margin-top:14px">${x.lab}</div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div></div>`}
+function B(){const n={f:T.filter(x=>x.fresh).length,p:T.filter(x=>!x.dated).length,d:T.filter(x=>x.dated).length};
+return `<div class="B"><div class="wrap"><div class="hd"><div><div class="tag" style="color:#e7b7a4">Dy Khoa Blog</div><h1>Chuyên đề</h1></div><p>${lede} Chuyên đề mới ra mắt được xếp lên trước.</p></div>
+<div class="tabs"><button class="on" data-f="a">Tất cả<span>${T.length}</span></button><button data-f="f">Mới ra mắt<span>${n.f}</span></button><button data-f="p">Chủ đề thường trực<span>${n.p}</span></button><button data-f="d">Ngày kỷ niệm<span>${n.d}</span></button></div>
+<div class="wall">${T.map((x,i)=>`<a href="#" data-f="${x.fresh?1:0}" data-d="${x.dated?1:0}" class="p ${i==0?'w':''}">${im(x)}<div class="tx"><span class="chip ${x.fresh?'':'perm'}">${x.lab}</span><h2>${x.t}</h2>${i==0?`<p>${x.l}</p>`:''}</div></a>`).join('')}</div></div></div>`}
+function C(){const doy=e=>+e.slice(5,7)*100+ +e.slice(8,10),t0=doy(TODAY);const dated=T.filter(x=>x.dated).sort((a,b)=>((doy(a.end)-t0+1300)%1300)-((doy(b.end)-t0+1300)%1300));const pe=T.filter(x=>!x.dated);
+const rows=dated.map(x=>`<div class="row"><div class="when"><b>${x.end.slice(8,10)}</b><span>THG ${+x.end.slice(5,7)}</span></div><a href="#">${im(x)}<div class="tx"><div class="tag">${x.live?x.lab:x.ey}</div><h4>${x.t}</h4><p>${x.l}</p></div></a></div>`).join('');
 return `<div class="C wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p></div>
-<div class="pin"><div class="pin-h"><h3>Luôn mở</h3><span>${pe.length} chuyên đề thường trực</span></div><div class="pins">${pe.map(x=>`<a href="#">${im(x)}<div><div class="tag">${x.nw?'Mới':'Thường trực'}</div><h4>${x.t}</h4><p>${x.l}</p></div></a>`).join('')}</div></div>
+<div class="pin"><div class="pin-h"><h3>Luôn mở</h3><span>${pe.length} chuyên đề thường trực</span></div><div class="pins" style="grid-template-columns:repeat(${pe.length<3?pe.length:3},1fr)">${pe.map(x=>`<a href="#">${im(x)}<div><div class="tag">${x.lab}</div><h4>${x.t}</h4><p>${x.l}</p></div></a>`).join('')}</div></div>
 <h3 style="text-align:center;font-size:1.6rem;margin-bottom:6px">Lịch kỷ niệm hằng năm</h3><p style="text-align:center;color:#6b746f;margin:0 0 30px;font-size:.92rem">Bắt đầu từ ngày gần nhất sắp tới</p><div class="tl">${rows}</div></div>`}
-const v=(location.hash||'#A').slice(1);document.getElementById('app').innerHTML=({A,B,C})[v]()+`<div class="lbl">Phương án ${v}</div>`;
-document.querySelectorAll('.B .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.B .tabs button').forEach(z=>z.classList.toggle('on',z==b));const f=b.dataset.f;document.querySelectorAll('.B .p').forEach(p=>p.style.display=(f=='a'||(f=='d'?p.dataset.d=='1':p.dataset.r==f))?'':'none')});
+const v=(location.hash||'#A').slice(1);document.getElementById('app').innerHTML=({A,B,C})[v]()+`<div class="lbl">Phương án ${v}</div>`+sim;
+document.querySelectorAll('.B .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.B .tabs button').forEach(z=>z.classList.toggle('on',z==b));const f=b.dataset.f;document.querySelectorAll('.B .p').forEach(p=>p.style.display=(f=='a'||(f=='f'&&p.dataset.f=='1')||(f=='d'&&p.dataset.d=='1')||(f=='p'&&p.dataset.d=='0'))?'':'none')});
 </script></body></html>
