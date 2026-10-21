@@ -1,0 +1,164 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Patrick+Hand&display=swap">
+<style id="bmy-css">
+article:has(.bmy) .entry-header,article:has(.bmy) .post-thumbnail,article:has(.bmy) .hm-entry-thumb{display:none!important}
+.bmy{--ink:#121212;--paper:#f3eee2;--red:#d62828;--yel:#ffd60a;--blue:#1d4e89;--muted:#5f5f5f;font-family:"Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);max-width:1100px;margin:0 auto;padding:8px 0 30px}
+.bmy a{text-decoration:none!important;color:inherit}
+.bmy p{margin:0}
+.bmy .an{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:1.12;letter-spacing:.01em}
+.bmy .hd{font-family:"Patrick Hand",cursive;color:var(--red);line-height:1.05}
+.bmy-hero{position:relative;border-radius:14px;overflow:hidden;background:#f3eee2;aspect-ratio:2.35/1;min-height:360px}
+.bmy-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:75% 30%;margin:0!important;display:block}
+.bmy-hero__t{position:relative;z-index:1;max-width:38%;height:100%;display:flex;flex-direction:column;justify-content:center;padding:28px 0 28px 40px}
+.bmy-hero__eb{font-size:12px!important;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--red)!important;margin:0 0 10px!important}
+.bmy-hero h1{font-family:Anton,Impact,sans-serif!important;font-weight:400!important;text-transform:uppercase;font-size:clamp(44px,5.4vw,70px)!important;line-height:1.06!important;margin:0!important;color:var(--ink)!important;letter-spacing:.01em}
+.bmy-hero .hd{font-size:clamp(30px,3.4vw,42px);transform:rotate(-3deg);display:inline-block;margin:2px 0 12px}
+.bmy-hero__lede{font-size:15.5px!important;line-height:1.6!important;color:#33413a!important;margin:0 0 18px!important;max-width:30em}
+.bmy-btns{display:flex;flex-wrap:wrap;gap:10px}
+.bmy-btn{display:inline-block;padding:10px 18px;border-radius:999px;background:var(--ink);color:#fff!important;font-weight:700;font-size:14px}
+.bmy-btn--o{background:transparent;color:var(--ink)!important;border:2px solid var(--ink)}
+.bmy .bmy-intro{margin:26px auto 0;max-width:780px;font-size:17px!important;line-height:1.7!important;text-align:center}
+.bmy-key{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 26px;margin:20px 0 6px;font-size:14.5px;align-items:center}
+.bmy-key>span{display:flex;gap:10px;align-items:center}
+.bmy-key .circ{font-family:Anton;border:3px solid var(--red);border-radius:50%;padding:0 10px}
+.bmy-key .strike{font-family:Anton;background:linear-gradient(transparent 54%,var(--red) 54%,var(--red) 66%,transparent 66%)}
+.bmy-sec{margin-top:40px}
+.bmy-sh{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;border-top:5px solid var(--ink);padding-top:10px}
+.bmy-sh h2{font-family:Anton,Impact,sans-serif!important;font-weight:400!important;text-transform:uppercase;font-size:clamp(28px,3.4vw,40px)!important;margin:0!important;line-height:1.15!important;color:var(--ink)!important;letter-spacing:.01em}
+.bmy-sh .hd{font-size:26px}
+.bmy-board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:22px;align-items:start}
+.bmy-clip{position:relative;display:block;padding:20px 20px 16px;box-shadow:0 12px 24px rgba(0,0,0,.13);transition:transform .2s,box-shadow .2s}
+.bmy-clip:hover{transform:translateY(-4px) rotate(0deg)!important;box-shadow:0 18px 32px rgba(0,0,0,.2)}
+.bmy-clip .ad{font-family:Anton,Impact,sans-serif;text-transform:uppercase;line-height:1.14}
+.bmy-clip .t{font-size:15px!important;line-height:1.45!important;margin-top:12px!important;font-weight:700}
+.bmy-clip .q{font-family:"Patrick Hand",cursive;color:var(--red);font-size:28px;line-height:1.05;margin-top:12px}
+.bmy-clip .src{font-size:12px!important;color:var(--muted)!important;margin-top:8px!important}
+.c-box{background:#fff;border:5px solid var(--ink);transform:rotate(-1.4deg)}
+.c-coupon{background:#e8f1fb;border:4px dashed var(--blue);transform:rotate(1.1deg)}.c-coupon .ad{color:var(--blue)}
+.bmy .c-dark{background:#121212;color:#fff;border-radius:12px;transform:rotate(-1deg)}.c-dark .ad{color:var(--yel)}.c-dark .src{color:#b5b5b5!important}.c-dark .q{color:#ff6b6b}
+.c-yel{background:var(--yel);transform:rotate(1.4deg)}.c-yel .src{color:#5a4d00!important}
+.c-stamp{background:#fff;transform:rotate(1deg)}.c-stamp .ad{border:6px double var(--ink);padding:8px;text-align:center}
+.c-news{background:#fbf8f1;border-top:6px solid var(--ink);transform:rotate(-1.2deg)}
+.tp{position:absolute;top:-14px;left:50%;width:100px;height:28px;margin-left:-50px;background:rgba(255,240,170,.85);transform:rotate(-4deg)}
+.ul-red{background:linear-gradient(transparent 56%,var(--red) 56%,var(--red) 66%,transparent 66%)}
+.ring{border:4px solid var(--red);border-radius:50%;padding:0 8px}
+.bmy-cut{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:22px}
+.bmy-cut a{display:block;position:relative;background:#fff;padding:16px 16px 14px;border:2px dashed #b9b2a2;font-family:"Newsreader",Georgia,serif;font-weight:700;font-size:17px;line-height:1.3}
+.bmy-cut a small{display:block;font-family:"Be Vietnam Pro",sans-serif;font-size:11px;font-weight:800;letter-spacing:.12em;color:#0e5c3d;margin-bottom:6px}
+.bmy-cut a:before{content:"✂";position:absolute;top:-13px;left:10px;background:inherit;padding:0 4px;color:#6b6b6b;font-size:15px}
+.bmy-pad{margin-top:44px;background:#fff7c2;border-radius:6px;box-shadow:0 14px 30px rgba(0,0,0,.14);padding:28px 30px 26px 76px;position:relative;background-image:repeating-linear-gradient(transparent 0 43px,#b9d3ec 43px 45px)}
+.bmy-pad:before{content:"";position:absolute;left:54px;top:0;bottom:0;width:3px;background:#f2a1a1}
+.bmy-pad h2{font-family:Anton,Impact,sans-serif!important;font-weight:400!important;text-transform:uppercase;font-size:36px!important;margin:0 0 6px!important;line-height:1.15!important;color:var(--ink)!important}
+.bmy-pad>p{font-size:15px!important;margin:0 0 10px!important;max-width:36em}
+.bmy-pad ul{list-style:none!important;margin:0!important;padding:0!important}
+.bmy-pad li{margin:0!important;padding:0!important}
+.bmy-pad label{font-family:"Patrick Hand",cursive;font-size:27px;line-height:45px;display:flex;gap:14px;align-items:center;cursor:pointer;color:var(--ink)}
+.bmy-pad input{appearance:none;-webkit-appearance:none;width:26px;height:26px;border:3px solid var(--ink);border-radius:4px;margin:0;flex:0 0 26px;background:#fff;display:grid;place-content:center;cursor:pointer}
+.bmy-pad input:checked::after{content:"✓";color:var(--red);font-size:30px;font-weight:700;line-height:1;transform:translate(1px,-2px)}
+.bmy-score{position:absolute;right:28px;top:26px;text-align:center;font-family:"Patrick Hand",cursive;color:var(--red);max-width:180px;font-size:18px;line-height:1.15}
+.bmy-score b{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:58px;line-height:1}
+.bmy-note{font-size:13px!important;color:var(--muted)!important;margin-top:12px!important}
+.bmy-faq{margin-top:40px}
+.bmy-faq details{border-bottom:1px solid #d9d2c3;padding:12px 0}
+.bmy-faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style-position:outside}
+.bmy-faq details p{margin:10px 0 0!important;font-size:15.5px!important;line-height:1.65!important}
+html.dk-dark .bmy,html.hm-dark .bmy{--ink:#f2efe6}
+html.dk-dark .bmy-hero h1,html.hm-dark .bmy-hero h1,html.dk-dark .bmy-hero__lede,html.hm-dark .bmy-hero__lede{color:#121212!important}
+html.dk-dark .bmy-btn,html.hm-dark .bmy-btn{background:#121212;color:#fff!important}
+html.dk-dark .bmy-btn--o,html.hm-dark .bmy-btn--o{background:transparent;color:#121212!important;border-color:#121212}
+html.dk-dark .c-box,html.hm-dark .c-box,html.dk-dark .c-stamp,html.hm-dark .c-stamp,html.dk-dark .c-coupon,html.hm-dark .c-coupon,html.dk-dark .c-yel,html.hm-dark .c-yel,html.dk-dark .c-news,html.hm-dark .c-news{color:#121212}
+html.dk-dark .c-box,html.hm-dark .c-box{border-color:#121212}html.dk-dark .c-stamp .ad,html.hm-dark .c-stamp .ad{border-color:#121212}html.dk-dark .c-news,html.hm-dark .c-news{border-top-color:#121212}
+html.dk-dark .bmy .c-dark,html.hm-dark .bmy .c-dark{background:#1d1d1d;border:1px solid #444;color:#fff}
+html.dk-dark .bmy-cut a,html.hm-dark .bmy-cut a{color:#121212}
+html.dk-dark .bmy-pad,html.hm-dark .bmy-pad,html.dk-dark .bmy-pad label,html.hm-dark .bmy-pad label,html.dk-dark .bmy-pad h2,html.hm-dark .bmy-pad h2{color:#121212!important}
+html.dk-dark .bmy-pad input,html.hm-dark .bmy-pad input{border-color:#121212}
+@media (max-width:900px){.bmy-board,.bmy-cut{grid-template-columns:repeat(2,minmax(0,1fr))}.bmy-hero__t{max-width:46%}}
+@media (max-width:720px){
+.bmy-hero{aspect-ratio:auto;min-height:0}
+.bmy-hero img{position:relative;height:auto;aspect-ratio:4/3;object-position:92% 30%}
+.bmy-hero__t{max-width:none;padding:18px 18px 22px}
+.bmy-board,.bmy-cut{grid-template-columns:1fr}
+.bmy .bmy-intro{text-align:left;font-size:16px!important}
+.bmy-key{justify-content:flex-start}
+.bmy-pad{padding:24px 18px 22px 52px}.bmy-pad:before{left:36px}
+.bmy-score{position:static;text-align:left;max-width:none;margin:0 0 10px}
+.bmy-pad label{font-size:23px;line-height:1.35;padding:6px 0}
+}
+</style>
+<div class="bmy">
+<section class="bmy-hero" aria-label="Chuyên đề Bóc mác y khoa trong quảng cáo">
+<img src="BANNER_URL" alt="Mảng ghép các mẩu quảng cáo sức khỏe như 'Mỗi ngày 10.000 bước', '9/10 nha sĩ khuyên dùng', 'Đạt chuẩn FDA', 'Diệt khuẩn 99,9%' bị bút đỏ khoanh, gạch và ghi câu hỏi" width="2400" height="1200" fetchpriority="high">
+<div class="bmy-hero__t">
+<p class="bmy-hero__eb">Chuyên đề · Dy Khoa Blog</p>
+<h1>Bóc mác<br>y khoa</h1>
+<span class="hd">...trong quảng cáo</span>
+<p class="bmy-hero__lede">Đọc quảng cáo như một biên tập viên cầm bút đỏ: khoanh con số, gạch chứng nhận, và hỏi lại nguồn của mọi câu "nghe như khoa học".</p>
+<p class="bmy-btns"><a class="bmy-btn" href="#bai-viet">Bắt đầu bóc nhãn</a><a class="bmy-btn bmy-btn--o" href="#bo-loc">Bộ lọc 5 câu hỏi</a></p>
+</div>
+</section>
+
+<p class="bmy-intro">"10.000 bước", "9/10 nha sĩ khuyên dùng", "đạt chuẩn FDA", "đã chứng minh lâm sàng". Mỗi bài trong chuyên đề đặt một thông điệp quảng cáo mang dáng dấp y khoa cạnh nguồn gốc và bằng chứng của nó, kèm nguồn tham khảo mở để bạn tự kiểm tra.</p>
+<p class="bmy-key"><b style="font-family:Anton;font-weight:400;font-size:20px;text-transform:uppercase">Ký hiệu bút đỏ:</b><span><span class="circ">100%</span> con số cần hỏi nguồn</span><span><span class="strike">ĐẠT CHUẨN</span> chứng nhận cần đọc lại</span><span><span class="hd" style="font-size:24px">Hỏi ai?</span> câu hỏi mỗi bài trả lời</span></p>
+
+<section class="bmy-sec" id="bai-viet">
+<div class="bmy-sh"><h2>Con số "nghe khoa học"</h2><span class="hd">khoanh tròn trước khi tin</span></div>
+<div class="bmy-board">
+<a class="bmy-clip c-box" href="/blog/di-bo-10000-buoc-moi-ngay-co-can-thiet/"><span class="tp"></span><p class="ad" style="font-size:44px">Mỗi ngày <span class="ring">10.000</span> bước</p><p class="t">Đi bộ 10.000 bước mỗi ngày có cần thiết? Con số đến từ một chiếc máy đếm bước</p><p class="q">Con số này từ đâu ra?</p><p class="src">The Lancet Public Health 2025</p></a>
+<a class="bmy-clip c-coupon" href="/blog/9-10-nha-si-khuyen-dung-khao-sat-gay-hieu-lam/"><p class="ad" style="font-size:72px">9/10</p><p class="ad" style="font-size:28px">nha sĩ khuyên dùng</p><p class="t">"9/10 nha sĩ khuyên dùng": con số khảo sát bị bẻ cong thế nào?</p><p class="q">Hỏi ai? Hỏi thế nào?</p><p class="src">Phán quyết của ASA (Anh)</p></a>
+<a class="bmy-clip c-dark" href="/blog/xa-phong-diet-khuan-99-9-co-tot-hon-xa-phong-thuong/"><p class="ad" style="font-size:66px">99,9%</p><p style="font-weight:800;letter-spacing:.08em">DIỆT KHUẨN</p><p class="t">Xà phòng diệt khuẩn có tốt hơn xà phòng thường?</p><p class="q">So với xà phòng thường thì sao?</p><p class="src">FDA</p></a>
+</div>
+</section>
+
+<section class="bmy-sec">
+<div class="bmy-sh"><h2>Mác chứng nhận, chữ y khoa</h2><span class="hd">gạch đi rồi đọc lại</span></div>
+<div class="bmy-board">
+<a class="bmy-clip c-stamp" href="/blog/dat-chuan-fda-fda-co-cap-phep-thuc-pham-chuc-nang-khong/"><span class="tp"></span><p class="ad ul-red" style="font-size:42px">Đạt chuẩn FDA</p><p class="t">"Đạt chuẩn FDA": FDA có cấp phép thực phẩm chức năng không?</p><p class="q">FDA cấp cho điều gì?</p><p class="src">FDA · Nghị định 87/2026</p></a>
+<a class="bmy-clip c-yel" href="/blog/da-chung-minh-lam-sang-nghia-la-gi/"><p class="ad" style="font-size:40px">Đã chứng minh lâm sàng</p><p class="t">Cụm từ nghe y khoa nhưng có thể gây hiểu lầm</p><p class="q">Thử trên ai, đo kết quả gì?</p><p class="src">Hướng dẫn của FTC</p></a>
+<a class="bmy-clip c-news" href="/blog/detox-thai-doc-co-that-khong/"><p style="font-family:Newsreader,Georgia,serif;font-weight:700;font-size:36px;line-height:1.1">"Detox, thải độc"</p><p class="t">Cơ thể có cần "thải độc" không?</p><p class="q">Độc chất nào?</p><p class="src">NCCIH (Viện Y tế Quốc gia Mỹ)</p></a>
+</div>
+</section>
+
+<section class="bmy-sec">
+<div class="bmy-sh"><h2>Khi cơ quan quản lý vào cuộc</h2><span class="hd">những quảng cáo phải rút lại</span></div>
+<div class="bmy-board">
+<a class="bmy-clip c-yel" style="transform:rotate(-1.2deg)" href="/blog/sua-chua-tang-mien-dich-vu-activia-ftc/"><span class="tp"></span><p class="ad" style="font-size:38px">Sữa chua tăng miễn dịch</p><p class="t">Vụ Activia: dàn xếp với FTC và 21 triệu USD trả cho 39 bang</p><p class="q">Bằng chứng ở đâu?</p><p class="src">FTC 2010</p></a>
+<a class="bmy-clip c-box" style="transform:rotate(1deg)" href="/blog/giay-san-chac-co-skechers-reebok-ftc/"><p class="ad" style="font-size:38px">Giày săn chắc cơ</p><p class="t">Skechers, Reebok và những đôi giày "tập thể dục hộ"</p><p class="q">Đi giày là đủ?</p><p class="src">FTC 2011, 2012</p></a>
+<a class="bmy-clip c-dark" style="transform:rotate(-.8deg)" href="/blog/game-luyen-nao-lumosity-ftc/"><p class="ad" style="font-size:38px">Game luyện não</p><p class="t">Lumosity và lời hứa chống lão hóa não</p><p class="q">Chơi giỏi game hay giỏi thật?</p><p class="src">FTC 2016</p></a>
+</div>
+</section>
+
+<section class="bmy-sec">
+<div class="bmy-sh"><h2>Mẩu cắt nên đọc thêm</h2><span class="hd">luật và kỹ năng</span></div>
+<div class="bmy-cut">
+<a href="/blog/quang-cao-thuc-pham-bao-ve-suc-khoe-loi-thuong-gap/"><small>LUẬT</small>Quảng cáo thực phẩm bảo vệ sức khỏe: lỗi thường gặp</a>
+<a href="/blog/quang-cao-bao-cao-su-thuoc-sinh-ly-luat-viet-nam/"><small>LUẬT</small>Quảng cáo bao cao su, thuốc sinh lý: luật Việt Nam cho phép gì?</a>
+<a href="/blog/dong-ho-thong-minh-do-suc-khoe-tin-duoc-den-dau/"><small>KỸ NĂNG</small>Đồng hồ thông minh đo sức khỏe: tin được đến đâu?</a>
+</div>
+</section>
+
+<section class="bmy-pad" id="bo-loc" aria-labelledby="bmy-loc-t">
+<div class="bmy-score" aria-live="polite"><b id="bmy-n">0/5</b><span id="bmy-v">Đánh dấu từng câu</span></div>
+<h2 id="bmy-loc-t">Bộ lọc 5 câu hỏi</h2>
+<p>Lần tới thấy một quảng cáo "có mác y khoa", hãy đánh dấu những câu mà quảng cáo đó trả lời được.</p>
+<ul id="bmy-list">
+<li><label><input type="checkbox">Con số có nguồn nghiên cứu cụ thể, không chỉ từ nhãn hàng</label></li>
+<li><label><input type="checkbox">Biết "chuyên gia" là ai, được hỏi thế nào</label></li>
+<li><label><input type="checkbox">Chứng nhận ghi rõ cơ quan cấp, cấp cho điều gì</label></li>
+<li><label><input type="checkbox">Nghiên cứu làm trên chính sản phẩm, đúng nhóm người, đúng kết quả</label></li>
+<li><label><input type="checkbox">Lợi ích được so với một mốc cụ thể</label></li>
+</ul>
+<p class="bmy-note">Đây là công cụ tự rà soát để tập thói quen hỏi lại, không phải thước đo độ tin cậy. Dữ liệu chỉ nằm trên trình duyệt của bạn, không được lưu hay gửi đi.</p>
+</section>
+
+<section class="bmy-faq" aria-label="Câu hỏi thường gặp">
+<div class="bmy-sh"><h2>Hỏi nhanh</h2></div>
+<details><summary>Chuyên đề này bóc những gì?</summary><p>Những thông điệp quảng cáo mượn hình thức y khoa, khoa học: con số tròn, lời khuyên của chuyên gia, chứng nhận, cụm từ "đã chứng minh lâm sàng", và các vụ việc cơ quan quản lý đã xử lý. Mỗi bài đặt thông điệp cạnh nguồn gốc và bằng chứng.</p></details>
+<details><summary>Bài viết có kết luận sản phẩm nào tốt, sản phẩm nào xấu không?</summary><p>Không. Các bài đánh giá thông điệp quảng cáo và bằng chứng đứng sau, không đánh giá chất lượng một sản phẩm cụ thể.</p></details>
+<details><summary>Ở Việt Nam, quảng cáo sai công dụng bị xử lý thế nào?</summary><p>Theo Nghị định 87/2026/NĐ-CP, quảng cáo không đúng hoặc gây nhầm lẫn về chất lượng, công dụng sản phẩm so với nội dung đã đăng ký, công bố có thể bị phạt từ 80 đến 100 triệu đồng với cá nhân, gấp đôi với tổ chức. Từng bài trong chuyên đề nêu thêm quy định riêng cho từng loại thông điệp.</p></details>
+<details><summary>Tôi muốn góp ý hoặc báo sai sót thì làm thế nào?</summary><p>Vui lòng gửi về hi@dykhoa.com.</p></details>
+</section>
+</div>
+<script>
+(function(){var l=document.getElementById('bmy-list');if(!l)return;var n=document.getElementById('bmy-n'),v=document.getElementById('bmy-v');
+function u(){var c=l.querySelectorAll('input:checked').length;n.textContent=c+'/5';v.textContent=c===0?'Đánh dấu từng câu':c<=2?'Nên nghi ngờ, cần tìm thêm nguồn':c<=4?'Cần kiểm tra thêm trước khi tin':'Quảng cáo đã trả lời đủ 5 câu';}
+l.addEventListener('change',u);u();})();
+</script>
