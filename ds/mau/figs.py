@@ -1,5 +1,5 @@
 F='/tmp/claude-0/fonts/node_modules/@fontsource/'
-fonts=''.join(f'<link rel="stylesheet" href="{F}{x}.css">' for x in ['be-vietnam-pro/400','be-vietnam-pro/600','be-vietnam-pro/700','be-vietnam-pro/800','be-vietnam-pro/900','newsreader/400','newsreader/600'])
+fonts=''.join(f'<link rel="stylesheet" href="{F}{x}.css">' for x in ['be-vietnam-pro/300','be-vietnam-pro/400','be-vietnam-pro/600','be-vietnam-pro/700','be-vietnam-pro/800','be-vietnam-pro/900','newsreader/400','newsreader/600'])
 WM='/tmp/claude-0/logo/out/doc-sau-dau-anh@3x.png'
 base=f'''<!doctype html><html><head><meta charset="utf-8">{fonts}<style>
 *{{box-sizing:border-box}}body{{margin:0}}
@@ -7,9 +7,26 @@ base=f'''<!doctype html><html><head><meta charset="utf-8">{fonts}<style>
 .k{{font-size:15px;font-weight:800;letter-spacing:.18em;color:#a4504c}}
 h1{{font-size:38px;font-weight:900;letter-spacing:-.02em;line-height:1.12;margin:10px 0 0;max-width:900px}}
 .src{{position:absolute;left:64px;bottom:34px;font-size:15px;color:#6f7772;max-width:760px;line-height:1.4}}
-.wm{{position:absolute;right:34px;bottom:26px;height:40px}}
+.brand{{position:absolute;right:40px;bottom:26px;text-align:right}}
+.bl{{display:flex;align-items:center;gap:9px;justify-content:flex-end}}
+.dk{{background:#1f4b3a;color:#fff;font-family:Newsreader;font-weight:600;font-size:17px;padding:4px 6px;line-height:1}}
+.dkw{{font-family:Newsreader;font-weight:600;font-size:21px;color:#1f4b3a;line-height:1;display:flex;flex-direction:column}}
+.dkw small{{font-family:"Be Vietnam Pro";font-size:8.5px;font-weight:800;letter-spacing:.32em;color:#6f7772;margin-top:3px}}
+.sep{{width:1px;height:26px;background:#cfc6b4;margin:0 4px}}
+.ic{{height:20px}}.ds{{font-weight:900;font-size:15px;color:#1f4b3a;letter-spacing:-.01em}}
+.url{{font-size:14px;font-weight:300;color:#4a524e;margin-top:8px;letter-spacing:.14em}} .slot{{display:inline-block;width:116px;height:40px}}
+.src{{max-width:720px!important}}
+/* vertical */
+.v{{width:440px!important;padding:34px 26px 30px!important}} .v .src{{position:static!important;margin-top:26px}} .v .brand{{position:static!important;margin-top:14px}}
+.v h1{{font-size:28px}} .v .k{{font-size:12px}} .v [style*='font-size:96px']{{font-size:72px!important}} .v [style*='width:420px;background:#1f4b3a']{{width:72%!important}} .v [style*='grid-template-columns:420px 1fr 70px']>div:first-child{{font-size:16px!important}}
+.v [style*="grid-template-columns"]{{grid-template-columns:1fr!important;gap:18px!important}}
+.v svg[width="70"],.v svg[width="40"]{{display:none}}
+.v .src{{left:26px;right:26px;bottom:92px;max-width:none!important;font-size:12.5px}}
+.v .brand{{left:26px;right:auto;bottom:24px;text-align:left}}.v .bl{{justify-content:flex-start}}
+.v [style*="width:600px"]{{width:100%!important}}.v [style*="width:420px;height"]{{width:75%!important}}.v [style*="width:260px;height"]{{width:50%!important}}
+
 .g{{color:#1f4b3a}}.r{{color:#a4504c}}
-</style></head><body><div class="f">BODY<img class="wm" src="{WM}"></div></body></html>'''
+</style></head><body><div class="f CLS">BODY<div class="brand"><div class="bl"><span class="slot"></span><span class="sep"></span><img src="/tmp/claude-0/logo/out/doc-sau-icon.svg" class="ic"><span class="ds">ĐỌC SÂU</span></div><div class="url">dykhoa.com/blog</div></div></div></body></html>'''
 figs={}
 # 1 Loomba
 figs['h1-thi-nghiem-loomba']='''<div class="k">THÍ NGHIỆM, THÁNG 9/2020</div><h1>Sau khi xem tin sai, ý định tiêm vắc-xin giảm</h1>
@@ -40,7 +57,7 @@ def node(t,d,hl=False):
     bg='#a4504c' if hl else '#fff'; c='#fff' if hl else '#1b1d1c'; b='#a4504c' if hl else '#1f4b3a'
     return f'<div style="background:{bg};color:{c};border:2px solid {b};border-radius:10px;padding:22px 18px;text-align:center"><div style="font-size:26px;font-weight:900">{t}</div><div style="font-size:16px;margin-top:8px;line-height:1.35">{d}</div></div>'
 arrow='<svg width="40" height="24"><path d="M2 12H34" stroke="#1f4b3a" stroke-width="3"/><path d="M28 4 38 12 28 20" fill="none" stroke="#1f4b3a" stroke-width="3"/></svg>'
-figs['h4-bon-diem-can-thiep']='<div class="k">BỐN ĐIỂM CAN THIỆP</div><h1>Gỡ bỏ nội dung chỉ chạm vào một mắt xích</h1><div style="display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr 40px 1fr;align-items:center;gap:8px;margin-top:56px">'+node('Nguồn cung','Ai tạo ra tin sai')+arrow+node('Nhu cầu','Vì sao người ta tìm đến nó')+arrow+node('Phân phối','Tin sai lan đi thế nào',True)+arrow+node('Tiếp nhận','Người ta tin và dùng nó ra sao')+'</div><div style="display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr 40px 1fr;gap:8px;margin-top:14px"><div></div><div></div><div></div><div></div><div style="text-align:center;font-size:17px;font-weight:800" class="r">↑ gỡ bỏ nội dung</div></div><div style="margin-top:26px;font-size:20px;line-height:1.5;max-width:900px">Chưa có điểm nào được chứng minh là tốt nhất; nhiều cách làm hiệu quả tác động vào nhiều điểm cùng lúc.</div><div class="src">Nguồn: National Academies of Sciences, Engineering, and Medicine (2025), Kết luận 7-1.</div>'
+figs['h4-bon-diem-can-thiep']='<div class="k">BỐN ĐIỂM CAN THIỆP</div><h1>Gỡ bỏ nội dung chỉ chạm vào một mắt xích</h1><div style="display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr 40px 1fr;align-items:center;gap:8px;margin-top:56px">'+node('Nguồn cung','Ai tạo ra tin sai')+arrow+node('Nhu cầu','Vì sao người ta tìm đến nó')+arrow+node('Phân phối','Tin sai lan đi thế nào<div style="margin-top:10px;font-size:14px;font-weight:800;background:#fff;color:#a4504c;border-radius:20px;padding:4px 10px;display:inline-block">gỡ bỏ nội dung</div>',True)+arrow+node('Tiếp nhận','Người ta tin và dùng nó ra sao')+'</div><div style="margin-top:34px;font-size:20px;line-height:1.5;max-width:900px">Chưa có điểm nào được chứng minh là tốt nhất; nhiều cách làm hiệu quả tác động vào nhiều điểm cùng lúc.</div><div class="src">Nguồn: National Academies of Sciences, Engineering, and Medicine (2025), Kết luận 7-1.</div>'
 # 5 debunking 4 steps
 def step(n,t,d,c):
     return f'<div style="border-top:6px solid {c};background:#fff;border-radius:0 0 10px 10px;padding:22px 20px"><div style="font-size:44px;font-weight:900;color:{c};line-height:1">{n}</div><div style="font-size:24px;font-weight:900;margin-top:10px">{t}</div><div style="font-size:17px;margin-top:8px;line-height:1.4;color:#3d4541">{d}</div></div>'
@@ -50,5 +67,7 @@ def fl(w,num,lab,c):
     return f'<div style="display:flex;align-items:center;gap:22px;margin-bottom:16px"><div style="width:{w}px;height:64px;background:{c};border-radius:6px;display:flex;align-items:center;padding-left:20px;color:#fff;font-size:30px;font-weight:900">{num}</div><div style="font-size:19px;line-height:1.35;max-width:420px">{lab}</div></div>'
 figs['h6-tiem-phong-tam-ly-youtube']='<div class="k">THỬ NGHIỆM TRÊN YOUTUBE, 2022</div><h1>"Tiêm phòng tâm lý" cho hàng triệu người dùng</h1><div style="margin-top:40px">'+fl(600,'khoảng 5,4 triệu','người dùng được hiển thị video quảng cáo trong 15 ngày','#1f4b3a')+fl(420,'967.347','người xem từ 30 giây trở lên','#2f6b54')+fl(260,'22.632','câu trả lời kiểm tra trong vòng 24 giờ (gồm nhóm đối chứng)','#a4504c')+'</div><div style="font-size:19px;margin-top:12px">Người xem video nhận ra kỹ thuật thao túng tốt hơn nhóm đối chứng; chi phí khoảng 0,05 USD mỗi lượt xem.</div><div class="src">Nguồn: Roozenbeek và cộng sự (2022), Science Advances.</div>'
 import os
-for k,v in figs.items(): open(k+'.html','w').write(base.replace('BODY',v))
+for k,v in figs.items():
+    open(k+'.html','w').write(base.replace('BODY',v).replace('CLS',''))
+    open(k+'-doc.html','w').write(base.replace('BODY',v).replace('CLS','v'))
 print(list(figs))
