@@ -1,0 +1,97 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/newsreader/500.css"><link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/newsreader/700.css"><link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/newsreader/800.css"><link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/newsreader/500-italic.css">
+<link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/be-vietnam-pro/400.css"><link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/be-vietnam-pro/700.css"><link rel="stylesheet" href="/tmp/claude-0/fonts/node_modules/@fontsource/be-vietnam-pro/800.css">
+<style>:root{--g:#1f4b3a;--r:#a4504c;--ink:#1b1f1d;--sub:#3c4440;--mut:#6b746f;--line:#e3ded4;--bg:#faf8f4}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Be Vietnam Pro",sans-serif}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.sitebar{height:56px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:0 28px;font-size:.9rem}
+.sitebar b{background:var(--g);color:#fff;padding:4px 6px;font-family:Newsreader}.sitebar i{color:var(--mut);font-size:.8rem}
+.bar{position:fixed;top:0;left:0;height:3px;background:var(--r);width:0;z-index:20}
+.hx{background:linear-gradient(180deg,#f1ece2,var(--bg));border-bottom:1px solid var(--line);overflow:hidden}
+.hx-in{max-width:1200px;margin:0 auto;padding:56px 32px 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.crumb{font-size:.8rem;color:var(--mut);margin-bottom:22px}.crumb a{text-decoration:underline;text-underline-offset:3px}
+.kick{display:inline-block;font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--g);padding:5px 10px;border-radius:3px}
+.hx h1{font-family:Newsreader,serif;font-weight:800;font-size:clamp(2.4rem,5vw,3.9rem);line-height:1.05;letter-spacing:-.01em;margin:16px 0 0}
+.desc{font-family:Newsreader,serif;font-size:1.3rem;line-height:1.55;color:var(--sub);margin:18px 0 0;max-width:540px}
+.meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px;font-size:.85rem;color:var(--mut)}
+.meta span+span::before{content:"·";margin-right:20px}
+.cta{display:flex;gap:18px;align-items:center;margin-top:28px;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--g);color:#fff;padding:13px 22px;border-radius:999px;font-weight:700;font-size:.92rem}
+.lnk{font-weight:700;font-size:.92rem;color:var(--g)}
+.hx-st{position:relative;height:380px}
+.st{position:absolute;width:74%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;box-shadow:0 18px 40px rgba(20,30,25,.22);border:6px solid #fff}
+.st0{right:0;top:0;transform:rotate(3deg);z-index:3}.st1{left:0;top:30%;transform:rotate(-4deg);z-index:2}.st2{right:8%;bottom:0;transform:rotate(1.5deg);z-index:1;width:62%}
+.body{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:64px}
+.toc{position:sticky;top:24px;align-self:start;padding:56px 0 40px;counter-reset:x}
+.toc small{display:block;font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-bottom:12px}
+.toc a{display:grid;grid-template-columns:30px 1fr;gap:8px;padding:8px 0 8px 12px;border-left:2px solid var(--line);font-size:.84rem;line-height:1.35;color:var(--mut)}
+.toc a b{font-family:Newsreader,serif;font-weight:800;font-size:.95rem}
+.toc a.done{color:var(--sub)}.toc a.done b{color:var(--g)}
+.toc a.on{border-color:var(--r);color:var(--ink)}.toc a.on b{color:var(--r)}
+.main{min-width:0;max-width:780px;padding:56px 0 0}
+.sx{position:relative;padding:0 0 72px;margin-bottom:72px;border-bottom:1px solid var(--line)}
+.sx-n{font-family:Newsreader,serif;font-weight:800;font-size:5.6rem;line-height:.8;color:transparent;-webkit-text-stroke:1.5px var(--g);opacity:.55;margin-bottom:-18px;position:relative;z-index:2;padding-left:18px}
+.sx-img{display:block;border-radius:14px;overflow:hidden}
+.sx-img img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .6s}
+.sx:hover .sx-img img{transform:scale(1.03)}
+.sx-k{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--r);margin:22px 0 8px}
+.sx h2{font-family:Newsreader,serif;font-weight:800;font-size:2.05rem;line-height:1.15;margin:0}
+.sx h2 a:hover{text-decoration:underline;text-underline-offset:4px}
+.sx p{font-family:Newsreader,serif;font-size:1.22rem;line-height:1.65;color:var(--sub);margin:14px 0 0}
+.sx-go{display:inline-flex;gap:8px;margin-top:18px;font-weight:700;color:var(--g);border-bottom:2px solid var(--g);padding-bottom:3px}
+.sx.split{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px;margin-bottom:72px}
+.sx.split .sx-n{grid-column:1/-1;margin-bottom:-6px;padding-left:0}
+.sx.split .sx-k{margin-top:0}.sx.split h2{font-size:1.6rem}.sx.split p{font-size:1.08rem}
+.end{background:var(--g);color:#fff;border-radius:18px;padding:44px;margin:0 0 90px}
+.end-k{font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#cfe3d6}
+.end h2{font-family:Newsreader,serif;font-size:2.1rem;margin:10px 0}.end p{color:#dfe8e2;line-height:1.6;margin:0 0 22px}
+.end .btn{background:#fff;color:var(--g)}
+.others{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.others small{width:100%;font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#cfe3d6;margin-bottom:4px}
+.others a{border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:8px 14px;font-size:.88rem}
+@media(max-width:860px){
+.hx-in{grid-template-columns:1fr;padding:28px 20px 40px;gap:30px}.hx-st{height:230px;order:-1}
+.body{grid-template-columns:1fr;gap:0;padding:0 20px}
+.toc{top:0;z-index:10;display:flex;overflow-x:auto;gap:6px;padding:10px 20px;margin:0 -20px;background:rgba(250,248,244,.96);border-bottom:1px solid var(--line);scrollbar-width:none}
+.toc small{display:none}.toc a{display:block;flex:none;border:1px solid var(--line);border-radius:999px;padding:6px 12px}
+.toc a span{display:none}.toc a.on{background:var(--r);border-color:var(--r)}.toc a.on b{color:#fff}
+.main{padding-top:30px}.sx-n{font-size:4rem}.sx h2{font-size:1.6rem}.sx p{font-size:1.1rem}
+.sx.split{grid-template-columns:1fr;padding:18px}
+.end{padding:28px}.meta{flex-direction:column;gap:4px}.meta span+span::before{display:none}
+}
+</style></head><body>
+<div class="sitebar"><b>DK</b> Dy Khoa Blog <i>(thanh menu của blog giữ nguyên)</i></div>
+<div class="bar" id="bar"></div>
+<header class="hx"><div class="hx-in"><div class="hx-tx">
+<nav class="crumb"><a href="#">Blog</a> / <a href="#">Chuỗi bài</a></nav>
+<div class="kick">Chuỗi bài</div>
+<h1>Bóc mác y khoa trong quảng cáo</h1>
+<p class="desc">Mỗi bài đặt một thông điệp quảng cáo mang dáng dấp y khoa cạnh nguồn gốc và bằng chứng của nó, kèm nguồn tham khảo mở để bạn tự kiểm tra.</p>
+<div class="meta"><span>Đọc trọn chuỗi khoảng 57 phút</span><span>Cập nhật 20/11/2026</span></div>
+<div class="cta"><a class="btn" href="#bai-1">Bắt đầu từ bài 1</a><a class="lnk" href="#">Xem chuyên đề →</a></div>
+</div><div class="hx-st"><img src="di-bo-10000-buoc-moi-ngay-co-can-thiet.webp" class="st st0" alt=""><img src="9-10-nha-si-khuyen-dung-khao-sat-gay-hieu-lam.webp" class="st st1" alt=""><img src="xa-phong-diet-khuan-99-9-co-tot-hon-xa-phong-thuong.webp" class="st st2" alt=""></div></div></header>
+<div class="body"><nav class="toc" aria-label="Các bài trong chuỗi"><small>Thứ tự đọc</small><a href="#bai-1"><b>01</b><span>Đi bộ 10.000 bước mỗi ngày có cần thiết</span></a><a href="#bai-2"><b>02</b><span>9/10 nha sĩ khuyên dùng</span></a><a href="#bai-3"><b>03</b><span>Diệt 99,9% vi khuẩn</span></a><a href="#bai-4"><b>04</b><span>Đạt chuẩn FDA</span></a><a href="#bai-5"><b>05</b><span>Đã chứng minh lâm sàng</span></a><a href="#bai-6"><b>06</b><span>Detox, thải độc</span></a><a href="#bai-7"><b>07</b><span>Sữa chua tăng miễn dịch</span></a><a href="#bai-8"><b>08</b><span>Giày săn chắc cơ</span></a><a href="#bai-9"><b>09</b><span>Game luyện não</span></a></nav>
+<main class="main"><article class="sx wide" id="bai-1"><div class="sx-n">01</div>
+<a class="sx-img" href="#"><img src="di-bo-10000-buoc-moi-ngay-co-can-thiet.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 1 · 7 phút đọc</div><h2><a href="#">Đi bộ 10.000 bước mỗi ngày có cần thiết? Con số đến từ một chiếc máy đếm bước</a></h2><p>Con số 10.000 bước có thể bắt nguồn từ tên một máy đếm bước ở Nhật Bản năm 1965. Bằng chứng mới nói gì về số bước cần đi mỗi ngày?</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx wide" id="bai-2"><div class="sx-n">02</div>
+<a class="sx-img" href="#"><img src="9-10-nha-si-khuyen-dung-khao-sat-gay-hieu-lam.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 2 · 6 phút đọc</div><h2><a href="#">&quot;9/10 nha sĩ khuyên dùng&quot;: con số khảo sát bị bẻ cong thế nào?</a></h2><p>Vụ Colgate tại Anh cho thấy con số &quot;chuyên gia khuyên dùng&quot; có thể đúng mà vẫn gây hiểu lầm. Ba câu hỏi để đọc kiểu thông điệp này, và quy định tại Việt Nam.</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx split" id="bai-3"><div class="sx-n">03</div>
+<a class="sx-img" href="#"><img src="xa-phong-diet-khuan-99-9-co-tot-hon-xa-phong-thuong.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 3 · 6 phút đọc</div><h2><a href="#">&quot;Diệt 99,9% vi khuẩn&quot;: xà phòng diệt khuẩn có tốt hơn xà phòng thường?</a></h2><p>Con số &quot;diệt 99,9% vi khuẩn&quot; đo trong phòng thí nghiệm. FDA nói gì về xà phòng diệt khuẩn, vì sao triclosan bị cấm, và quy định quảng cáo tại Việt Nam.</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx wide" id="bai-4"><div class="sx-n">04</div>
+<a class="sx-img" href="#"><img src="dat-chuan-fda-fda-co-cap-phep-thuc-pham-chuc-nang-khong.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 4 · 6 phút đọc</div><h2><a href="#">&quot;Đạt chuẩn FDA&quot;: FDA có cấp phép thực phẩm chức năng không?</a></h2><p>&quot;Đạt chuẩn FDA&quot;, &quot;giấy chứng nhận FDA&quot; xuất hiện nhiều trong quảng cáo thực phẩm chức năng. FDA thực sự phê duyệt gì, và ở Việt Nam nên kiểm tra giấy tờ nào?</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx wide" id="bai-5"><div class="sx-n">05</div>
+<a class="sx-img" href="#"><img src="da-chung-minh-lam-sang-nghia-la-gi.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 5 · 7 phút đọc</div><h2><a href="#">&quot;Đã chứng minh lâm sàng&quot;: cụm từ nghe y khoa nhưng có thể gây hiểu lầm</a></h2><p>Quảng cáo nói sản phẩm &quot;đã chứng minh lâm sàng&quot; có thể dựa trên nghiên cứu không liên quan. Năm cách cụm từ này gây hiểu lầm, theo hướng dẫn của FTC.</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx split" id="bai-6"><div class="sx-n">06</div>
+<a class="sx-img" href="#"><img src="detox-thai-doc-co-that-khong.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 6 · 6 phút đọc</div><h2><a href="#">&quot;Detox, thải độc&quot;: cơ thể có cần &quot;thải độc&quot; không?</a></h2><p>Nước ép, thụt tháo, nhịn ăn &quot;thải độc&quot; được quảng cáo rầm rộ. Nghiên cứu nói gì về hiệu quả, rủi ro, và cơ thể thực sự thải độc thế nào?</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx wide" id="bai-7"><div class="sx-n">07</div>
+<a class="sx-img" href="#"><img src="sua-chua-tang-mien-dich-vu-activia-ftc.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 7 · 6 phút đọc</div><h2><a href="#">Sữa chua &quot;tăng miễn dịch&quot;: bài học từ vụ Activia và FTC</a></h2><p>Vụ Activia và DanActive: FTC cho rằng tuyên bố &quot;đã chứng minh lâm sàng&quot; là sai. Dàn xếp yêu cầu gì, phía Dannon nói gì, và bài học cho người đọc quảng cáo.</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx wide" id="bai-8"><div class="sx-n">08</div>
+<a class="sx-img" href="#"><img src="giay-san-chac-co-skechers-reebok-ftc.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 8 · 7 phút đọc</div><h2><a href="#">Giày &quot;săn chắc cơ&quot;: khi Skechers và Reebok phải trả tiền vì quảng cáo</a></h2><p>Giày &quot;toning&quot; hứa đi bộ cũng săn chắc cơ. FTC cáo buộc Reebok và Skechers quảng cáo thiếu căn cứ, chọn lọc nghiên cứu và che giấu xung đột lợi ích.</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article><article class="sx split" id="bai-9"><div class="sx-n">09</div>
+<a class="sx-img" href="#"><img src="game-luyen-nao-lumosity-ftc.webp" alt=""></a>
+<div class="sx-tx"><div class="sx-k">Bài 9 · 6 phút đọc</div><h2><a href="#">Game &quot;luyện não&quot;: Lumosity và lời hứa chống lão hóa não</a></h2><p>Lumosity hứa game giúp não minh mẫn và chống sa sút trí tuệ. FTC cho rằng công ty không có căn cứ. Khoa học nói gì về lợi ích thật của game luyện não?</p><a class="sx-go" href="#">Đọc bài <span>→</span></a></div></article>
+<section class="end"><div class="end-k">Hết chuỗi</div><h2>Bạn đã đọc hết 9 bài</h2><p>Muốn xem công cụ tự kiểm tra và các bài liên quan, ghé trang chuyên đề.</p><a class="btn" href="#">Vào chuyên đề Bóc mác y khoa</a>
+<div class="others"><small>Chuỗi bài khác</small><a href="#">Kiểm chứng thông tin khoa học</a><a href="#">Tình dục học</a><a href="#">Hiểu đúng về đột quỵ</a></div></section>
+</main></div>
+<script>(function(){var b=document.getElementById('bar'),L=[].slice.call(document.querySelectorAll('.toc a')),S=L.map(function(a){return document.querySelector(a.getAttribute('href'))});function f(){var h=document.documentElement;b.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';var c=-1;S.forEach(function(s,i){if(s.getBoundingClientRect().top<200)c=i});L.forEach(function(a,i){a.classList.toggle('on',i===c);a.classList.toggle('done',i<c)})}addEventListener('scroll',f,{passive:true});f()})();</script>
+</body></html>
