@@ -1,0 +1,21 @@
+BỘ NHẬN DIỆN "ĐỌC SÂU" (Longform, Dy Khoa Blog), phương án A1
+
+MÀU
+- Xanh rêu chính:   #1F4B3A (biểu tượng, chữ ĐỌC SÂU trên nền sáng)
+- Đỏ gạch:          #A4504C (chữ LONGFORM trên nền sáng)
+- Nền tối:          biểu tượng #CFE3D6, chữ #F3EFE6, LONGFORM #E7B7A4
+- Nền sáng gợi ý:   #FAF8F4
+Chữ: Be Vietnam Pro (Black cho ĐỌC SÂU, Bold cho LONGFORM). Chữ trong file SVG đã chuyển thành nét, không cần cài font.
+
+FILE
+- doc-sau-logo.svg / @2x.png          logo đầy đủ, nền sáng
+- doc-sau-logo-dark.svg / @2x.png     logo đầy đủ, nền tối
+- doc-sau-logo-white.svg / @2x.png    logo một màu trắng, đặt trên ảnh tối
+- doc-sau-dau-anh.svg / @2x / @3x.png dấu logo gắn góc phải dưới ảnh trong bài
+- doc-sau-icon*.svg/png, favicon.ico  biểu tượng riêng (512, 180, 32, 16)
+
+QUY TẮC DÙNG
+- Khoảng trống quanh logo tối thiểu bằng 1/2 chiều cao biểu tượng.
+- Logo đầy đủ: cao tối thiểu 32 px trên web. Dưới cỡ đó dùng biểu tượng riêng.
+- Dấu logo trên ảnh: cách mép phải và mép dưới khoảng 2,5% chiều rộng ảnh; ảnh 1200 px dùng bản @2x cao khoảng 40 px.
+- Không đổi màu ngoài bảng trên, không kéo méo, không thêm bóng đổ.
