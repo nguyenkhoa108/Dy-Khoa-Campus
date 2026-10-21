@@ -113,7 +113,7 @@ Báo cáo NASEM bổ sung một lý do sâu hơn: phần lớn nghiên cứu và
 
 Hội đồng cũng nhận định rằng các biện pháp có thể nhắm vào bốn điểm của dòng chảy thông tin: nguồn cung (ai tạo ra tin sai), nhu cầu (vì sao người ta tìm đến nó), phân phối (nó được lan đi thế nào) và tiếp nhận (người ta tin và dùng nó ra sao). Đến nay, chưa có dấu hiệu cho thấy một điểm nào là nơi tốt nhất để can thiệp, và nhiều cách làm hiệu quả tác động vào nhiều điểm cùng lúc (NASEM, 2025). Gỡ bỏ nội dung chỉ chạm vào một điểm: phân phối, và chỉ sau khi tin sai đã xuất hiện.
 
-Còn vai trò của luật pháp và quản lý nhà nước? NASEM (2025) cho rằng vấn đề này vẫn cần được nghiên cứu đầy đủ hơn.
+Riêng các biện pháp pháp lý, báo cáo NASEM xem xét trong bối cảnh nước Mỹ và cho rằng vai trò của chúng vẫn cần được nghiên cứu đầy đủ hơn (NASEM, 2025).
 
 ## Điều gì thực sự có tác dụng?
 
@@ -169,7 +169,7 @@ Và nếu bạn đang làm nội dung trên mạng xã hội, đừng ngại đ�
 
 Tin giả khoa học thường được kể như một câu chuyện về những kẻ bịa đặt và những người cả tin. Hai báo cáo của NASEM và Hội Hoàng gia Anh kể một câu chuyện khác: tin sai đi nhanh vì con người chia sẻ trong vội vàng, vì nền tảng thưởng cho sự chú ý, vì tòa soạn thiếu người hiểu khoa học, vì có những khoảng trống mà thông tin đúng chưa lấp đầy.
 
-Điều chúng ta biết khá chắc chắn: tin sai làm thay đổi niềm tin và ý định của con người; đính chính có ích nhưng thường đến muộn; tiêm phòng tâm lý cho kết quả khả quan trên quy mô lớn; và gỡ bỏ nội dung, nếu dùng một mình, có ít bằng chứng ủng hộ. Điều chúng ta chưa biết chắc: tin sai gây ra hành vi có hại đến mức nào ngoài đời thực, các biện pháp giữ được hiệu quả bao lâu, và luật pháp nên đóng vai trò gì.
+Điều chúng ta biết khá chắc chắn: tin sai làm thay đổi niềm tin và ý định của con người; đính chính có ích nhưng thường đến muộn; tiêm phòng tâm lý cho kết quả khả quan trên quy mô lớn; và gỡ bỏ nội dung, nếu dùng một mình, có ít bằng chứng ủng hộ. Điều chúng ta chưa biết chắc: tin sai gây ra hành vi có hại đến mức nào ngoài đời thực, và các biện pháp giữ được hiệu quả bao lâu.
 
 Với người làm truyền thông khoa học, kết luận thực tế nhất có lẽ là: đừng chỉ hỏi "làm sao xóa tin sai", mà hãy hỏi "mắt xích nào trong hệ thống mình có thể làm tốt hơn".
 
