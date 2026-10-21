@@ -56,7 +56,6 @@ if ( ! function_exists( 'dkds_posts' ) ) {
   <div class="dsb-g">
     <a class="dsb-img" href="<?php echo $u; ?>" tabindex="-1" aria-hidden="true"><?php echo dkds_img( $id ); ?></a>
     <div>
-      <p class="dsb-no"><?php echo esc_html( dkds_no( $id ) ); ?></p>
       <h3 class="dsb-t"><a href="<?php echo $u; ?>"><?php echo esc_html( get_the_title( $id ) ); ?></a></h3>
       <?php if ( $d ) : ?><p class="dsb-d"><?php echo esc_html( $d ); ?></p><?php endif; ?>
       <p class="dsb-m"><?php echo esc_html( dkds_meta( $id ) ); ?></p>
@@ -76,12 +75,10 @@ if ( ! function_exists( 'dkds_posts' ) ) {
   <header class="dsa-full dsa-mast"><div class="dsa-in">
     <h1 class="dsa-h1"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/doc-sau-logo-trang.png" alt="Đọc Sâu" width="360" height="95"></h1>
     <p class="dsa-tag">Những bài viết dài đi đến tận gốc một vấn đề khoa học, có nguồn kiểm chứng cho từng nhận định.</p>
-    <ul class="dsa-std"><li>Nguồn gốc cho từng nhận định</li><li>Hình minh hoạ dựng riêng</li><li>Chia chương, đọc theo nhịp</li></ul>
   </div></header>
   <?php if ( $feat ) : $u = esc_url( get_permalink( $feat ) ); $d = dkds_deck( $feat ); ?>
   <section class="dsa-full dsa-feat"><div class="dsa-in dsa-fg">
     <div>
-      <p class="dsa-no"><?php echo esc_html( dkds_no( $feat ) ); ?></p>
       <p class="dsa-lab">Mới nhất</p>
       <h2 class="dsa-t"><a href="<?php echo $u; ?>"><?php echo esc_html( get_the_title( $feat ) ); ?></a></h2>
       <?php if ( $d ) : ?><p class="dsa-d"><?php echo esc_html( $d ); ?></p><?php endif; ?>
@@ -93,10 +90,9 @@ if ( ! function_exists( 'dkds_posts' ) ) {
   <?php endif; ?>
   <?php if ( $rest ) : ?>
   <section class="dsa-list"><div class="dsa-in">
-    <h2 class="dsa-lh">Các số trước</h2>
+    <h2 class="dsa-lh">Các bài khác</h2>
     <?php foreach ( $rest as $id ) : $u = esc_url( get_permalink( $id ) ); $d = dkds_deck( $id ); ?>
     <article class="dsa-row">
-      <span class="dsa-rn"><?php echo esc_html( dkds_no( $id ) ); ?></span>
       <div><h3><a href="<?php echo $u; ?>"><?php echo esc_html( get_the_title( $id ) ); ?></a></h3><?php if ( $d ) : ?><p><?php echo esc_html( $d ); ?></p><?php endif; ?><small><?php echo esc_html( get_the_date( 'd/m/Y', $id ) . ' · ' . dkds_meta( $id ) ); ?></small></div>
       <a class="dsa-rimg" href="<?php echo $u; ?>" tabindex="-1" aria-hidden="true"><?php echo dkds_img( $id, 'medium_large' ); ?></a>
     </article>
@@ -128,7 +124,7 @@ if ( ! function_exists( 'dkds_posts' ) ) {
 .dsa-mast:after{content:"";position:absolute;right:-8vw;top:-30%;width:60vw;height:160%;background:radial-gradient(closest-side,rgba(196,85,75,.22),transparent 70%)}
 .dsa-in{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:1;box-sizing:border-box}
 .dsa .dsa-h1{margin:0;line-height:0}.dsa-h1 img{width:min(360px,70vw);height:auto;display:block}
-.dsa .dsa-tag{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:clamp(20px,2.3vw,28px);line-height:1.4;max-width:720px;margin:26px 0 30px;color:#e9e3d6}
+.dsa .dsa-tag{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:clamp(20px,2.3vw,28px);line-height:1.4;max-width:720px;margin:26px 0 0;color:#e9e3d6}
 .dsa-std{display:flex;flex-wrap:wrap;gap:10px 28px;margin:0;padding:22px 0 0;border-top:1px solid rgba(207,227,214,.18);list-style:none;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#aebcb4}
 .dsa-std li{margin:0}.dsa-std li:before{content:"";display:inline-block;width:7px;height:7px;background:#c4554b;margin-right:10px;vertical-align:1px}
 .dsa-feat{background:#f4efe4;color:#1b1d1c;padding:56px 0 64px}.dsa-fg{display:grid;grid-template-columns:5fr 6fr;gap:48px;align-items:center}
@@ -139,11 +135,11 @@ if ( ! function_exists( 'dkds_posts' ) ) {
 .dsa .dsa-btn{display:inline-flex;gap:10px;align-items:center;background:#13241d;color:#fff;padding:13px 22px;font-weight:700;font-size:14px;text-decoration:none;border-radius:2px}.dsa-btn:after{content:"→"}
 .dsa-img img{width:100%;aspect-ratio:4/3.2;object-fit:cover;display:block;box-shadow:18px 18px 0 #13241d}
 .dsa-list{padding:56px 0 30px}.dsa .dsa-lh{font:900 13px "Be Vietnam Pro",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#6f7772;margin:0 0 10px}
-.dsa-row{display:grid;grid-template-columns:110px 1fr 260px;gap:28px;align-items:center;padding:26px 0;border-top:1px solid var(--dk-line,#d6ddd8)}
+.dsa-row{display:grid;grid-template-columns:1fr 260px;gap:28px;align-items:center;padding:26px 0;border-top:1px solid var(--dk-line,#d6ddd8)}
 .dsa-rn{font:900 64px/.8 "Be Vietnam Pro",sans-serif;color:transparent;-webkit-text-stroke:1.2px currentColor}
 .dsa-row h3{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 8px}.dsa-row h3 a{color:inherit;text-decoration:none}
 .dsa-row p{font-family:Newsreader,Georgia,serif;font-size:17px;line-height:1.5;margin:0 0 8px;opacity:.85}.dsa-row small{font-size:12px;opacity:.7}.dsa-rimg img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
-@media(max-width:860px){.dsa-mast{padding:40px 0 36px}.dsa-fg{grid-template-columns:1fr;gap:28px}.dsa-img{order:-1}.dsa-img img{box-shadow:10px 10px 0 #13241d}.dsa .dsa-no{font-size:80px}.dsa-feat{padding:36px 0 44px}.dsa .dsa-d{font-size:18px}.dsa-row{grid-template-columns:64px 1fr;gap:16px}.dsa-rimg{display:none}.dsa-rn{font-size:44px}.dsa-row h3{font-size:21px}}
+@media(max-width:860px){.dsa-mast{padding:40px 0 36px}.dsa-fg{grid-template-columns:1fr;gap:28px}.dsa-img{order:-1}.dsa-img img{box-shadow:10px 10px 0 #13241d}.dsa .dsa-no{font-size:80px}.dsa-feat{padding:36px 0 44px}.dsa .dsa-d{font-size:18px}.dsa-row{grid-template-columns:1fr;gap:12px}.dsa-rimg{display:none}.dsa-rn{font-size:44px}.dsa-row h3{font-size:21px}}
 CSS;
     }
     add_filter( 'body_class', function ( $c ) { if ( is_category( 'doc-sau' ) && ! is_paged() ) { $c[] = 'dkds-arch'; } return $c; } );
