@@ -1,0 +1,135 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;0,6..72,800;1,6..72,500&family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#1f4b3a;--g2:#e9efe9;--r:#a4504c;--ink:#1b1f1d;--mut:#6b746f;--bg:#faf8f4;--line:#e3ded4}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Be Vietnam Pro",sans-serif}
+a{color:inherit;text-decoration:none}img{display:block;width:100%;object-fit:cover}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.tag{font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--r)}
+.tag.m{color:var(--mut)}
+h1,h2,h3{font-family:Newsreader,Georgia,serif;margin:0}
+em{font-style:italic;font-weight:500}
+.lbl{position:fixed;top:10px;right:10px;background:#000;color:#fff;font:700 12px sans-serif;padding:6px 10px;border-radius:4px;z-index:9}
+/* ===== A: Lịch biên tập ===== */
+.A .hd{padding:56px 0 28px;border-bottom:1px solid var(--line)}
+.A .hd h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:800;letter-spacing:-.02em;line-height:1}
+.A .hd p{max-width:620px;font-size:1.05rem;line-height:1.65;color:#3c4440;margin:16px 0 0}
+.A .stats{display:flex;gap:28px;margin-top:22px;flex-wrap:wrap}
+.A .stats b{font-family:Newsreader,serif;font-size:1.8rem;display:block;line-height:1}
+.A .stats span{font-size:.8rem;color:var(--mut)}
+.A .feat{display:grid;grid-template-columns:1.55fr 1fr;gap:0;margin:36px 0 12px;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.A .feat img{height:100%;min-height:320px}
+.A .feat .tx{padding:34px 32px;display:flex;flex-direction:column;gap:14px}
+.A .date{display:flex;align-items:baseline;gap:10px;color:var(--r)}
+.A .date b{font-family:Newsreader,serif;font-size:4rem;line-height:.9}
+.A .date span{font-weight:800;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}
+.A .feat h2{font-size:2rem;line-height:1.15}
+.A .feat p{margin:0;line-height:1.65;color:#3c4440}
+.A .btn{margin-top:auto;align-self:flex-start;background:var(--g);color:#fff;padding:11px 18px;border-radius:999px;font-weight:700;font-size:.9rem}
+.A .sec{margin:52px 0 0}
+.A .sec-h{display:flex;align-items:baseline;justify-content:space-between;border-top:2px solid var(--ink);padding-top:12px;margin-bottom:22px}
+.A .sec-h h3{font-size:1.5rem}
+.A .sec-h span{font-size:.85rem;color:var(--mut)}
+.A .up{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.A .up a{display:grid;grid-template-columns:72px 1fr;gap:16px;align-items:start;padding:16px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.A .up .d{background:var(--g2);border-radius:8px;text-align:center;padding:10px 0;color:var(--g)}
+.A .up .d b{font-family:Newsreader,serif;font-size:1.9rem;display:block;line-height:1}
+.A .up .d span{font-size:.65rem;font-weight:800;letter-spacing:.08em}
+.A .up h4{font-family:Newsreader,serif;font-size:1.2rem;margin:4px 0 6px;line-height:1.25}
+.A .up p{margin:0;font-size:.85rem;color:var(--mut);line-height:1.5}
+.A .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.A .card img{aspect-ratio:16/9;border-radius:10px}
+.A .card h4{font-family:Newsreader,serif;font-size:1.3rem;line-height:1.25;margin:12px 0 6px}
+.A .card p{margin:0;font-size:.9rem;line-height:1.6;color:#3c4440}
+.A .card:hover h4{text-decoration:underline}
+.A .past a{display:grid;grid-template-columns:120px 1fr auto;gap:18px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
+.A .past img{aspect-ratio:2/1;border-radius:6px;filter:grayscale(.5)}
+.A .past h4{font-family:Newsreader,serif;font-size:1.15rem;margin:0 0 3px}
+.A .past p{margin:0;font-size:.85rem;color:var(--mut)}
+.A .past i{font-style:normal;font-size:.85rem;color:var(--g);font-weight:700}
+@media(max-width:760px){.A .feat{grid-template-columns:1fr}.A .feat img{min-height:0;aspect-ratio:2/1}.A .up,.A .grid{grid-template-columns:1fr}.A .past a{grid-template-columns:90px 1fr}.A .past i{display:none}.A .date b{font-size:3rem}}
+/* ===== B: Bức tường poster ===== */
+.B{background:#14211b;color:#f3efe6;min-height:100vh}
+.B .hd{padding:56px 0 26px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:end}
+.B .hd h1{font-size:clamp(2.8rem,6vw,4.6rem);font-weight:800;line-height:.95}
+.B .hd h1 em{color:#e7b7a4}
+.B .hd p{margin:0;line-height:1.7;color:#c9cfc8}
+.B .tabs{display:flex;gap:8px;flex-wrap:wrap;padding:6px 0 26px;border-bottom:1px solid #2c3d34}
+.B .tabs button{font:600 .85rem "Be Vietnam Pro";background:transparent;color:#c9cfc8;border:1px solid #3a4d43;border-radius:999px;padding:8px 15px;cursor:pointer}
+.B .tabs button.on{background:#f3efe6;color:#14211b;border-color:#f3efe6}
+.B .tabs button span{opacity:.6;margin-left:4px}
+.B .wall{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;padding:28px 0 64px}
+.B .p{position:relative;border-radius:14px;overflow:hidden;grid-column:span 4;aspect-ratio:4/5;background:#000}
+.B .p.w{grid-column:span 8;aspect-ratio:auto}
+.B .p img{position:absolute;inset:0;height:100%;transition:transform .5s}
+.B .p:hover img{transform:scale(1.04)}
+.B .p::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(8,14,11,.92))}
+.B .p .tx{position:absolute;left:0;right:0;bottom:0;padding:22px;z-index:2}
+.B .chip{display:inline-block;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:5px 9px;border-radius:4px;background:#e7b7a4;color:#2a120d;margin-bottom:10px}
+.B .chip.perm{background:#cfe3d6;color:#14211b}.B .chip.past{background:#3a4540;color:#cfd5d1}
+.B .p h2{font-size:1.6rem;line-height:1.12;color:#fff}
+.B .p.w h2{font-size:2.3rem}
+.B .p p{margin:8px 0 0;font-size:.88rem;line-height:1.55;color:#d9ddd7;max-width:560px}
+.B .p.past img{filter:grayscale(.7) brightness(.8)}
+@media(max-width:760px){.B .hd{grid-template-columns:1fr}.B .p,.B .p.w{grid-column:span 12;aspect-ratio:4/3}.B .tabs{overflow-x:auto;flex-wrap:nowrap}}
+/* ===== C: Dòng thời gian ===== */
+.C .hd{padding:56px 0 34px;text-align:center}
+.C .hd h1{font-size:clamp(2.6rem,6vw,4.2rem);font-weight:800}
+.C .hd p{max-width:600px;margin:14px auto 0;line-height:1.65;color:#3c4440}
+.C .pin{background:var(--g);color:#fff;border-radius:18px;padding:28px;margin-bottom:56px}
+.C .pin-h{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:18px}
+.C .pin-h h3{font-size:1.4rem}.C .pin-h span{font-size:.85rem;opacity:.7}
+.C .pins{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.C .pins a{background:#fff;color:var(--ink);border-radius:12px;overflow:hidden}
+.C .pins img{aspect-ratio:2/1}
+.C .pins div{padding:14px 16px 18px}
+.C .pins h4{font-family:Newsreader,serif;font-size:1.2rem;line-height:1.25;margin:0 0 6px}
+.C .pins p{margin:0;font-size:.85rem;line-height:1.55;color:#3c4440}
+.C .tl{position:relative;max-width:900px;margin:0 auto 70px;padding-left:150px}
+.C .tl::before{content:"";position:absolute;left:118px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.C .row{position:relative;margin-bottom:30px}
+.C .row .when{position:absolute;left:-150px;width:100px;text-align:right;top:4px}
+.C .row .when b{font-family:Newsreader,serif;font-size:2rem;display:block;line-height:1}
+.C .row .when span{font-size:.72rem;font-weight:800;letter-spacing:.1em;color:var(--mut)}
+.C .row::before{content:"";position:absolute;left:-39px;top:12px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--r)}
+.C .row.past::before{border-color:#b9bfba}
+.C .row a{display:grid;grid-template-columns:240px 1fr;gap:20px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.C .row img{height:100%;min-height:140px}
+.C .row .tx{padding:16px 18px 16px 0}
+.C .row h4{font-family:Newsreader,serif;font-size:1.35rem;margin:6px 0;line-height:1.2}
+.C .row p{margin:0;font-size:.88rem;line-height:1.55;color:#3c4440}
+.C .row.past a{opacity:.75}.C .row.past img{filter:grayscale(.6)}
+.C .now{position:relative;margin:0 0 30px;font-size:.75rem;font-weight:800;letter-spacing:.12em;color:var(--r)}
+.C .now::before{content:"";position:absolute;left:-44px;top:50%;width:24px;height:2px;background:var(--r)}
+@media(max-width:760px){.C .pins{grid-template-columns:1fr}.C .tl{padding-left:28px}.C .tl::before{left:6px}.C .row::before{left:-28px}.C .row .when{position:static;text-align:left;margin-bottom:6px;width:auto}.C .row .when b{display:inline;font-size:1.3rem;margin-right:6px}.C .row a{grid-template-columns:1fr}.C .row img{aspect-ratio:2/1;min-height:0}.C .row .tx{padding:4px 16px 16px}.C .now::before{display:none}}
+</style></head><body><div id="app"></div>
+<script>
+const U='https://dykhoa.com/blog/wp-content/uploads/2026/10/';
+const T=[
+{s:'ngay-dot-quy-the-gioi',end:'2026-10-29',img:'ngay-dot-quy-the-gioi-banner.webp',pos:'100% 30%',ey:'Ngày Đột quỵ Thế giới',t:'Nhận ra sớm, <em>gọi 115 ngay</em>',l:'Bài viết và công cụ tương tác giúp bạn nhận biết dấu hiệu đột quỵ, hành động đúng trong những phút đầu và kiểm soát huyết áp mỗi ngày.',r:0},
+{s:'vung-vang-tu-ben-trong',end:'2026-11-19',img:'vung-vang-tu-ben-trong-banner-v3.webp',pos:'70% 40%',ey:'Ngày Quốc tế Nam giới',t:'Vững vàng <em>từ bên trong</em>',l:'Bài viết dựa trên bằng chứng và công cụ tương tác về sức khỏe thể chất, sức khỏe tinh thần và những vai trò đang thay đổi của nam giới.',r:0},
+{s:'boc-mac-y-khoa-trong-quang-cao',end:'',img:'boc-mac-y-khoa-banner.webp',pos:'70% 22%',t:'Bóc mác y khoa <em>trong quảng cáo</em>',l:'"10.000 bước", "9/10 nha sĩ khuyên dùng", "đạt chuẩn FDA": những câu quảng cáo nghe như khoa học đến từ đâu, và bằng chứng thật sự nói gì?',r:1,nw:1},
+{s:'kiem-chung-thong-tin-khoa-hoc',end:'',img:'kiem-chung-thong-tin-khoa-hoc-banner-v3.webp',pos:'80% 40%',t:'Kiểm chứng <em>thông tin khoa học</em>',l:'Cách đọc, kiểm chứng và chia sẻ thông tin khoa học, sức khỏe trên mạng: dừng lại, tra nguồn, rồi mới chia sẻ.',r:1},
+{s:'chuyen-de-truyen-thong-khoa-hoc',end:'',img:'chuyen-de-truyen-thong-khoa-hoc-banner.webp',pos:'75% 50%',t:'Truyền thông khoa học: <em>bắt đầu từ đâu?</em>',l:'Lộ trình 4 chặng về nền tảng, kỹ năng, học và làm nghề, và bối cảnh Việt Nam, kèm khóa học liên quan.',r:1},
+{s:'ban-linh-diu-dang',end:'2026-10-20',img:'ban-linh-diu-dang-banner.webp',pos:'72% 30%',ey:'Ngày Phụ nữ Việt Nam',t:'Bản lĩnh <em>dịu dàng</em>',l:'Bài viết dựa trên bằng chứng và công cụ tương tác về sức khỏe, tâm trí, khoa học, truyền thông, nghề nghiệp và góc nhìn của phụ nữ.',r:2}];
+const im=x=>`<img src="${U+x.img}" style="object-position:${x.pos}" alt="">`;
+const dd=e=>e.slice(8,10),mm=e=>'THG '+(+e.slice(5,7)),dmy=e=>e.slice(8,10)+'/'+e.slice(5,7)+'/'+e.slice(0,4);
+const up=T.filter(x=>x.r==0),pe=T.filter(x=>x.r==1),pa=T.filter(x=>x.r==2);
+const lede='Mỗi chuyên đề tập hợp các bài viết dựa trên bằng chứng và công cụ tương tác quanh một chủ đề hoặc một ngày kỷ niệm.';
+function A(){const f=up[0];return `<div class="A wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p><div class="stats"><div><b>${T.length}</b><span>chuyên đề</span></div><div><b>${up.length}</b><span>sắp diễn ra</span></div><div><b>${pe.length}</b><span>thường trực</span></div></div></div>
+<a class="feat" href="#">${im(f)}<div class="tx"><div class="tag">Sắp diễn ra · ${f.ey}</div><div class="date"><b>${dd(f.end)}</b><span>${mm(f.end)}<br>2026</span></div><h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
+${up.length>1?`<div class="sec"><div class="sec-h"><h3>Tiếp theo trong lịch</h3><span>Xếp theo ngày</span></div><div class="up">${up.slice(1).map(x=>`<a href="#"><div class="d"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><div><div class="tag">${x.ey}</div><h4>${x.t}</h4><p>${x.l.slice(0,95)}…</p></div></a>`).join('')}</div></div>`:''}
+<div class="sec"><div class="sec-h"><h3>Thường trực</h3><span>Đọc bất cứ lúc nào</span></div><div class="grid">${pe.map(x=>`<a class="card" href="#">${im(x)}<div class="tag" style="margin-top:14px">${x.nw?'Mới':'Thường trực'}</div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div>
+<div class="sec" style="margin-bottom:70px"><div class="sec-h"><h3>Đã diễn ra</h3><span>Vẫn đọc được đầy đủ</span></div><div class="past">${pa.map(x=>`<a href="#">${im(x)}<div><div class="tag m">${dmy(x.end)} · ${x.ey}</div><h4>${x.t}</h4><p>${x.l.slice(0,110)}…</p></div><i>Xem lại →</i></a>`).join('')}</div></div></div>`}
+function B(){const ord=[...up,...pe,...pa];const cnt=k=>T.filter(x=>x.r==k).length;
+return `<div class="B"><div class="wrap"><div class="hd"><div><div class="tag" style="color:#e7b7a4">Dy Khoa Blog</div><h1>Chuyên đề</h1></div><p>${lede} Chuyên đề sắp diễn ra được xếp lên trước.</p></div>
+<div class="tabs"><button class="on" data-f="a">Tất cả<span>${T.length}</span></button><button data-f="0">Sắp diễn ra<span>${cnt(0)}</span></button><button data-f="1">Thường trực<span>${cnt(1)}</span></button><button data-f="2">Đã diễn ra<span>${cnt(2)}</span></button></div>
+<div class="wall">${ord.map((x,i)=>`<a href="#" data-r="${x.r}" class="p ${i==0?'w':''} ${x.r==2?'past':''}">${im(x)}<div class="tx"><span class="chip ${x.r==1?'perm':x.r==2?'past':''}">${x.r==0?'Sắp diễn ra · '+x.end.slice(8,10)+'/'+x.end.slice(5,7):x.r==1?(x.nw?'Mới · Thường trực':'Thường trực'):'Đã diễn ra · '+dmy(x.end)}</span><h2>${x.t}</h2>${i==0?`<p>${x.l}</p>`:''}</div></a>`).join('')}</div></div></div>`}
+function C(){const dated=[...up,...pa].sort((a,b)=>a.end<b.end?-1:1);
+let rows='',nowDone=false;dated.forEach(x=>{if(!nowDone&&x.r==0){rows+=`<div class="now">HÔM NAY · 21/10/2026</div>`;nowDone=true}rows+=`<div class="row ${x.r==2?'past':''}"><div class="when"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><a href="#">${im(x)}<div class="tx"><div class="tag ${x.r==2?'m':''}">${x.r==2?'Đã diễn ra':'Sắp diễn ra'} · ${x.ey}</div><h4>${x.t}</h4><p>${x.l}</p></div></a></div>`});
+return `<div class="C wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p></div>
+<div class="pin"><div class="pin-h"><h3>Luôn mở</h3><span>${pe.length} chuyên đề thường trực</span></div><div class="pins">${pe.map(x=>`<a href="#">${im(x)}<div><div class="tag">${x.nw?'Mới':'Thường trực'}</div><h4>${x.t}</h4><p>${x.l}</p></div></a>`).join('')}</div></div>
+<h3 style="text-align:center;font-size:1.6rem;margin-bottom:28px">Lịch chuyên đề theo ngày kỷ niệm</h3><div class="tl">${rows}</div></div>`}
+const v=(location.hash||'#A').slice(1);document.getElementById('app').innerHTML=({A,B,C})[v]()+`<div class="lbl">Phương án ${v}</div>`;
+document.querySelectorAll('.B .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.B .tabs button').forEach(z=>z.classList.toggle('on',z==b));document.querySelectorAll('.B .p').forEach(p=>p.style.display=(b.dataset.f=='a'||p.dataset.r==b.dataset.f)?'':'none')});
+</script></body></html>
