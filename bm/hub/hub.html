@@ -6,11 +6,11 @@ article:has(.bmy) .entry-header,article:has(.bmy) .post-thumbnail,article:has(.b
 .bmy p{margin:0}
 .bmy .an{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:1.12;letter-spacing:.01em}
 .bmy .hd{font-family:"Patrick Hand",cursive;color:var(--red);line-height:1.05}
-.bmy-hero{position:relative;border-radius:14px;overflow:hidden;background:#f3eee2;aspect-ratio:2.35/1;min-height:360px}
-.bmy-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:75% 30%;margin:0!important;display:block}
-.bmy-hero__t{position:relative;z-index:1;max-width:38%;height:100%;display:flex;flex-direction:column;justify-content:center;padding:28px 0 28px 40px}
+.bmy-hero{position:relative;border-radius:14px;overflow:hidden;background:#f3eee2;aspect-ratio:2.15/1;min-height:400px}
+.bmy-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:100% 30%;margin:0!important;display:block}
+.bmy-hero__t{position:relative;z-index:1;max-width:36%;height:100%;display:flex;flex-direction:column;justify-content:center;padding:24px 0 24px 36px}
 .bmy-hero__eb{font-size:12px!important;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--red)!important;margin:0 0 10px!important}
-.bmy-hero h1{font-family:Anton,Impact,sans-serif!important;font-weight:400!important;text-transform:uppercase;font-size:clamp(44px,5.4vw,70px)!important;line-height:1.06!important;margin:0!important;color:var(--ink)!important;letter-spacing:.01em}
+.bmy-hero h1{font-family:Anton,Impact,sans-serif!important;font-weight:400!important;text-transform:uppercase;font-size:clamp(40px,5vw,66px)!important;line-height:1.06!important;margin:0!important;color:var(--ink)!important;letter-spacing:.01em}
 .bmy-hero .hd{font-size:clamp(30px,3.4vw,42px);transform:rotate(-3deg);display:inline-block;margin:2px 0 12px}
 .bmy-hero__lede{font-size:15.5px!important;line-height:1.6!important;color:#33413a!important;margin:0 0 18px!important;max-width:30em}
 .bmy-btns{display:flex;flex-wrap:wrap;gap:10px}
@@ -71,7 +71,8 @@ html.dk-dark .bmy .c-dark,html.hm-dark .bmy .c-dark{background:#1d1d1d;border:1p
 html.dk-dark .bmy-cut a,html.hm-dark .bmy-cut a{color:#121212}
 html.dk-dark .bmy-pad,html.hm-dark .bmy-pad,html.dk-dark .bmy-pad label,html.hm-dark .bmy-pad label,html.dk-dark .bmy-pad h2,html.hm-dark .bmy-pad h2{color:#121212!important}
 html.dk-dark .bmy-pad input,html.hm-dark .bmy-pad input{border-color:#121212}
-@media (max-width:900px){.bmy-board,.bmy-cut{grid-template-columns:repeat(2,minmax(0,1fr))}.bmy-hero__t{max-width:46%}}
+@media (max-width:1100px){.bmy-hero__lede{font-size:14px!important;margin-bottom:14px!important}.bmy-btn{padding:8px 14px;font-size:13px}}
+@media (max-width:900px){.bmy-board,.bmy-cut{grid-template-columns:repeat(2,minmax(0,1fr))}.bmy-hero__t{max-width:42%}}
 @media (max-width:720px){
 .bmy-hero{aspect-ratio:auto;min-height:0}
 .bmy-hero img{position:relative;height:auto;aspect-ratio:4/3;object-position:92% 30%}
