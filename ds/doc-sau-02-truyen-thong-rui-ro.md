@@ -5,7 +5,7 @@
 - SEO title: Truyền thông rủi ro khi có dịch: WHO khuyến cáo gì?
 - Slug: truyen-thong-rui-ro-khi-co-dich
 - Focus keyword: truyền thông rủi ro
-- Meta description: WHO có hướng dẫn rõ về truyền thông rủi ro trong dịch bệnh, nhưng Covid-19 và mpox cho thấy nhiều nơi vẫn làm sai. Bài phân tích 5 nguyên tắc cốt lõi và bằng chứng từ các tình huống gần đây.
+- Meta description: WHO có hướng dẫn rõ về truyền thông rủi ro trong dịch bệnh, nhưng Covid-19 và mpox cho thấy ngay cả Anh vẫn làm sai. Bài phân tích 5 nguyên tắc cốt lõi và bằng chứng từ các tình huống gần đây.
 - Nhãn: Đọc Sâu · Chuyên mục: Truyền thông khoa học
 - Thẻ: truyền thông rủi ro, truyền thông sức khỏe, Covid-19, mpox, WHO, niềm tin
 - Độ dài: khoảng 4.300 chữ (âm tiết)
@@ -14,35 +14,35 @@
 
 # Truyền thông rủi ro khi có dịch: WHO khuyến cáo gì, và vì sao vẫn hay bị làm sai?
 
-**Khi dịch bệnh bùng phát, truyền thông không phải phần phụ của công tác phòng chống dịch, mà là một trong những công cụ chính. Tổ chức Y tế Thế giới (WHO) đã có hướng dẫn dựa trên bằng chứng về cách làm việc này từ năm 2018: xây dựng niềm tin, nói thật cả điều chưa biết, dùng ngôn ngữ dễ hiểu, phát thông điệp sớm và nhất quán, và làm việc cùng cộng đồng. Vậy mà Covid-19 và đợt dịch mpox 2022 vẫn cho thấy nhiều nơi vấp đúng những chỗ hướng dẫn đã cảnh báo.**
+**Khi dịch bệnh bùng phát, truyền thông không phải phần phụ của công tác phòng chống dịch, mà là một trong những công cụ chính. Tổ chức Y tế Thế giới (WHO) đã có hướng dẫn dựa trên bằng chứng về cách làm việc này từ năm 2018: xây dựng niềm tin, nói thật cả điều chưa biết, dùng ngôn ngữ dễ hiểu, phát thông điệp sớm và nhất quán, và làm việc cùng cộng đồng. Vậy mà Covid-19 và đợt dịch mpox 2022 vẫn cho thấy ngay cả một nước có hệ thống y tế phát triển như Anh cũng vấp đúng những chỗ hướng dẫn đã cảnh báo.**
 
 Trong đợt phong tỏa đầu tiên của đại dịch Covid-19, chính phủ Anh dùng khẩu hiệu "Stay Home" (Ở nhà). Thông điệp ngắn, dễ nhớ, và theo đánh giá của cuộc điều tra độc lập về Covid-19 tại Anh, nó đã làm đúng việc được giao: tối đa hóa mức tuân thủ trong đợt phong tỏa đầu tiên.
 
-Nhưng cũng chính báo cáo ấy, công bố năm 2025, chỉ ra mặt trái. Vì thông điệp quá đơn giản, những chi tiết cần thiết của quy định bị hiểu sai. Việc nhấn mạnh "bảo vệ hệ thống y tế (NHS)" có thể đã khiến một số người không đi chữa những bệnh không phải Covid-19, hoặc không tìm kiếm sự giúp đỡ khi cần (UK Covid-19 Inquiry, 2025).
+Nhưng cũng chính báo cáo ấy, công bố năm 2025, chỉ ra mặt trái. Vì thông điệp quá đơn giản, những chi tiết cần thiết của quy định không được hiểu rõ. Việc nhấn mạnh "bảo vệ hệ thống y tế (NHS)" có thể đã khiến một số người không đi chữa những bệnh không phải Covid-19, hoặc không tìm kiếm sự giúp đỡ khi cần (UK Covid-19 Inquiry, 2025).
 
 Một khẩu hiệu vừa thành công vừa gây hại. Đó là bản chất khó của truyền thông rủi ro: không có thông điệp hoàn hảo, chỉ có những lựa chọn với cái giá khác nhau. Bài viết này đi qua những gì WHO khuyến cáo, và đối chiếu với các tình huống trong 5 năm gần đây để thấy vì sao làm đúng lại khó đến vậy.
 
 ## Truyền thông rủi ro là gì?
 
-**Truyền thông rủi ro là việc trao đổi thông tin, lời khuyên và ý kiến theo thời gian thực giữa chuyên gia, cơ quan chức năng và những người đang đứng trước nguy cơ.** WHO xem đây là phần không thể tách rời của mọi hoạt động ứng phó khẩn cấp (World Health Organization [WHO], 2018).
+**Truyền thông rủi ro là việc trao đổi thông tin, lời khuyên và ý kiến theo thời gian thực giữa chuyên gia, lãnh đạo cộng đồng, cơ quan chức năng và những người đang đứng trước nguy cơ.** WHO xem đây là phần không thể tách rời của mọi hoạt động ứng phó khẩn cấp (World Health Organization [WHO], 2018).
 
 Chữ quan trọng ở đây là "trao đổi". Truyền thông rủi ro không phải phát loa một chiều. Nó bao gồm cả việc lắng nghe xem người dân đang lo gì, hiểu sai ở đâu, và cần gì để có thể hành động.
 
 Hướng dẫn của WHO mang tên *Communicating risk in public health emergencies* (Truyền thông rủi ro trong các tình huống khẩn cấp về sức khỏe cộng đồng) được công bố năm 2018. Nó ra đời sau ba đợt dịch đã phơi bày nhiều lỗ hổng: Ebola ở Tây Phi giai đoạn 2014-2015, Zika giai đoạn 2015-2016 và sốt vàng da ở châu Phi năm 2016 (WHO, 2018).
 
-Điểm làm hướng dẫn này đáng tin là cách nó được xây dựng. Các khuyến nghị dựa trên những tổng quan hệ thống, và chất lượng bằng chứng được chấm theo hệ thống GRADE, cách chấm điểm bằng chứng được dùng rộng rãi trong các hướng dẫn y khoa. Đối tượng của hướng dẫn là người hoạch định chính sách và người trực tiếp làm truyền thông rủi ro, trước, trong và sau tình huống khẩn cấp (WHO, 2018).
+Điểm làm hướng dẫn này đáng tin là cách nó được xây dựng. Các khuyến nghị dựa trên những tổng quan hệ thống, và chất lượng bằng chứng được chấm theo hệ thống GRADE, một phương pháp giúp xây dựng khuyến nghị dựa trên bằng chứng một cách minh bạch. Đối tượng của hướng dẫn là người hoạch định chính sách và người trực tiếp làm truyền thông rủi ro, trước, trong và sau tình huống khẩn cấp (WHO, 2018).
 
-Hướng dẫn có các nhóm khuyến nghị về xây dựng niềm tin, gắn kết cộng đồng, tổ chức hệ thống và thực hành truyền thông. Phần lớn được xếp loại "mạnh", với mức chắc chắn của bằng chứng ở mức "trung bình" (WHO, 2018). Bài viết này tập trung vào năm nguyên tắc liên quan trực tiếp nhất tới người làm truyền thông.
+Hướng dẫn có các nhóm khuyến nghị về xây dựng niềm tin, gắn kết cộng đồng, tổ chức hệ thống và thực hành truyền thông. Phần lớn được xếp loại "mạnh", với chất lượng bằng chứng ở mức "trung bình" (WHO, 2018). Bài viết này tập trung vào năm nguyên tắc liên quan trực tiếp nhất tới người làm truyền thông.
 
 ## Niềm tin đến trước thông điệp
 
-**Khuyến nghị đầu tiên của WHO không nói về câu chữ, mà về niềm tin: để xây dựng niềm tin, truyền thông rủi ro phải gắn với những dịch vụ đang thực sự hoạt động và người dân tiếp cận được.** Đây là khuyến nghị mạnh, dựa trên bằng chứng ở mức trung bình (WHO, 2018).
+**Khuyến nghị đầu tiên của WHO không chỉ nói về câu chữ, mà về niềm tin: để xây dựng niềm tin, truyền thông rủi ro phải gắn với những dịch vụ đang thực sự hoạt động và người dân tiếp cận được, đồng thời minh bạch, kịp thời và dễ hiểu.** Đây là khuyến nghị mạnh, với chất lượng bằng chứng ở mức trung bình (WHO, 2018).
 
 Logic khá đơn giản. Nếu thông điệp bảo người dân đi xét nghiệm, nhưng điểm xét nghiệm không có, quá xa hoặc không ai trả lời điện thoại, thông điệp ấy không chỉ vô ích mà còn làm mất niềm tin. WHO ghi nhận đúng điều này: tác hại xuất hiện khi hành động được khuyến cáo không thể thực hiện vì dịch vụ không có sẵn, không đáp ứng hoặc khó tiếp cận (WHO, 2018).
 
 Theo phần tổng hợp bằng chứng của hướng dẫn, niềm tin cao hơn khi cơ quan chức năng thừa nhận những điều chưa chắc chắn, minh bạch cả thông tin xấu như số ca tử vong, hành động nhanh, giải thích khoa học một cách đơn giản, và giữ thông điệp thống nhất giữa các cơ quan với báo chí. Ngược lại, thay đổi thông điệp quá nhanh và mâu thuẫn giữa các cơ quan làm niềm tin suy giảm (WHO, 2018).
 
-Hướng dẫn cũng nhắc một điều người làm truyền thông dễ quên: niềm tin không chỉ đến từ thông điệp. Nó phụ thuộc vào lịch sử quan hệ giữa người dân với chính quyền, vào hoàn cảnh sống của họ, và cả vào trải nghiệm thực tế. Thái độ thiếu tôn trọng của nhân viên y tế được ghi nhận là một nguyên nhân làm mất niềm tin vào hệ thống y tế (WHO, 2018).
+Hướng dẫn cũng nhắc một điều người làm truyền thông dễ quên: niềm tin không chỉ đến từ thông điệp. Nó phụ thuộc vào lịch sử quan hệ giữa người dân với chính quyền, vào hoàn cảnh sống của họ, và vào cảm nhận của họ về hệ thống y tế. Thái độ thiếu tôn trọng của nhân viên y tế được ghi nhận là một nguyên nhân làm mất niềm tin vào hệ thống y tế (WHO, 2018).
 
 ### Khi người đặt ra quy định không tuân thủ
 
@@ -54,7 +54,7 @@ Với người làm truyền thông, bài học ở đây không dễ chịu: c�
 
 ## Nói thật cả điều chưa biết
 
-**WHO khuyến cáo rằng truyền thông của cơ quan chức năng phải nói rõ những điều còn chưa chắc chắn: điều gì đã biết, điều gì chưa biết tại thời điểm đó.** Đây cũng là khuyến nghị mạnh, bằng chứng ở mức trung bình (WHO, 2018).
+**WHO khuyến cáo rằng truyền thông của cơ quan chức năng phải nói rõ những điều còn chưa chắc chắn: điều gì đã biết, điều gì chưa biết tại thời điểm đó.** Đây cũng là khuyến nghị mạnh, chất lượng bằng chứng ở mức trung bình (WHO, 2018).
 
 Trong khủng hoảng, phản xạ tự nhiên của nhiều cơ quan là trấn an: nói ít về rủi ro, nói nhiều về sự an toàn. Lo ngại phía sau là có thật. Nếu nói thật về mặt trái, người dân có thể sợ hãi hoặc từ chối hành động được khuyến cáo.
 
@@ -85,7 +85,7 @@ Nói cách khác, "nói thật điều chưa biết" không có nghĩa là đưa
 
 ## Đơn giản, nhưng đừng sai lệch
 
-**WHO khuyến cáo không giải thích rủi ro bằng thuật ngữ kỹ thuật, vì cách đó không giúp người dân hành động để giảm rủi ro. Thông điệp nên chỉ ra những hành động cụ thể mà người dân thực sự làm được để bảo vệ sức khỏe của mình.** Cả hai đều là khuyến nghị mạnh, bằng chứng ở mức trung bình (WHO, 2018).
+**WHO khuyến cáo không giải thích rủi ro bằng thuật ngữ kỹ thuật, vì cách đó không giúp người dân hành động để giảm rủi ro. Thông điệp nên chỉ ra những hành động cụ thể mà người dân thực sự làm được để bảo vệ sức khỏe của mình.** Cả hai đều là khuyến nghị mạnh, chất lượng bằng chứng ở mức trung bình (WHO, 2018).
 
 Theo phần lý giải của hướng dẫn, ngôn ngữ kỹ thuật làm người dân bối rối và cản trở hành động bảo vệ. Thông điệp mơ hồ cũng gây bối rối, trong khi hành động cụ thể, phù hợp văn hóa giúp người dân làm được. WHO còn lưu ý đến tính công bằng: hành động được khuyến cáo phải khả thi với cả người khuyết tật. Hướng dẫn đề nghị thử trước thông điệp với chính nhóm đối tượng, và điều chỉnh thông điệp khi tình hình thay đổi (WHO, 2018).
 
@@ -101,7 +101,7 @@ Bài học ở đây là: đơn giản hóa thông điệp là cần thiết, nh
 
 ## Nhất quán và đến sớm
 
-**WHO khuyến cáo rằng thông điệp nhất quán nên đến từ nhiều nguồn thông tin khác nhau, và nên xuất hiện sớm ngay từ đầu tình huống khẩn cấp.** Đây là khuyến nghị mạnh, bằng chứng ở mức trung bình (WHO, 2018).
+**WHO khuyến cáo rằng thông điệp nhất quán nên đến từ nhiều nguồn thông tin khác nhau, và nên xuất hiện sớm ngay từ đầu tình huống khẩn cấp.** Đây là khuyến nghị mạnh, với chất lượng bằng chứng ở mức trung bình (WHO, 2018).
 
 Lý do được nêu khá rõ: khi nhiều nguồn cùng nói một điều, người dân dễ tin và dễ làm theo hơn. Khi thông điệp đến muộn, tin đồn có thời gian bám rễ và trở thành niềm tin (WHO, 2018). Bài [Tin giả khoa học lan truyền thế nào, và vì sao gỡ bỏ thôi là chưa đủ?](https://dykhoa.com/blog/tin-gia-khoa-hoc-lan-truyen-the-nao/) phân tích kỹ hơn vì sao thông tin sai, một khi đã bám vào trí nhớ, rất khó gỡ ra.
 
@@ -117,7 +117,7 @@ Tổng quan này có hạn chế cần biết: các nghiên cứu chủ yếu d�
 
 ## Cộng đồng là người cùng làm, không chỉ là người nhận tin
 
-**WHO khuyến cáo xác định những người mà cộng đồng tin tưởng, xây dựng quan hệ với họ, và đưa họ vào quá trình ra quyết định, để các can thiệp mang tính hợp tác, phù hợp bối cảnh và để cộng đồng làm chủ quá trình truyền thông.** Đây là khuyến nghị mạnh, bằng chứng ở mức trung bình (WHO, 2018).
+**WHO khuyến cáo xác định những người mà cộng đồng tin tưởng, xây dựng quan hệ với họ, và đưa họ vào quá trình ra quyết định, để các can thiệp mang tính hợp tác, phù hợp bối cảnh và để cộng đồng làm chủ quá trình truyền thông.** Đây là khuyến nghị mạnh, với chất lượng bằng chứng ở mức trung bình (WHO, 2018).
 
 Theo phần tổng hợp bằng chứng, việc đưa thành viên cộng đồng vào khâu lập kế hoạch giúp cải thiện cả chuẩn bị lẫn ứng phó. Gắn kết cộng đồng từ trước khi có sự cố hiệu quả hơn so với khi sự cố đã xảy ra. Phản hồi lại cho cộng đồng là phần thiết yếu của một quá trình gắn kết tốt (WHO, 2018).
 
@@ -125,30 +125,31 @@ Hướng dẫn cũng cảnh báo rằng không phải người địa phương n
 
 ### Mpox: khi kỳ thị chặn đường đi khám
 
-Đợt dịch mpox bắt đầu năm 2022 là một ví dụ gần đây về cái giá của việc truyền thông thiếu sự tham gia của cộng đồng. Bệnh ảnh hưởng nhiều tới nhóm nam giới đồng tính, song tính và nam giới có quan hệ tình dục với nam giới, và kỳ thị nhanh chóng trở thành một rào cản trong kiểm soát dịch.
+Đợt dịch mpox bắt đầu năm 2022 là một ví dụ gần đây cho thấy kỳ thị có thể cản trở kiểm soát dịch. Ở các nước mới ghi nhận bệnh, virus lây chủ yếu, nhưng không chỉ, trong mạng lưới nam giới đồng tính, song tính và nam giới có quan hệ tình dục với nam giới (Paterson và cộng sự, 2025).
 
 Một nghiên cứu công bố trên tạp chí *BMC Medicine* năm 2025 khảo sát 437 người ở Anh trong giai đoạn tháng 3 đến tháng 7/2024, chủ yếu thuộc các nhóm bị ảnh hưởng và nhân viên y tế. Kết quả cho thấy:
 
 - Định kiến có sẵn với những nhóm bị gắn với bệnh, như người đồng tính và người di cư, cùng với nỗi sợ và thông tin sai, được xem là những động lực chính của kỳ thị.
 - Trong 13 người từng mắc mpox, 11 người (85%) cho biết đã bị kỳ thị.
 - Gần một phần tư số người trả lời (24%) cho biết sẽ không, hoặc khó có khả năng, báo cho bạn tình gần đây nếu mình được chẩn đoán mắc mpox.
-- Cảm giác xấu hổ là rào cản phổ biến nhất khiến người ta không đi khám, được 68% người trả lời nêu ra (Paterson và cộng sự, 2025).
+- Cảm giác xấu hổ là lý do phổ biến nhất mà người trả lời cho rằng có thể khiến ai đó ngại đi xét nghiệm, được 68% người trả lời nêu ra.
+- Người trả lời cũng cho rằng chính một số yếu tố của công tác ứng phó, như thông điệp y tế công cộng, tiêu chí xét nghiệm và tên gọi cũ của bệnh, đã góp phần tạo ra kỳ thị (Paterson và cộng sự, 2025).
 
-Với người làm truyền thông, con số 68% này đáng suy nghĩ. Một thông điệp có thể đúng về y khoa, rõ ràng về hành động, nhưng nếu nó làm người bệnh thấy xấu hổ, họ sẽ không đi khám, và thông điệp đã thất bại.
+Với người làm truyền thông, con số 68% này đáng suy nghĩ. Một thông điệp có thể đúng về y khoa, rõ ràng về hành động, nhưng nếu nó làm người bệnh thấy xấu hổ, họ có thể ngại đi khám, và thông điệp đã không đạt mục tiêu.
 
 Nhóm tác giả đề xuất ba hướng: xây dựng mạng lưới hỗ trợ đồng đẳng; cung cấp thông tin dễ tiếp cận về thời điểm an toàn để quay lại sinh hoạt, đi làm hay đi học; và cùng cộng đồng bị ảnh hưởng thiết kế các thông điệp truyền thông cũng như chương trình truy vết tiếp xúc (Paterson và cộng sự, 2025). Đề xuất cuối cùng gần như trùng khớp với khuyến nghị về gắn kết cộng đồng của WHO từ bảy năm trước.
 
 ### Đừng để ai bị bỏ lại
 
-Báo cáo điều tra Covid-19 của Anh chỉ ra một khía cạnh khác của chuyện "cộng đồng": khi tập trung truyền thông cho toàn dân, nhu cầu của các nhóm dễ bị tổn thương đôi khi bị bỏ quên. Chính phủ Anh và chính quyền Bắc Ireland ban đầu không bố trí phiên dịch ngôn ngữ ký hiệu cho các cuộc họp báo, và không cung cấp các hướng dẫn quan trọng dưới những định dạng khác phù hợp với người khuyết tật. Báo cáo nhấn mạnh đây không phải những cân nhắc thứ yếu: mọi người đều phải hiểu được điều chính phủ đang yêu cầu họ làm (UK Covid-19 Inquiry, 2025).
+Báo cáo điều tra Covid-19 của Anh chỉ ra một khía cạnh khác của chuyện "cộng đồng": khi tập trung truyền thông cho toàn dân, nhu cầu của các nhóm dễ bị tổn thương đôi khi bị bỏ quên. Chính phủ Anh và chính quyền Bắc Ireland ban đầu không bố trí phiên dịch ngôn ngữ ký hiệu cho các cuộc họp báo, và không cung cấp các hướng dẫn quan trọng dưới các định dạng thay thế dễ tiếp cận. Báo cáo nhấn mạnh đây không phải những cân nhắc thứ yếu: mọi người đều phải hiểu được điều chính phủ đang yêu cầu họ làm (UK Covid-19 Inquiry, 2025).
 
 ## Mạng xã hội: lắng nghe trước khi lên tiếng
 
-**WHO khuyến cáo có thể dùng mạng xã hội để tương tác với công chúng, hỗ trợ trao đổi giữa người dân với nhau, nắm bắt tình hình, theo dõi và phản hồi tin đồn cũng như mối lo của công chúng.** Đây là khuyến nghị có điều kiện, vì hiệu quả của mạng xã hội phụ thuộc nhiều vào bối cảnh và luôn có nguy cơ bị lạm dụng (WHO, 2018).
+**WHO khuyến cáo có thể dùng mạng xã hội để tương tác với công chúng, hỗ trợ trao đổi giữa người dân với nhau, nắm bắt tình hình, theo dõi và phản hồi tin đồn cũng như mối lo của công chúng.** Đây là khuyến nghị có điều kiện, vì việc sử dụng mạng xã hội phụ thuộc nhiều vào bối cảnh, và có những rủi ro như bị lạm dụng (WHO, 2018).
 
 Một khuyến nghị đi kèm được xếp loại mạnh: mạng xã hội và báo chí truyền thống nên là một phần của chiến lược tích hợp với các hình thức truyền thông khác, để thông tin chính xác, đã được kiểm chứng hội tụ về cùng một hướng (WHO, 2018).
 
-Ví dụ trong hướng dẫn cho thấy "lắng nghe" có thể làm thế nào. Trong đợt Ebola ở Tây Phi, tin nhắn SMS và WhatsApp được dùng để theo dõi tin đồn và tiếp cận người dân ở khu vực bị cách ly. Một kênh WhatsApp do BBC lập đã có khoảng 20.000 người đăng ký, phần lớn ở Tây Phi (WHO, 2018).
+Ví dụ trong hướng dẫn cho thấy "lắng nghe" có thể làm thế nào. Trong đợt Ebola ở Tây Phi, SMS và WhatsApp được dùng để theo dõi tin đồn, và SMS còn được dùng để liên lạc với người dân ở khu vực bị cách ly. Một kênh do BBC phối hợp với WhatsApp, đưa thông điệp của WHO và các cơ quan y tế, đã có khoảng 20.000 người đăng ký, phần lớn ở Tây Phi (WHO, 2018).
 
 Hướng dẫn còn có một gợi ý nhỏ mà thực tế: khi có thể, nên dùng những hashtag đã hình thành tự nhiên và đang được dùng rộng rãi, thay vì tạo hashtag mới mang thương hiệu riêng. WHO cũng khuyến cáo các cơ quan cần đào tạo, tuyển dụng và trả lương cho cán bộ phụ trách mạng xã hội, những người xây dựng quan hệ và dùng mạng xã hội một cách nhất quán trước, trong và sau tình huống khẩn cấp (WHO, 2018).
 
@@ -167,7 +168,7 @@ Thứ ba, phần lớn công việc phải làm trước khi có dịch. WHO khu
 ## Hỏi nhanh
 
 **Truyền thông rủi ro là gì?**
-Theo WHO (2018), đó là việc trao đổi thông tin, lời khuyên và ý kiến theo thời gian thực giữa chuyên gia, cơ quan chức năng và những người đang đứng trước nguy cơ. WHO xem đây là phần không thể tách rời của mọi hoạt động ứng phó khẩn cấp, và hướng dẫn của tổ chức này áp dụng cho cả giai đoạn trước, trong và sau tình huống khẩn cấp.
+Theo WHO (2018), đó là việc trao đổi thông tin, lời khuyên và ý kiến theo thời gian thực giữa chuyên gia, lãnh đạo cộng đồng, cơ quan chức năng và những người đang đứng trước nguy cơ. WHO xem đây là phần không thể tách rời của mọi hoạt động ứng phó khẩn cấp, và hướng dẫn của tổ chức này áp dụng cho cả giai đoạn trước, trong và sau tình huống khẩn cấp.
 
 **Có nên công bố điểm bất lợi của vắc-xin hay biện pháp phòng dịch không?**
 Bằng chứng từ thí nghiệm của Petersen và cộng sự (2021) cho thấy minh bạch về điểm bất lợi có thể làm giảm ý định tiêm trước mắt, nhưng giữ được niềm tin vào cơ quan y tế. Cách nói mơ hồ thì vừa làm giảm ý định tiêm, vừa làm giảm niềm tin.
@@ -176,7 +177,7 @@ Bằng chứng từ thí nghiệm của Petersen và cộng sự (2021) cho th�
 Đơn giản là cần thiết, nhưng chưa đủ. Kinh nghiệm của Anh với khẩu hiệu "Stay Home" cho thấy thông điệp đơn giản có thể làm mất những chi tiết quan trọng, và thông điệp không khớp với quy định thực tế làm suy giảm niềm tin (UK Covid-19 Inquiry, 2025).
 
 **Vì sao kỳ thị lại là vấn đề của truyền thông rủi ro?**
-Vì kỳ thị khiến người bệnh không đi khám và không báo cho người tiếp xúc. Trong một khảo sát về mpox ở Anh, cảm giác xấu hổ là rào cản đi khám phổ biến nhất, được 68% người trả lời nêu ra (Paterson và cộng sự, 2025).
+Vì kỳ thị có thể khiến người bệnh ngại đi khám và ngại báo cho người tiếp xúc. Trong một khảo sát về mpox ở Anh, cảm giác xấu hổ là lý do phổ biến nhất mà người trả lời cho rằng có thể khiến ai đó ngại đi xét nghiệm, được 68% người trả lời nêu ra (Paterson và cộng sự, 2025).
 
 ---
 
@@ -190,13 +191,13 @@ Nếu bạn thấy bài viết có sai sót hoặc muốn góp ý, vui lòng g�
 
 **Tài liệu tham khảo** (khối xổ xuống)
 
-Paterson, A., Cheyne, A., Tulunay, H., Orkin, C., Nutland, W., Dunning, J., Stolow, J., Gobat, N., Olliaro, P., Rojek, A., & Outbreak Stigma Assessment Expert Group. (2025). Mpox stigma in the UK and implications for future outbreak control: A cross-sectional mixed methods study. *BMC Medicine, 23*, Article 422. https://doi.org/10.1186/s12916-025-04243-3
+Paterson, A., Cheyne, A., Tulunay, H., Orkin, C., Nutland, W., Dunning, J., Stolow, J., Gobat, N., Olliaro, P., Rojek, A., & Outbreak Stigma Assessment Expert Group. (2025). Mpox stigma in the UK and implications for future outbreak control: A cross-sectional mixed methods study. *BMC Medicine, 23*(1), Article 422. https://doi.org/10.1186/s12916-025-04243-3
 
 Petersen, M. B., Bor, A., Jørgensen, F., & Lindholt, M. F. (2021). Transparent communication about negative features of COVID-19 vaccines decreases acceptance but increases trust. *Proceedings of the National Academy of Sciences, 118*(29), Article e2024597118. https://doi.org/10.1073/pnas.2024597118
 
 UK Covid-19 Inquiry. (2025). *Modules 2, 2A, 2B, 2C: Core decision-making and political governance. Volume I: Introduction and key events from January 2020 to May 2022* (HC 1436-I). https://covid19.public-inquiry.uk/reports/modules-2-2a-2b-2c-core-decision-making-and-political-governance-volume-i/
 
-Williams, S. N., Dienes, K., Jaheed, J., Wardman, J. K., & Petts, J. (2023). Effectiveness of communications in enhancing adherence to public health behavioural interventions: A COVID-19 evidence review. *Philosophical Transactions of the Royal Society A, 381*(2257), Article 20230129. https://doi.org/10.1098/rsta.2023.0129
+Williams, S. N., Dienes, K., Jaheed, J., Wardman, J. K., & Petts, J. (2023). Effectiveness of communications in enhancing adherence to public health behavioural interventions: A COVID-19 evidence review. *Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 381*(2257), Article 20230129. https://doi.org/10.1098/rsta.2023.0129
 
 World Health Organization. (2018). *Communicating risk in public health emergencies: A WHO guideline for emergency risk communication (ERC) policy and practice*. https://www.who.int/publications-detail/communicating-risk-in-public-health-emergencies
 
@@ -209,3 +210,4 @@ World Health Organization. (2018). *Communicating risk in public health emergenc
 3. Báo cáo Anh: trích từ Tóm tắt điều hành của Tập I (công bố 20/11/2025). Bài không nêu tên cụ thể các vụ vi phạm (báo cáo phân tích chi tiết ở Tập II), chỉ dùng nhận định chung của báo cáo.
 4. Không dùng báo cáo WHO 2023 về mpox (chỉ đọc được trang tóm tắt), thay bằng Paterson và cộng sự (2025) đã đọc toàn văn phần tóm tắt và kết quả chính.
 5. "Bảy năm trước" ở chương mpox: 2018 so với 2025.
+6. Đã qua kiểm chứng độc lập; đã sửa 13 điểm (định nghĩa WHO thêm "lãnh đạo cộng đồng"; WHO chấm "chất lượng bằng chứng" chứ không phải "mức chắc chắn"; mpox: 68% là lý do người trả lời cho là có thể khiến ngại xét nghiệm, không phải hành vi quan sát; chi tiết kênh BBC phối hợp WhatsApp; v.v.). Các số liệu Petersen và trích đoạn báo cáo Anh đã được đối chiếu trực tiếp trên toàn văn.
