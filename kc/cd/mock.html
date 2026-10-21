@@ -12,6 +12,35 @@ em{font-style:italic;font-weight:500}
 .sim{position:fixed;top:10px;left:10px;background:#a4504c;color:#fff;font:700 12px sans-serif;padding:6px 10px;border-radius:4px;z-index:9}
 .A .occ{font-family:Newsreader,serif;font-size:1.05rem;font-style:italic;color:#6b746f;margin-top:-6px}
 .lbl{position:fixed;top:10px;right:10px;background:#000;color:#fff;font:700 12px sans-serif;padding:6px 10px;border-radius:4px;z-index:9}
+/* ===== D: kết hợp ===== */
+.D .hd{padding:52px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end}
+.D .hd h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:800;letter-spacing:-.02em;line-height:1}
+.D .hd p{margin:0;font-size:1.02rem;line-height:1.65;color:#3c4440}
+.D .tabs{display:flex;gap:8px;padding:26px 0 22px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.D .tabs button{flex:none;font:600 .85rem "Be Vietnam Pro";background:#fff;color:#3c4440;border:1px solid var(--line);border-radius:999px;padding:8px 15px;cursor:pointer}
+.D .tabs button.on{background:var(--g);color:#fff;border-color:var(--g)}
+.D .tabs button span{opacity:.55;margin-left:4px}
+.D .feat{position:relative;display:block;margin:28px 0 8px;border-radius:16px;overflow:hidden;aspect-ratio:2.35/1;background:#000}
+.D .feat img{position:absolute;inset:0;height:100%;transition:transform .6s}
+.D .feat:hover img,.D .card:hover img{transform:scale(1.04)}
+.D .feat::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,18,14,.88) 0%,rgba(10,18,14,.55) 38%,rgba(10,18,14,0) 65%)}
+.D .feat .tx{position:absolute;left:0;top:0;bottom:0;width:46%;padding:40px;display:flex;flex-direction:column;justify-content:center;gap:12px;z-index:2;color:#fff}
+.D .chip{display:inline-block;align-self:flex-start;font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:5px 9px;border-radius:4px;background:#e7b7a4;color:#2a120d}
+.D .chip.perm{background:#fff;color:var(--g)}
+.D .feat .occ{font-family:Newsreader,serif;font-style:italic;color:#e9dcd0;font-size:1.05rem}
+.D .feat h2{font-size:2.5rem;line-height:1.08;color:#fff}
+.D .feat p{margin:0;line-height:1.65;color:#e4e7e3;font-size:.98rem}
+.D .btn{margin-top:6px;align-self:flex-start;background:#fff;color:var(--g);padding:11px 18px;border-radius:999px;font-weight:700;font-size:.9rem}
+.D .sec-h{display:flex;align-items:baseline;justify-content:space-between;border-top:2px solid var(--ink);padding-top:12px;margin:46px 0 22px}
+.D .sec-h h3{font-size:1.5rem}.D .sec-h span{font-size:.85rem;color:var(--mut)}
+.D .grid{display:grid;gap:26px;margin-bottom:70px}
+.D .card .ph{position:relative;border-radius:12px;overflow:hidden;aspect-ratio:16/9}
+.D .card .ph img{height:100%;transition:transform .5s}
+.D .card .ph .chip{position:absolute;left:12px;bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.D .card h4{font-family:Newsreader,serif;font-size:1.35rem;line-height:1.25;margin:14px 0 6px}
+.D .card p{margin:0;font-size:.92rem;line-height:1.6;color:#3c4440}
+.D .card:hover h4{text-decoration:underline}
+@media(max-width:760px){.D .hd{grid-template-columns:1fr;gap:12px;padding-top:32px}.D .feat{aspect-ratio:auto;min-height:460px}.D .feat::after{background:linear-gradient(180deg,rgba(10,18,14,0) 25%,rgba(10,18,14,.92) 70%)}.D .feat .tx{width:auto;top:auto;padding:24px}.D .feat h2{font-size:1.9rem}.D .grid{grid-template-columns:1fr!important}}
 /* ===== A: Lịch biên tập ===== */
 .A .hd{padding:56px 0 28px;border-bottom:1px solid var(--line)}
 .A .hd h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:800;letter-spacing:-.02em;line-height:1}
@@ -122,6 +151,12 @@ const T=ALL.filter(x=>x.pub<=TODAY).map(x=>{const fresh=(new Date(TODAY)-new Dat
 const im=x=>`<img src="${U+x.img}" style="object-position:${x.pos}" alt="">`;
 const lede='Mỗi chuyên đề tập hợp các bài viết dựa trên bằng chứng và công cụ tương tác quanh một chủ đề hoặc một ngày kỷ niệm.';
 const sim=`<div class="sim">Giả lập ngày ${dm(TODAY)}/2026</div>`;
+function D(){const f=T[0],rest=T.slice(1),cols=(rest.length%3==1||rest.length==2)?2:3;const n={f:T.filter(x=>x.fresh).length,p:T.filter(x=>!x.dated).length,d:T.filter(x=>x.dated).length};const at=x=>`data-f="${x.fresh?1:0}" data-d="${x.dated?1:0}"`;
+return `<div class="D wrap"><div class="hd"><div><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1></div><p>${lede} Chuyên đề mới ra mắt được xếp lên trước.</p></div>
+<div class="tabs"><button class="on" data-x="a">Tất cả<span>${T.length}</span></button><button data-x="f">Mới ra mắt<span>${n.f}</span></button><button data-x="p">Chủ đề thường trực<span>${n.p}</span></button><button data-x="d">Ngày kỷ niệm<span>${n.d}</span></button></div>
+<a class="feat it" href="#" ${at(f)}>${im(f)}<div class="tx"><span class="chip">${f.lab}</span>${f.ey?`<div class="occ">${f.ey}</div>`:''}<h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
+<div class="sec-h"><h3>Đọc bất cứ lúc nào</h3><span>${rest.length} chuyên đề</span></div>
+<div class="grid" style="grid-template-columns:repeat(${cols},1fr)">${rest.map(x=>`<a class="card it" href="#" ${at(x)}><div class="ph">${im(x)}<span class="chip ${x.fresh?'':'perm'}">${x.lab}</span></div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div>`}
 function A(){const f=T[0],rest=T.slice(1),cols=(rest.length%3==1||rest.length==2)?2:3;return `<div class="A wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p><div class="stats"><div><b>${T.length}</b><span>chuyên đề</span></div></div></div>
 <a class="feat" href="#">${im(f)}<div class="tx"><div class="tag">${f.lab}</div>${f.ey?`<div class="occ">${f.ey}</div>`:''}<h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
 <div class="sec" style="margin-bottom:70px"><div class="sec-h"><h3>Đọc bất cứ lúc nào</h3><span>${rest.length} chuyên đề</span></div><div class="grid" style="grid-template-columns:repeat(${cols},1fr)">${rest.map(x=>`<a class="card" href="#">${im(x)}<div class="tag" style="margin-top:14px">${x.lab}</div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div></div>`}
@@ -134,6 +169,7 @@ const rows=dated.map(x=>`<div class="row"><div class="when"><b>${x.end.slice(8,1
 return `<div class="C wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p></div>
 <div class="pin"><div class="pin-h"><h3>Luôn mở</h3><span>${pe.length} chuyên đề thường trực</span></div><div class="pins" style="grid-template-columns:repeat(${pe.length<3?pe.length:3},1fr)">${pe.map(x=>`<a href="#">${im(x)}<div><div class="tag">${x.lab}</div><h4>${x.t}</h4><p>${x.l}</p></div></a>`).join('')}</div></div>
 <h3 style="text-align:center;font-size:1.6rem;margin-bottom:6px">Lịch kỷ niệm hằng năm</h3><p style="text-align:center;color:#6b746f;margin:0 0 30px;font-size:.92rem">Bắt đầu từ ngày gần nhất sắp tới</p><div class="tl">${rows}</div></div>`}
-const v=(location.hash||'#A').slice(1);document.getElementById('app').innerHTML=({A,B,C})[v]()+`<div class="lbl">Phương án ${v}</div>`+sim;
+const v=(location.hash||'#A').slice(1);document.getElementById('app').innerHTML=({A,B,C,D})[v]()+`<div class="lbl">Phương án ${v}</div>`+sim;
 document.querySelectorAll('.B .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.B .tabs button').forEach(z=>z.classList.toggle('on',z==b));const f=b.dataset.f;document.querySelectorAll('.B .p').forEach(p=>p.style.display=(f=='a'||(f=='f'&&p.dataset.f=='1')||(f=='d'&&p.dataset.d=='1')||(f=='p'&&p.dataset.d=='0'))?'':'none')});
+document.querySelectorAll('.D .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.D .tabs button').forEach(z=>z.classList.toggle('on',z==b));const f=b.dataset.x;document.querySelectorAll('.D .it').forEach(p=>p.style.display=(f=='a'||(f=='f'&&p.dataset.f=='1')||(f=='d'&&p.dataset.d=='1')||(f=='p'&&p.dataset.d=='0'))?'':'none')});
 </script></body></html>
