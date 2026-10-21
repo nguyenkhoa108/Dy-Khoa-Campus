@@ -1,0 +1,218 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Patrick+Hand&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;0,6..72,800;1,6..72,500&family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f1e7;--ink:#1d1b18;--sub:#4a4640;--mut:#7b756b;--red:#c8312b;--line:#ddd4c3;--dark:#1d1b18}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Be Vietnam Pro",sans-serif}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.lf-bar{position:fixed;top:0;left:0;height:4px;width:0;background:var(--red);z-index:20}
+/* HERO */
+.lf-hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;overflow:hidden;background:#efe7d6}
+.lf-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 30%}
+.lf-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(246,241,231,.97) 0%,rgba(246,241,231,.9) 34%,rgba(246,241,231,0) 62%)}
+.lf-hero .in{position:relative;z-index:2;max-width:1200px;width:100%;margin:0 auto;padding:0 32px 9vh}
+.lf-kick{font-size:.72rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.lf-hero h1{font-family:Anton,sans-serif;font-weight:400;font-size:clamp(3.4rem,9vw,7.6rem);line-height:.9;margin:14px 0 0;letter-spacing:.01em;text-transform:uppercase;max-width:620px}
+.lf-hand{font-family:"Patrick Hand",cursive;color:var(--red);font-size:clamp(1.8rem,4vw,2.8rem);display:block;margin-top:6px;transform:rotate(-2deg);transform-origin:left}
+.lf-hero p{max-width:470px;font-family:Newsreader,serif;font-size:1.3rem;line-height:1.5;margin:22px 0 0;color:var(--sub)}
+.lf-meta{display:flex;gap:18px;margin-top:26px;font-size:.85rem;color:var(--mut);flex-wrap:wrap}
+.lf-meta b{color:var(--ink)}
+.lf-down{margin-top:34px;display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:.9rem}
+.lf-down span{width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center}
+/* LAYOUT */
+.lf-body{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:200px minmax(0,1fr);gap:56px}
+.lf-toc{position:sticky;top:90px;align-self:start;padding-top:84px}
+.lf-toc small{display:block;font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-bottom:14px}
+.lf-toc a{display:block;padding:9px 0 9px 14px;border-left:2px solid var(--line);font-size:.86rem;color:var(--mut);line-height:1.35}
+.lf-toc a b{display:block;font-family:Anton,sans-serif;font-weight:400;font-size:.95rem;color:inherit;letter-spacing:.04em}
+.lf-toc a.on{border-color:var(--red);color:var(--ink)}
+.lf-main{min-width:0;max-width:760px}
+.lf-intro{padding:84px 0 20px}
+.lf-intro p{font-family:Newsreader,serif;font-size:1.35rem;line-height:1.7;margin:0 0 18px}
+.lf-intro p:first-child::first-letter{font-family:Anton,sans-serif;float:left;font-size:4.6rem;line-height:.85;padding:6px 10px 0 0;color:var(--red)}
+.lf-legend{display:flex;gap:22px;flex-wrap:wrap;margin:26px 0 0;padding:16px 18px;border:2px dashed #c9bea8;font-size:.88rem;color:var(--sub)}
+.lf-legend i{font-style:normal;font-family:"Patrick Hand",cursive;font-size:1.15rem;color:var(--red);margin-right:6px}
+/* CHAPTER */
+.lf-ch{padding:90px 0 10px}
+.lf-ch-h{position:relative;margin-bottom:40px}
+.lf-ch-n{font-family:Anton,sans-serif;font-size:8rem;line-height:.8;color:transparent;-webkit-text-stroke:2px var(--red);opacity:.9}
+.lf-ch-h h2{font-family:Newsreader,serif;font-weight:800;font-size:2.6rem;line-height:1.1;margin:14px 0 8px}
+.lf-ch-h p{font-family:"Patrick Hand",cursive;font-size:1.45rem;color:var(--red);margin:0}
+.lf-st{display:grid;grid-template-columns:230px minmax(0,1fr);gap:34px;padding:38px 0;border-top:1px solid var(--line)}
+.lf-num{position:relative;align-self:start;text-align:center;padding:26px 10px}
+.lf-num svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.lf-num b{display:block;font-family:Anton,sans-serif;font-weight:400;font-size:3.1rem;line-height:1;color:var(--ink)}
+.lf-num span{display:block;font-family:"Patrick Hand",cursive;font-size:1.15rem;color:var(--red);margin-top:6px;line-height:1.15}
+.lf-st h3{font-family:Newsreader,serif;font-weight:800;font-size:1.7rem;line-height:1.2;margin:0 0 12px}
+.lf-st p{font-size:1.02rem;line-height:1.75;color:var(--sub);margin:0 0 18px}
+.lf-st p cite{font-style:normal;color:var(--mut);white-space:nowrap}
+.lf-more{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.lf-more:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+.lf-more img{width:120px;height:80px;object-fit:cover}
+.lf-more div{padding-right:14px;font-size:.9rem;line-height:1.4}
+.lf-more small{display:block;font-size:.66rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:3px}
+/* QUOTE BAND */
+.lf-band{background:var(--dark);color:#f6f1e7;padding:80px 48px;margin:80px 0 0;text-align:center;border-radius:4px}
+.lf-band q{display:block;max-width:880px;margin:0 auto;font-family:Newsreader,serif;font-style:italic;font-size:clamp(1.7rem,3.6vw,2.8rem);line-height:1.3;quotes:"“" "”"}
+.lf-band small{display:block;margin-top:22px;font-family:"Patrick Hand",cursive;font-size:1.3rem;color:#ef8a7f}
+/* TOOL */
+.lf-tool{margin:90px 0 0;background:#fff;border:2px solid var(--ink);border-radius:4px;padding:34px;box-shadow:8px 8px 0 var(--red)}
+.lf-tool h2{font-family:Anton,sans-serif;font-weight:400;font-size:2.2rem;margin:0;letter-spacing:.02em}
+.lf-tool>p{color:var(--sub);line-height:1.6;margin:8px 0 20px}
+.lf-tool label{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-top:1px dashed var(--line);cursor:pointer;line-height:1.5}
+.lf-tool input{width:20px;height:20px;accent-color:var(--red);margin-top:2px;flex:none}
+.lf-score{display:flex;align-items:baseline;gap:10px;margin-top:16px}
+.lf-score b{font-family:Anton,sans-serif;font-weight:400;font-size:2.6rem;color:var(--red)}
+.lf-tool .note{font-size:.82rem;color:var(--mut);margin:12px 0 0;line-height:1.5}
+.lf-cuts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.lf-cuts a{background:#fff;border:2px dashed #b9b2a2;padding:16px;font-family:Newsreader,serif;font-weight:700;line-height:1.3}
+.lf-cuts small{display:block;font-family:"Be Vietnam Pro";font-size:.66rem;font-weight:800;letter-spacing:.12em;color:var(--red);margin-bottom:6px}
+.lf-faq details{border-top:1px solid var(--line);padding:16px 0}
+.lf-faq summary{font-family:Newsreader,serif;font-weight:700;font-size:1.2rem;cursor:pointer}
+.lf-faq p{color:var(--sub);line-height:1.7;margin:10px 0 0}
+.lf-refs{margin:70px 0 90px;font-size:.84rem;line-height:1.6;color:var(--sub)}
+.lf-refs h2,.lf-sec h2{font-family:Newsreader,serif;font-weight:800;font-size:1.6rem;margin:0 0 14px;color:var(--ink)}
+.lf-refs li{margin-bottom:8px;padding-left:2em;text-indent:-2em;list-style:none;word-break:break-word}
+.lf-refs ul{padding:0;margin:0}
+.lf-sec{margin-top:80px}
+@media(max-width:900px){
+.lf-body{grid-template-columns:1fr;gap:0;padding:0 20px}
+.lf-toc{position:sticky;top:0;z-index:10;padding:0;margin:0 -20px;background:rgba(246,241,231,.96);backdrop-filter:blur(6px);display:flex;overflow-x:auto;border-bottom:1px solid var(--line);scrollbar-width:none}
+.lf-toc small{display:none}
+.lf-toc a{flex:none;border-left:0;border-bottom:3px solid transparent;padding:12px 14px;white-space:nowrap}
+.lf-toc a b{display:inline;margin-right:6px}
+.lf-toc a.on{border-color:var(--red)}
+.lf-hero{min-height:auto;flex-direction:column;align-items:stretch}
+.lf-hero img{position:static;height:auto;aspect-ratio:4/3;object-position:92% 30%}
+.lf-hero::after{display:none}
+.lf-hero .in{padding:26px 20px 36px}
+.lf-intro{padding-top:44px}.lf-intro p{font-size:1.18rem}
+.lf-ch{padding-top:60px}.lf-ch-n{font-size:5.5rem}.lf-ch-h h2{font-size:2rem}
+.lf-st{grid-template-columns:1fr;gap:10px}
+.lf-num{justify-self:start;min-width:200px}
+.lf-cuts{grid-template-columns:1fr}
+.lf-tool{padding:24px;box-shadow:5px 5px 0 var(--red)}
+.lf-band{padding:70px 22px}
+}
+.mk{position:fixed;bottom:10px;right:10px;background:#000;color:#fff;font:700 12px sans-serif;padding:6px 10px;border-radius:4px;z-index:30}
+</style></head><body>
+<div class="lf-bar" id="bar"></div>
+<header class="lf-hero">
+<img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/boc-mac-y-khoa-banner.webp" alt="">
+<div class="in">
+<div class="lf-kick">Chuyên đề · Dy Khoa Blog</div>
+<h1>Bóc mác y khoa</h1><span class="lf-hand">...trong quảng cáo</span>
+<p>Đọc quảng cáo như một biên tập viên cầm bút đỏ: khoanh con số, gạch chứng nhận, và hỏi lại nguồn của mọi câu "nghe như khoa học".</p>
+<div class="lf-meta"><span><b>9</b> bài viết</span><span><b>3</b> chương</span><span><b>1</b> bộ lọc tự kiểm tra</span></div>
+<a class="lf-down" href="#mo-dau"><span>↓</span>Bắt đầu đọc</a>
+</div></header>
+
+<div class="lf-body">
+<nav class="lf-toc" aria-label="Mục lục chuyên đề"><small>Trong chuyên đề</small>
+<a href="#mo-dau"><b>MỞ ĐẦU</b>Bút đỏ</a>
+<a href="#chuong-1"><b>01</b>Con số nghe khoa học</a>
+<a href="#chuong-2"><b>02</b>Mác chứng nhận</a>
+<a href="#chuong-3"><b>03</b>Cơ quan quản lý vào cuộc</a>
+<a href="#bo-loc"><b>BỘ LỌC</b>5 câu hỏi</a>
+<a href="#hoi-nhanh"><b>HỎI NHANH</b>Câu hỏi thường gặp</a>
+</nav>
+<main class="lf-main">
+
+<section class="lf-intro" id="mo-dau">
+<p>"10.000 bước", "9/10 nha sĩ khuyên dùng", "đạt chuẩn FDA", "đã chứng minh lâm sàng". Những câu này nghe như kết luận của một nghiên cứu, nhưng nhiều khi chỉ là lớp áo y khoa khoác lên một thông điệp bán hàng.</p>
+<p>Mỗi bài trong chuyên đề đặt một thông điệp quảng cáo mang dáng dấp y khoa cạnh nguồn gốc và bằng chứng của nó, kèm nguồn tham khảo mở để bạn tự kiểm tra.</p>
+<div class="lf-legend"><span><i>⭕ 100%</i>con số cần hỏi nguồn</span><span><i><s>ĐẠT CHUẨN</s></i>chứng nhận cần đọc lại</span><span><i>Hỏi ai?</i>câu hỏi mỗi bài trả lời</span></div>
+</section>
+
+<section class="lf-ch" id="chuong-1">
+<div class="lf-ch-h"><div class="lf-ch-n">01</div><h2>Con số "nghe khoa học"</h2><p>khoanh tròn trước khi tin</p></div>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M100 8C40 6 8 30 10 66s46 58 96 56 86-26 84-60S150 4 92 12" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>7.000</b><span>bước mỗi ngày đã có lợi</span></div>
+<div><h3>Đi bộ 10.000 bước mỗi ngày có cần thiết?</h3>
+<p>So với 2.000 bước, đi khoảng 7.000 bước mỗi ngày gắn với nguy cơ tử vong do mọi nguyên nhân thấp hơn 47% <cite>(Ding và cộng sự, 2025)</cite>. Con số 10.000 có thể bắt nguồn từ tên một chiếc máy đếm bước bán ở Nhật Bản năm 1965 <cite>(St. Peter, 2019)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/di-bo-10000-buoc-moi-ngay-co-can-thiet.webp" alt=""><div><small>Bài 1</small>Con số đến từ một chiếc máy đếm bước →</div></a></div></article>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M96 10C36 10 6 36 12 70s52 54 100 50 82-30 76-62S146 6 88 14" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>80%</b><span>nha sĩ khuyên dùng, nhưng khuyên cả nhãn khác</span></div>
+<div><h3>"9/10 nha sĩ khuyên dùng" bị bẻ cong thế nào?</h3>
+<p>Con số có thể đúng về số học mà vẫn gây hiểu lầm. Năm 2007, cơ quan quảng cáo Anh (ASA) kết luận quảng cáo "hơn 80% nha sĩ khuyên dùng Colgate" gây hiểu lầm, vì nha sĩ được nêu nhiều nhãn cùng lúc và một nhãn đối thủ cũng được khuyên dùng gần như ngang bằng <cite>(Osborne Clarke, 2007)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/9-10-nha-si-khuyen-dung-khao-sat-gay-hieu-lam.webp" alt=""><div><small>Bài 2</small>Hỏi ai? Hỏi thế nào? →</div></a></div></article>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M104 9C44 7 9 32 11 67s48 56 98 54 84-28 82-62S152 5 94 13" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>19</b><span>hoạt chất diệt khuẩn bị FDA cấm</span></div>
+<div><h3>Xà phòng "diệt 99,9% vi khuẩn" có tốt hơn?</h3>
+<p>Theo FDA, chưa đủ bằng chứng cho thấy xà phòng diệt khuẩn không kê đơn ngăn ngừa bệnh tốt hơn rửa tay bằng xà phòng thường và nước. Năm 2016, FDA cấm 19 hoạt chất trong xà phòng diệt khuẩn tiêu dùng, gồm triclosan và triclocarban <cite>(FDA, 2024)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/xa-phong-diet-khuan-99-9-co-tot-hon-xa-phong-thuong.webp" alt=""><div><small>Bài 3</small>So với xà phòng thường thì sao? →</div></a></div></article>
+</section>
+
+<section class="lf-ch" id="chuong-2">
+<div class="lf-ch-h"><div class="lf-ch-n">02</div><h2>Mác chứng nhận, chữ y khoa</h2><p>gạch đi rồi đọc lại</p></div>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M14 92L186 34" fill="none" stroke="#c8312b" stroke-width="4" stroke-linecap="round"/></svg><b>FDA</b><span>không phê duyệt thực phẩm chức năng</span></div>
+<div><h3>"Đạt chuẩn FDA" nghĩa là gì?</h3>
+<p>FDA không phê duyệt thực phẩm chức năng về độ an toàn và hiệu quả, không cấp "giấy chứng nhận đăng ký" cho cơ sở thực phẩm và không công nhận giấy chứng nhận do doanh nghiệp tư nhân phát hành <cite>(FDA, 2024, 2026)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/dat-chuan-fda-fda-co-cap-phep-thuc-pham-chuc-nang-khong.webp" alt=""><div><small>Bài 4</small>FDA cấp cho điều gì? →</div></a></div></article>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M98 9C38 9 7 34 12 68s50 55 99 52 83-29 79-61S148 5 90 13" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>4</b><span>chỗ "lâm sàng" có thể trượt</span></div>
+<div><h3>"Đã chứng minh lâm sàng" có thể gây hiểu lầm ra sao?</h3>
+<p>Nghiên cứu có thể làm trên một thành phần chứ không phải sản phẩm, trên một nhóm người khác, đo một kết quả khác, hoặc chỉ là một nghiên cứu nhỏ trong khi nghiên cứu lớn hơn không cho kết quả tương tự <cite>(FTC, 2022)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/da-chung-minh-lam-sang-nghia-la-gi.webp" alt=""><div><small>Bài 5</small>Thử trên ai, đo kết quả gì? →</div></a></div></article>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M14 92L186 34" fill="none" stroke="#c8312b" stroke-width="4" stroke-linecap="round"/></svg><b>DETOX</b><span>chưa có bằng chứng thuyết phục</span></div>
+<div><h3>Cơ thể có cần "thải độc" không?</h3>
+<p>NCCIH (thuộc Viện Y tế Quốc gia Mỹ) cho biết nghiên cứu về các chương trình "detox" còn ít và chất lượng thấp, chưa có nghiên cứu về tác động lâu dài, và một số sản phẩm từng bị xử lý vì chứa thành phần ẩn hoặc quảng cáo sai sự thật <cite>(NCCIH, 2025)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/detox-thai-doc-co-that-khong.webp" alt=""><div><small>Bài 6</small>Độc chất nào? →</div></a></div></article>
+</section>
+<div class="lf-band"><q>Một con số có thể đúng về số học mà vẫn gây hiểu lầm.</q><small>bài học từ những vụ cơ quan quản lý phải vào cuộc</small></div>
+<section class="lf-ch" id="chuong-3">
+<div class="lf-ch-h"><div class="lf-ch-n">03</div><h2>Khi cơ quan quản lý vào cuộc</h2><p>những quảng cáo phải rút lại</p></div>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M100 8C40 6 8 30 10 66s46 58 96 56 86-26 84-60S150 4 92 12" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>21 tr. USD</b><span>Dannon trả cho 39 bang (2010)</span></div>
+<div><h3>Sữa chua "tăng miễn dịch": vụ Activia</h3>
+<p>FTC cáo buộc Dannon không đủ căn cứ cho tuyên bố Activia "đã được chứng minh lâm sàng" giúp điều hòa tiêu hóa và DanActive giúp tăng sức đề kháng. Dannon dàn xếp với FTC và trả 21 triệu USD cho 39 bang <cite>(FTC, 2010)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/sua-chua-tang-mien-dich-vu-activia-ftc.webp" alt=""><div><small>Bài 7</small>Bằng chứng ở đâu? →</div></a></div></article>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M96 10C36 10 6 36 12 70s52 54 100 50 82-30 76-62S146 6 88 14" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>25 + 40</b><span>triệu USD hoàn tiền: Reebok, Skechers</span></div>
+<div><h3>Giày "săn chắc cơ" và lời hứa tập thể dục hộ</h3>
+<p>FTC cáo buộc hai hãng quảng cáo lời hứa săn chắc cơ mà không đủ căn cứ khoa học. Reebok đồng ý trả 25 triệu USD năm 2011, Skechers 40 triệu USD năm 2012, dùng để hoàn tiền cho người mua <cite>(FTC, 2011, 2012)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/giay-san-chac-co-skechers-reebok-ftc.webp" alt=""><div><small>Bài 8</small>Đi giày là đủ? →</div></a></div></article>
+
+<article class="lf-st"><div class="lf-num"><svg viewBox="0 0 200 130" preserveAspectRatio="none"><path d="M104 9C44 7 9 32 11 67s48 56 98 54 84-28 82-62S152 5 94 13" fill="none" stroke="#c8312b" stroke-width="3" stroke-linecap="round"/></svg><b>2 tr. USD</b><span>Lumosity đồng ý trả (2016)</span></div>
+<div><h3>Game "luyện não" và lời hứa chống lão hóa</h3>
+<p>Chơi game có thể giỏi hơn chính trò chơi đó, nhưng chưa có nhiều bằng chứng về lợi ích ngoài đời thực. FTC cáo buộc Lumosity quảng cáo không có căn cứ rằng game giúp học tập, làm việc tốt hơn và làm chậm suy giảm nhận thức <cite>(FTC, 2016)</cite>.</p>
+<a class="lf-more" href="#"><img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/game-luyen-nao-lumosity-ftc.webp" alt=""><div><small>Bài 9</small>Chơi giỏi game hay giỏi thật? →</div></a></div></article>
+</section>
+
+<section class="lf-tool" id="bo-loc"><h2>BỘ LỌC 5 CÂU HỎI</h2>
+<p>Lần tới thấy một quảng cáo "có mác y khoa", hãy đánh dấu những câu mà quảng cáo đó trả lời được.</p>
+<label><input type="checkbox">Con số có nguồn nghiên cứu cụ thể, không chỉ từ nhãn hàng</label>
+<label><input type="checkbox">Biết "chuyên gia" là ai, được hỏi thế nào</label>
+<label><input type="checkbox">Chứng nhận ghi rõ cơ quan cấp, cấp cho điều gì</label>
+<label><input type="checkbox">Nghiên cứu làm trên chính sản phẩm, đúng nhóm người, đúng kết quả</label>
+<label><input type="checkbox">Lợi ích được so với một mốc cụ thể</label>
+<div class="lf-score"><b id="sc">0/5</b><span>câu đã đánh dấu</span></div>
+<p class="note">Đây là công cụ tự rà soát để tập thói quen hỏi lại, không phải thước đo độ tin cậy. Dữ liệu chỉ nằm trên trình duyệt của bạn, không được lưu hay gửi đi.</p></section>
+
+<section class="lf-sec"><h2>Đọc thêm: luật và kỹ năng</h2><div class="lf-cuts">
+<a href="#"><small>LUẬT</small>Quảng cáo thực phẩm bảo vệ sức khỏe: lỗi thường gặp</a>
+<a href="#"><small>LUẬT</small>Quảng cáo bao cao su, thuốc sinh lý: luật Việt Nam cho phép gì?</a>
+<a href="#"><small>KỸ NĂNG</small>Đồng hồ thông minh đo sức khỏe: tin được đến đâu?</a></div></section>
+
+<section class="lf-sec lf-faq" id="hoi-nhanh"><h2>Hỏi nhanh</h2>
+<details open><summary>Chuyên đề này bóc những gì?</summary><p>Những thông điệp quảng cáo mượn hình thức y khoa, khoa học: con số tròn, lời khuyên của chuyên gia, chứng nhận, cụm từ "đã chứng minh lâm sàng", và các vụ việc cơ quan quản lý đã xử lý.</p></details>
+<details><summary>Bài viết có kết luận sản phẩm nào tốt, sản phẩm nào xấu không?</summary><p>Không. Các bài đánh giá thông điệp quảng cáo và bằng chứng đứng sau, không đánh giá chất lượng một sản phẩm cụ thể.</p></details>
+<details><summary>Ở Việt Nam, quảng cáo sai công dụng bị xử lý thế nào?</summary><p>Theo Nghị định 87/2026/NĐ-CP, quảng cáo không đúng hoặc gây nhầm lẫn về chất lượng, công dụng sản phẩm so với nội dung đã đăng ký, công bố có thể bị phạt từ 80 đến 100 triệu đồng với cá nhân, gấp đôi với tổ chức.</p></details>
+</section>
+
+<section class="lf-refs"><h2>Tài liệu tham khảo</h2><ul>
+<li>Ding, D., Nguyen, B., Nau, T., Luo, M., del Pozo Cruz, B., Dempsey, P. C., Munn, Z., Jefferis, B. J., Sherrington, C., Calleja, E. A., Chong, K. H., Davis, R., Francois, M. E., Tiedemann, A., Biddle, S. J. H., Okely, A., Bauman, A., Ekelund, U., Clare, P., &amp; Owen, K. (2025). Daily steps and health outcomes in adults: A systematic review and dose-response meta-analysis. <i>The Lancet Public Health, 10</i>(8), e668-e681. https://doi.org/10.1016/S2468-2667(25)00164-1</li>
+<li>Federal Trade Commission. (2010, ngày 15 tháng 12). <i>Dannon agrees to drop exaggerated health claims for Activia yogurt and DanActive dairy drink</i> [Thông cáo báo chí]. https://www.ftc.gov/...</li>
+<li>… (các mục còn lại lấy nguyên văn từ danh mục tham khảo của từng bài)</li>
+</ul></section>
+</main></div>
+<div class="mk">Mẫu longform</div>
+<script>
+(function(){var bar=document.getElementById('bar'),links=[].slice.call(document.querySelectorAll('.lf-toc a')),secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+function on(){var h=document.documentElement,p=h.scrollTop/(h.scrollHeight-h.clientHeight);bar.style.width=(p*100)+'%';var cur=0;secs.forEach(function(s,i){if(s&&s.getBoundingClientRect().top<160)cur=i});links.forEach(function(a,i){a.classList.toggle('on',i===cur)})}
+addEventListener('scroll',on,{passive:true});on();
+var cb=document.querySelectorAll('.lf-tool input'),sc=document.getElementById('sc');cb.forEach(function(c){c.addEventListener('change',function(){sc.textContent=[].filter.call(cb,function(x){return x.checked}).length+'/5'})});})();
+</script>
+</body></html>
