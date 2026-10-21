@@ -28,7 +28,8 @@ if ( ! function_exists( 'dk_topics_shortcode' ) ) {
                 $hot = true;
             } elseif ( $dated ) {
                 $lab = ( $o ? $o : 'Ngày kỷ niệm' ) . ' · ' . $dm;
-                $hot = false;
+                $hot   = false;
+                $fresh = false;
             } else {
                 $lab = $fresh ? 'Mới' : 'Thường trực';
             }
