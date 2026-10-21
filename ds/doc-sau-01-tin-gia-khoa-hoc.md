@@ -18,7 +18,7 @@
 
 Tháng 9/2020, một nhóm nghiên cứu làm một thí nghiệm với 8.001 người ở Anh và Mỹ. Ba phần tư số người tham gia được cho xem thông tin sai lệch về vắc-xin Covid-19; số còn lại xem thông tin chính xác. Sau đó, nhóm nghiên cứu đo ý định tiêm vắc-xin của cả hai nhóm.
 
-So với nhóm đối chứng, thông tin sai làm tỷ lệ người nói sẽ "chắc chắn tiêm" giảm 6,2 điểm phần trăm ở Anh và 6,4 điểm phần trăm ở Mỹ (Loomba và cộng sự, 2021).
+So với nhóm đối chứng, thông tin sai làm tỷ lệ người nói sẽ "chắc chắn tiêm" giảm 6,2 điểm phần trăm ở Anh và 6,4 điểm phần trăm ở Mỹ (Loomba và cộng sự, 2021). Bài [Tin giả vắc-xin Covid-19 làm giảm ý định tiêm chủng: bài học từ một nghiên cứu](https://dykhoa.com/blog/tin-gia-vac-xin-covid19-va-y-dinh-tiem-chung/) phân tích kỹ hơn thiết kế và kết quả của thí nghiệm này.
 
 Con số ấy đặt ra những câu hỏi mà bài viết này đi tìm lời giải: tin giả khoa học đến từ đâu, vì sao nó đi nhanh hơn sự thật, nó gây hại đến mức nào, và vì sao phản xạ quen thuộc là "phát hiện thì xóa" lại không đủ.
 
@@ -32,7 +32,7 @@ Thứ nhất, định nghĩa dựa vào nội dung so với bằng chứng, ch�
 
 Thứ hai, nó gắn với thời gian. Hội đồng NASEM nhấn mạnh rằng một tuyên bố bị xem là sai có thể thay đổi khi bằng chứng mới tích lũy và hiểu biết khoa học tiến lên (NASEM, 2025). Khoa học tự sửa mình; vì thế, "sai" hôm nay được đo bằng bằng chứng hôm nay, chứ không phải bằng một chân lý cố định.
 
-Khi tin sai bùng lên cùng lúc với một dịch bệnh, Tổ chức Y tế Thế giới (WHO) gọi hiện tượng đó là "infodemic" (dịch thông tin): quá nhiều thông tin, trong đó có thông tin sai hoặc gây hiểu lầm, xuất hiện cả trên môi trường số lẫn ngoài đời thực trong thời gian có dịch. Theo WHO, dịch thông tin gây nhầm lẫn, dẫn tới những hành vi rủi ro cho sức khỏe, làm xói mòn niềm tin vào cơ quan y tế và cản trở công tác ứng phó (World Health Organization [WHO], không ngày).
+Khi tin sai bùng lên cùng lúc với một dịch bệnh, Tổ chức Y tế Thế giới (WHO) gọi hiện tượng đó là "infodemic" (dịch thông tin): quá nhiều thông tin, trong đó có thông tin sai hoặc gây hiểu lầm, xuất hiện cả trên môi trường số lẫn ngoài đời thực trong thời gian có dịch. Theo WHO, dịch thông tin gây nhầm lẫn, dẫn tới những hành vi rủi ro cho sức khỏe, làm xói mòn niềm tin vào cơ quan y tế và cản trở công tác ứng phó (World Health Organization [WHO], không ngày). Cách WHO ứng phó với dịch thông tin trong đại dịch Covid-19 được phân tích trong bài [Infodemic Covid-19 năm 2020: bài học từ Khung quản lý Infodemic của WHO](https://dykhoa.com/blog/infodemic-covid19-va-who/).
 
 Nếu bạn quan tâm cách tự đánh giá một tin khoa học cụ thể, bài [Làm sao biết thông tin khoa học trên mạng có đáng tin?](https://dykhoa.com/blog/thong-tin-khoa-hoc-tren-mang-co-dang-tin/) đi vào các bước kiểm tra cho từng người đọc. Bài viết này đi theo hướng khác: nhìn cả hệ thống.
 
@@ -57,7 +57,7 @@ Không phải tin sai nào cũng có sức ảnh hưởng như nhau. Theo NASEM 
 
 **Một phân tích dữ liệu quy mô lớn trên Twitter cho thấy tin sai lan xa hơn, nhanh hơn và rộng hơn tin đúng, và động lực chính là con người chứ không phải tài khoản tự động.**
 
-Năm 2018, nhóm nghiên cứu của Vosoughi, Roy và Aral công bố trên tạp chí *Science* một phân tích khoảng 126.000 câu chuyện được khoảng 3 triệu người đăng lại hơn 4,5 triệu lần trên Twitter, trong giai đoạn 2006-2017 (Vosoughi và cộng sự, 2018).
+Năm 2018, ba nhà nghiên cứu của Viện Công nghệ Massachusetts (MIT) công bố trên tạp chí *Science* một phân tích khoảng 126.000 câu chuyện được khoảng 3 triệu người đăng lại hơn 4,5 triệu lần trên Twitter, trong giai đoạn 2006-2017. Mỗi câu chuyện được xếp loại đúng hay sai dựa trên kết luận của sáu tổ chức kiểm chứng độc lập (Vosoughi và cộng sự, 2018).
 
 Kết quả: ở mọi nhóm chủ đề, tin sai lan "xa hơn, nhanh hơn, sâu hơn và rộng hơn" tin đúng. Tin đúng cần thời gian lâu hơn khoảng sáu lần để đến được 1.500 người. Tin sai có khả năng được chia sẻ lại cao hơn 70% (Vosoughi và cộng sự, 2018).
 
@@ -79,7 +79,7 @@ Báo cáo còn chỉ ra một cơ chế tinh tế hơn: khi các chuyên gia có
 
 Thí nghiệm của Loomba và cộng sự (2021) ở đầu bài là một ví dụ về tác động đo được: xem tin sai làm giảm ý định tiêm vắc-xin. Nhưng đó là ý định, chưa phải hành vi tiêm thực tế. Báo cáo NASEM nêu rõ giới hạn chung của lĩnh vực: phần lớn nghiên cứu đo niềm tin và ý định, chứ không đo hành vi. Theo hội đồng, tin sai có đóng vai trò trong hành vi và đôi khi gây hại, nhưng mối quan hệ nhân quả trực tiếp chưa được xác lập dứt khoát (NASEM, 2025).
 
-Hội Hoàng gia Anh cũng dè dặt tương tự. Báo cáo cho rằng mức độ tác động của tin sai khoa học trên mạng là điều còn phải đặt câu hỏi. Trong khảo sát do Hội Hoàng gia Anh thực hiện cùng công ty YouGov vào tháng 7/2021 với 2.019 người tại Vương quốc Anh, chỉ 5% không tin vắc-xin Covid-19 an toàn, 5% không tin con người gây ra biến đổi khí hậu, và 15% tin rằng mạng 5G có hại cho sức khỏe. Cùng khảo sát, 61% cho rằng internet đã giúp công chúng hiểu khoa học tốt hơn (The Royal Society, 2022).
+Hội Hoàng gia Anh cũng dè dặt tương tự. Báo cáo cho rằng tin sai khoa học xuất hiện nhiều trên mạng, nhưng mức độ tác động của nó là điều còn phải đặt câu hỏi. Trong khảo sát do Hội Hoàng gia Anh thực hiện cùng công ty YouGov vào tháng 7/2021 với 2.019 người dân Anh, chỉ 5% không tin vắc-xin Covid-19 an toàn, 5% không tin con người có bất kỳ trách nhiệm nào trong biến đổi khí hậu, và 15% tin rằng công nghệ 5G có hại cho sức khỏe con người. Cùng khảo sát, 61% cho rằng internet đã giúp công chúng hiểu khoa học tốt hơn. Báo cáo cũng lưu ý rằng rất khó chứng minh mối liên hệ nhân quả giữa tin sai trên mạng và tác hại ngoài đời thực (The Royal Society, 2022).
 
 Đọc những con số này, có thể dễ dàng kết luận rằng tin giả không đáng lo. Nhưng báo cáo NASEM nêu ra những điểm khiến không thể chủ quan.
 
@@ -105,7 +105,7 @@ Vấn đề lớn hơn của đính chính là nó thường đến muộn và �
 
 **Vì chưa có nhiều bằng chứng cho thấy gỡ bỏ nội dung hiệu quả với tin sai khoa học, và việc gỡ bỏ có thể đẩy nội dung sang những góc khó kiểm soát hơn của internet.** Đây là khuyến nghị thứ hai trong báo cáo của Hội Hoàng gia Anh.
 
-Hội Hoàng gia Anh khuyến nghị chính phủ và các nền tảng không nên dựa vào gỡ bỏ nội dung như giải pháp cho tin sai khoa học trên mạng. Lý do được nêu trong báo cáo: có rất ít bằng chứng ủng hộ hiệu quả của cách làm này đối với tin sai khoa học, và việc gỡ bỏ có thể gây hại nhiều hơn lợi, vì nó có thể đẩy nội dung sang những góc khó xử lý hơn của internet (The Royal Society, 2022).
+Hội Hoàng gia Anh khuyến nghị chính phủ và các nền tảng mạng xã hội không nên dựa vào gỡ bỏ nội dung như giải pháp cho tin sai khoa học trên mạng. Báo cáo thừa nhận gỡ bỏ có thể hiệu quả và cần thiết với nội dung bất hợp pháp, như phát ngôn thù ghét hay nội dung khủng bố. Nhưng với tin sai khoa học, có rất ít bằng chứng ủng hộ hiệu quả của cách làm này, và các biện pháp nhắm vào việc khuếch đại tin sai có thể hiệu quả hơn. Báo cáo còn cảnh báo việc gỡ bỏ có thể gây hại nhiều hơn lợi, vì nó có thể đẩy nội dung, cùng những người có thể hành động theo nội dung đó, sang những góc khó xử lý hơn của internet (The Royal Society, 2022).
 
 Thay vì chỉ xóa, báo cáo gợi ý những biện pháp khác: cắt nguồn kiếm tiền từ nội dung sai, giảm mức độ khuếch đại của thuật toán, và gắn nhãn kiểm chứng. Hội cũng đề xuất hỗ trợ các tổ chức kiểm chứng độc lập có nguồn tài chính bền vững, cho các nhà nghiên cứu độc lập tiếp cận dữ liệu của nền tảng một cách an toàn, và đầu tư vào kỹ năng thông tin suốt đời (The Royal Society, 2022).
 
@@ -123,9 +123,9 @@ Riêng các biện pháp pháp lý, báo cáo NASEM xem xét trong bối cảnh 
 
 Ý tưởng "tiêm phòng tâm lý" (psychological inoculation), còn gọi là prebunking, được *Cẩm nang bác bỏ tin sai 2020* mô tả bằng một phép so sánh với vắc-xin: khi được cảnh báo trước và tiếp xúc với một "liều yếu" của các kỹ thuật thao túng, con người có thể hình thành những "kháng thể nhận thức" giúp chống lại sự thuyết phục sai lệch về sau (Lewandowsky và cộng sự, 2020).
 
-Năm 2022, nhóm nghiên cứu của Jon Roozenbeek và Sander van der Linden thử ý tưởng này trên quy mô lớn. Theo thông cáo của Đại học Cambridge, nhóm làm bảy thí nghiệm với gần 30.000 người tham gia. Họ dùng những video hoạt hình ngắn giải thích các kỹ thuật thao túng phổ biến như dùng ngôn ngữ kích động cảm xúc, đưa ra lựa chọn "hoặc thế này hoặc thế kia" giả tạo, hay đổ lỗi cho một đối tượng. Trong thử nghiệm thực địa trên YouTube, khoảng 5,4 triệu người dùng ở Mỹ được hiển thị video ở vị trí quảng cáo trước video chính. Gần 1 triệu người xem ít nhất 30 giây. Trong số 22.632 người dùng trả lời câu hỏi kiểm tra, trung bình khoảng 18 giờ sau khi xem, khả năng nhận ra kỹ thuật thao túng tăng trung bình 5%. Chi phí khoảng 0,05 USD cho mỗi lượt xem đủ dài (University of Cambridge, 2022).
+Năm 2022, nhóm của Roozenbeek và cộng sự thử ý tưởng này trên quy mô lớn. Qua bảy nghiên cứu với gần 30.000 người tham gia, họ cho người xem những video ngắn khoảng 1,5 phút giải thích các kỹ thuật thao túng phổ biến: ngôn ngữ kích động cảm xúc, lập luận thiếu nhất quán, lựa chọn "hoặc thế này hoặc thế kia" giả tạo, đổ lỗi cho một đối tượng, và công kích cá nhân. Trong thử nghiệm thực địa trên YouTube kéo dài 15 ngày, hai video được chạy như quảng cáo và hiển thị cho khoảng 5,4 triệu người dùng; 967.347 người xem từ 30 giây trở lên. Trong vòng 24 giờ sau đó, một phần người xem được hỏi một câu kiểm tra; nhóm nghiên cứu thu được 22.632 câu trả lời từ nhóm xem video và nhóm đối chứng. Người đã xem video nhận ra kỹ thuật thao túng tốt hơn nhóm đối chứng một cách có ý nghĩa thống kê, với chi phí trung bình khoảng 0,05 USD cho mỗi lượt xem quảng cáo (Roozenbeek và cộng sự, 2022). Theo thông cáo của Đại học Cambridge, mức cải thiện trung bình là khoảng 5% (University of Cambridge, 2022).
 
-Mức tăng 5% nghe không lớn. Nhưng điều đáng chú ý là các video nhắm vào kỹ thuật thao túng chứ không vào một tin sai cụ thể nào, và được đưa tới hàng triệu người với chi phí thấp. Báo cáo NASEM (2025) cũng xếp các cảnh báo về kỹ thuật thao túng vào nhóm biện pháp cá nhân có hiệu quả, đồng thời lưu ý rằng độ bền của hiệu quả là thách thức chung của mọi biện pháp loại này.
+Mức cải thiện ấy nhỏ, và chính nhóm tác giả thừa nhận họ chưa đo được hiệu quả kéo dài bao lâu sau khung 24 giờ (Roozenbeek và cộng sự, 2022). Nhưng điều đáng chú ý là các video nhắm vào kỹ thuật thao túng chứ không vào một tin sai cụ thể nào, và được đưa tới hàng triệu người với chi phí thấp. Báo cáo NASEM (2025) cũng xếp các cảnh báo về kỹ thuật thao túng vào nhóm biện pháp cá nhân có hiệu quả, đồng thời lưu ý rằng độ bền của hiệu quả là thách thức chung của mọi biện pháp loại này.
 
 ### Đính chính có giải thích, không chỉ dán nhãn "sai"
 
@@ -185,7 +185,7 @@ Không. Phân tích dữ liệu Twitter giai đoạn 2006-2017 cho thấy bot l�
 Hiếm khi. Theo *Cẩm nang bác bỏ tin sai 2020*, hiệu ứng phản tác dụng chỉ thỉnh thoảng xảy ra và không phải lý do để tránh đính chính (Lewandowsky và cộng sự, 2020).
 
 **Prebunking là gì?**
-Là cảnh báo trước và giúp người dùng nhận diện các kỹ thuật thao túng trước khi họ gặp tin sai, tương tự cách vắc-xin chuẩn bị cho hệ miễn dịch (Lewandowsky và cộng sự, 2020). Trong một thử nghiệm trên YouTube năm 2022, những người được kiểm tra sau khi xem video nhận ra kỹ thuật thao túng tốt hơn trung bình 5% (University of Cambridge, 2022).
+Là cảnh báo trước và giúp người dùng nhận diện các kỹ thuật thao túng trước khi họ gặp tin sai, tương tự cách vắc-xin chuẩn bị cho hệ miễn dịch (Lewandowsky và cộng sự, 2020). Trong một thử nghiệm trên YouTube năm 2022, người xem video ngắn về kỹ thuật thao túng nhận ra các kỹ thuật này tốt hơn nhóm đối chứng (Roozenbeek và cộng sự, 2022).
 
 ---
 
@@ -201,9 +201,11 @@ Nếu bạn thấy bài viết có sai sót hoặc muốn góp ý, vui lòng g�
 
 Lewandowsky, S., Cook, J., Ecker, U. K. H., Albarracín, D., Amazeen, M. A., Kendeou, P., Lombardi, D., Newman, E. J., Pennycook, G., Porter, E., Rand, D. G., Rapp, D. N., Reifler, J., Roozenbeek, J., Schmid, P., Seifert, C. M., Sinatra, G. M., Swire-Thompson, B., van der Linden, S., . . . Zaragoza, M. S. (2020). *The debunking handbook 2020*. https://doi.org/10.17910/b7.1182
 
-Loomba, S., de Figueiredo, A., Piatek, S. J., de Graaf, K., & Larson, H. J. (2021). Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA. *Nature Human Behaviour, 5*, 337-348. https://doi.org/10.1038/s41562-021-01056-1
+Loomba, S., de Figueiredo, A., Piatek, S. J., de Graaf, K., & Larson, H. J. (2021). Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA. *Nature Human Behaviour, 5*(3), 337-348. https://doi.org/10.1038/s41562-021-01056-1
 
 National Academies of Sciences, Engineering, and Medicine. (2025). *Understanding and addressing misinformation about science*. The National Academies Press. https://doi.org/10.17226/27894
+
+Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. *Science Advances, 8*(34), Article eabo6254. https://doi.org/10.1126/sciadv.abo6254
 
 The Royal Society. (2022). *The online information environment: Understanding how the internet shapes people's engagement with scientific information*. https://royalsociety.org/-/media/policy/projects/online-information-environment/the-online-information-environment.pdf
 
@@ -218,10 +220,10 @@ World Health Organization. (không ngày). *Infodemic*. https://www.who.int/heal
 ---
 
 **Ghi chú cho người duyệt (không đăng)**
-1. Thiếu số issue của Loomba và cộng sự (2021): chưa xác minh được, nên để trống.
-2. Nghiên cứu YouTube (Roozenbeek và cộng sự, 2022, *Science Advances*) không đọc được toàn văn, nên chỉ dẫn thông cáo của Đại học Cambridge và không đưa bài báo vào danh mục.
-3. Nghiên cứu Vosoughi và cộng sự (2018): đọc toàn văn qua bản tác giả lưu tại MIT; danh mục dẫn DOI tạp chí *Science*.
-4. Chưa tải được hai bài trên blog để làm liên kết nội bộ: /tin-gia-vac-xin-covid19-va-y-dinh-tiem-chung/ (chính là nghiên cứu Loomba) và /infodemic-covid19-va-who/. Nếu đúng slug, nên chèn vào đoạn mở bài và mục định nghĩa.
+1. Đã xác minh trực tiếp trên nguồn gốc (21/10, qua trình duyệt): mọi số liệu của Loomba (trang Nature), Vosoughi (PDF), Roozenbeek (PMC), Hội Hoàng gia Anh (PDF) và các kết luận NASEM chương 9. Số issue Loomba = 3.
+2. Roozenbeek và cộng sự (2022) đã đọc toàn văn trên PMC. Con số "5%" chỉ có trong thông cáo Cambridge (bài báo trình bày bằng biểu đồ và hệ số h), nên giữ nguồn Cambridge riêng cho con số này.
+3. Vosoughi và cộng sự (2018): đọc toàn văn bản PDF tác giả lưu tại MIT; số tập/số/trang xác nhận qua Crossref.
+4. Đã kiểm tra 4 liên kết nội bộ đều đang đăng (ID 512, 518, 870, 874) và đã chèn đủ.
 5. Phần Việt Nam chỉ nêu sự kiện có nguồn (Trung tâm Xử lý tin giả), không đánh giá hiệu quả.
 6. Đính chính so với chat trước: cụm "not a silver bullet" không có trong báo cáo Hội Hoàng gia Anh (chỉ có trên trang giới thiệu dự án theo bản tóm tắt). Bài dùng đúng câu trong báo cáo.
 7. Ảnh bìa và ảnh minh họa: làm sau khi chốt nội dung, có dấu logo Đọc Sâu ở góc phải dưới, chừa trống góc này.
