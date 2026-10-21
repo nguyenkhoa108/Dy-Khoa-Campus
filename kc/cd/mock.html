@@ -42,12 +42,14 @@ em{font-style:italic;font-weight:500}
 .A .card h4{font-family:Newsreader,serif;font-size:1.3rem;line-height:1.25;margin:12px 0 6px}
 .A .card p{margin:0;font-size:.9rem;line-height:1.6;color:#3c4440}
 .A .card:hover h4{text-decoration:underline}
+.A .up.one{grid-template-columns:1fr}.A .up.one a{grid-template-columns:300px 72px 1fr;padding:0;overflow:hidden}.A .up.one img{height:100%;min-height:150px}.A .up.one .d{margin-top:18px}.A .up.one a>div:last-child{padding:18px 20px 18px 0}.A .up.one p{font-size:.9rem;line-height:1.6;color:#3c4440}
 .A .past a{display:grid;grid-template-columns:120px 1fr auto;gap:18px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}
 .A .past img{aspect-ratio:2/1;border-radius:6px;filter:grayscale(.5)}
 .A .past h4{font-family:Newsreader,serif;font-size:1.15rem;margin:0 0 3px}
 .A .past p{margin:0;font-size:.85rem;color:var(--mut)}
 .A .past i{font-style:normal;font-size:.85rem;color:var(--g);font-weight:700}
-@media(max-width:760px){.A .feat{grid-template-columns:1fr}.A .feat img{min-height:0;aspect-ratio:2/1}.A .up,.A .grid{grid-template-columns:1fr}.A .past a{grid-template-columns:90px 1fr}.A .past i{display:none}.A .date b{font-size:3rem}}
+@media(max-width:760px){.A .up.one a{grid-template-columns:64px 1fr;padding:14px}.A .up.one img{display:none}.A .up.one a>div:last-child{padding:0}.A .grid{grid-template-columns:1fr!important}.A .feat{grid-template-columns:1fr}.A .feat img{min-height:0;aspect-ratio:2/1}.A .up,.A .grid{grid-template-columns:1fr}.A .up.one{grid-template-columns:1fr}.A .up.one a{grid-template-columns:300px 72px 1fr;padding:0;overflow:hidden}.A .up.one img{height:100%;min-height:150px}.A .up.one .d{margin-top:18px}.A .up.one a>div:last-child{padding:18px 20px 18px 0}.A .up.one p{font-size:.9rem;line-height:1.6;color:#3c4440}
+.A .past a{grid-template-columns:90px 1fr}.A .past i{display:none}.A .date b{font-size:3rem}}
 /* ===== B: Bức tường poster ===== */
 .B{background:#14211b;color:#f3efe6;min-height:100vh}
 .B .hd{padding:56px 0 26px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:end}
@@ -116,20 +118,22 @@ const im=x=>`<img src="${U+x.img}" style="object-position:${x.pos}" alt="">`;
 const dd=e=>e.slice(8,10),mm=e=>'THG '+(+e.slice(5,7)),dmy=e=>e.slice(8,10)+'/'+e.slice(5,7)+'/'+e.slice(0,4);
 const up=T.filter(x=>x.r==0),pe=T.filter(x=>x.r==1),pa=T.filter(x=>x.r==2);
 const lede='Mỗi chuyên đề tập hợp các bài viết dựa trên bằng chứng và công cụ tương tác quanh một chủ đề hoặc một ngày kỷ niệm.';
-function A(){const f=up[0];return `<div class="A wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p><div class="stats"><div><b>${T.length}</b><span>chuyên đề</span></div><div><b>${up.length}</b><span>sắp diễn ra</span></div><div><b>${pe.length}</b><span>thường trực</span></div></div></div>
-<a class="feat" href="#">${im(f)}<div class="tx"><div class="tag">Sắp diễn ra · ${f.ey}</div><div class="date"><b>${dd(f.end)}</b><span>${mm(f.end)}<br>2026</span></div><h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
-${up.length>1?`<div class="sec"><div class="sec-h"><h3>Tiếp theo trong lịch</h3><span>Xếp theo ngày</span></div><div class="up">${up.slice(1).map(x=>`<a href="#"><div class="d"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><div><div class="tag">${x.ey}</div><h4>${x.t}</h4><p>${x.l.slice(0,95)}…</p></div></a>`).join('')}</div></div>`:''}
-<div class="sec"><div class="sec-h"><h3>Thường trực</h3><span>Đọc bất cứ lúc nào</span></div><div class="grid">${pe.map(x=>`<a class="card" href="#">${im(x)}<div class="tag" style="margin-top:14px">${x.nw?'Mới':'Thường trực'}</div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div>
-<div class="sec" style="margin-bottom:70px"><div class="sec-h"><h3>Đã diễn ra</h3><span>Vẫn đọc được đầy đủ</span></div><div class="past">${pa.map(x=>`<a href="#">${im(x)}<div><div class="tag m">${dmy(x.end)} · ${x.ey}</div><h4>${x.t}</h4><p>${x.l.slice(0,110)}…</p></div><i>Xem lại →</i></a>`).join('')}</div></div></div>`}
-function B(){const ord=[...up,...pe,...pa];const cnt=k=>T.filter(x=>x.r==k).length;
+const ann=x=>x.ey+' · '+x.end.slice(8,10)+'/'+x.end.slice(5,7);
+const ev=[...pe,...pa];
+const tagOf=x=>x.r==1?(x.nw?'Mới':'Thường trực'):ann(x);
+function A(){const f=up[0],rest=up.slice(1),cols=(ev.length%3==1||ev.length==2)?2:3;return `<div class="A wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p><div class="stats"><div><b>${T.length}</b><span>chuyên đề</span></div><div><b>${up.length}</b><span>sắp diễn ra</span></div></div></div>
+<a class="feat" href="#">${im(f)}<div class="tx"><div class="tag">Sắp diễn ra · ${f.ey}</div><div class="date"><b>${dd(f.end)}</b><span>${mm(f.end)}</span></div><h2>${f.t}</h2><p>${f.l}</p><span class="btn">Vào chuyên đề →</span></div></a>
+${rest.length?`<div class="sec"><div class="sec-h"><h3>Tiếp theo trong lịch</h3><span>Xếp theo ngày</span></div><div class="up ${rest.length==1?'one':''}">${rest.map(x=>`<a href="#">${rest.length==1?im(x):''}<div class="d"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><div><div class="tag">${x.ey}</div><h4>${x.t}</h4><p>${rest.length==1?x.l:x.l.slice(0,95)+'…'}</p></div></a>`).join('')}</div></div>`:''}
+<div class="sec" style="margin-bottom:70px"><div class="sec-h"><h3>Đọc bất cứ lúc nào</h3><span>${ev.length} chuyên đề</span></div><div class="grid" style="grid-template-columns:repeat(${cols},1fr)">${ev.map(x=>`<a class="card" href="#">${im(x)}<div class="tag" style="margin-top:14px">${tagOf(x)}</div><h4>${x.t}</h4><p>${x.l}</p></a>`).join('')}</div></div></div>`}
+function B(){const ord=[...up,...pe,...pa];const n={0:up.length,1:pe.length,d:T.filter(x=>x.end).length};
 return `<div class="B"><div class="wrap"><div class="hd"><div><div class="tag" style="color:#e7b7a4">Dy Khoa Blog</div><h1>Chuyên đề</h1></div><p>${lede} Chuyên đề sắp diễn ra được xếp lên trước.</p></div>
-<div class="tabs"><button class="on" data-f="a">Tất cả<span>${T.length}</span></button><button data-f="0">Sắp diễn ra<span>${cnt(0)}</span></button><button data-f="1">Thường trực<span>${cnt(1)}</span></button><button data-f="2">Đã diễn ra<span>${cnt(2)}</span></button></div>
-<div class="wall">${ord.map((x,i)=>`<a href="#" data-r="${x.r}" class="p ${i==0?'w':''} ${x.r==2?'past':''}">${im(x)}<div class="tx"><span class="chip ${x.r==1?'perm':x.r==2?'past':''}">${x.r==0?'Sắp diễn ra · '+x.end.slice(8,10)+'/'+x.end.slice(5,7):x.r==1?(x.nw?'Mới · Thường trực':'Thường trực'):'Đã diễn ra · '+dmy(x.end)}</span><h2>${x.t}</h2>${i==0?`<p>${x.l}</p>`:''}</div></a>`).join('')}</div></div></div>`}
-function C(){const dated=[...up,...pa].sort((a,b)=>a.end<b.end?-1:1);
-let rows='',nowDone=false;dated.forEach(x=>{if(!nowDone&&x.r==0){rows+=`<div class="now">HÔM NAY · 21/10/2026</div>`;nowDone=true}rows+=`<div class="row ${x.r==2?'past':''}"><div class="when"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><a href="#">${im(x)}<div class="tx"><div class="tag ${x.r==2?'m':''}">${x.r==2?'Đã diễn ra':'Sắp diễn ra'} · ${x.ey}</div><h4>${x.t}</h4><p>${x.l}</p></div></a></div>`});
+<div class="tabs"><button class="on" data-f="a">Tất cả<span>${T.length}</span></button><button data-f="0">Sắp diễn ra<span>${n[0]}</span></button><button data-f="1">Chủ đề thường trực<span>${n[1]}</span></button><button data-f="d">Ngày kỷ niệm<span>${n.d}</span></button></div>
+<div class="wall">${ord.map((x,i)=>`<a href="#" data-r="${x.r}" data-d="${x.end?1:0}" class="p ${i==0?'w':''}">${im(x)}<div class="tx"><span class="chip ${x.r==0?'':'perm'}">${x.r==0?'Sắp diễn ra · '+x.end.slice(8,10)+'/'+x.end.slice(5,7):tagOf(x)}</span><h2>${x.t}</h2>${i==0?`<p>${x.l}</p>`:''}</div></a>`).join('')}</div></div></div>`}
+function C(){const doy=e=>+e.slice(5,7)*100+ +e.slice(8,10),t0=1021;const dated=T.filter(x=>x.end).sort((a,b)=>{const ka=(doy(a.end)-t0+1300)%1300,kb=(doy(b.end)-t0+1300)%1300;return ka-kb});
+const rows=dated.map(x=>`<div class="row"><div class="when"><b>${dd(x.end)}</b><span>${mm(x.end)}</span></div><a href="#">${im(x)}<div class="tx"><div class="tag">${x.r==0?'Sắp tới · ':''}${x.ey}</div><h4>${x.t}</h4><p>${x.l}</p></div></a></div>`).join('');
 return `<div class="C wrap"><div class="hd"><div class="tag">Dy Khoa Blog</div><h1>Chuyên đề</h1><p>${lede}</p></div>
 <div class="pin"><div class="pin-h"><h3>Luôn mở</h3><span>${pe.length} chuyên đề thường trực</span></div><div class="pins">${pe.map(x=>`<a href="#">${im(x)}<div><div class="tag">${x.nw?'Mới':'Thường trực'}</div><h4>${x.t}</h4><p>${x.l}</p></div></a>`).join('')}</div></div>
-<h3 style="text-align:center;font-size:1.6rem;margin-bottom:28px">Lịch chuyên đề theo ngày kỷ niệm</h3><div class="tl">${rows}</div></div>`}
+<h3 style="text-align:center;font-size:1.6rem;margin-bottom:6px">Lịch kỷ niệm hằng năm</h3><p style="text-align:center;color:#6b746f;margin:0 0 30px;font-size:.92rem">Bắt đầu từ ngày gần nhất sắp tới</p><div class="tl">${rows}</div></div>`}
 const v=(location.hash||'#A').slice(1);document.getElementById('app').innerHTML=({A,B,C})[v]()+`<div class="lbl">Phương án ${v}</div>`;
-document.querySelectorAll('.B .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.B .tabs button').forEach(z=>z.classList.toggle('on',z==b));document.querySelectorAll('.B .p').forEach(p=>p.style.display=(b.dataset.f=='a'||p.dataset.r==b.dataset.f)?'':'none')});
+document.querySelectorAll('.B .tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.B .tabs button').forEach(z=>z.classList.toggle('on',z==b));const f=b.dataset.f;document.querySelectorAll('.B .p').forEach(p=>p.style.display=(f=='a'||(f=='d'?p.dataset.d=='1':p.dataset.r==f))?'':'none')});
 </script></body></html>
