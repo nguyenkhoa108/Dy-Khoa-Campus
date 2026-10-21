@@ -8,11 +8,11 @@ a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 .lf-bar{position:fixed;top:0;left:0;height:4px;width:0;background:var(--red);z-index:20}
 /* HERO */
 .lf-hero{position:relative;min-height:min(92vh,820px);display:flex;align-items:flex-end;overflow:hidden;background:#efe7d6}
-.lf-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 30%}
-.lf-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(246,241,231,.97) 0%,rgba(246,241,231,.9) 34%,rgba(246,241,231,0) 62%)}
-.lf-hero .in{position:relative;z-index:2;max-width:1200px;width:100%;margin:0 auto;padding:0 32px 9vh}
+.lf-hero img{position:absolute;top:0;right:0;bottom:0;width:62%;height:100%;object-fit:cover;object-position:78% 30%}
+.lf-hero::after{content:"";position:absolute;top:0;bottom:0;left:38%;width:14%;background:linear-gradient(90deg,#efe7d6,rgba(239,231,214,0))}
+.lf-hero .in{position:relative;z-index:2;max-width:1200px;width:100%;margin:0 auto;padding:60px 32px 8vh}.lf-hero .in>*{max-width:430px}
 .lf-kick{font-size:.72rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
-.lf-hero h1{font-family:Anton,sans-serif;font-weight:400;font-size:clamp(3.4rem,9vw,7.6rem);line-height:.9;margin:14px 0 0;letter-spacing:.01em;text-transform:uppercase;max-width:620px}
+.lf-hero h1{font-family:Anton,sans-serif;font-weight:400;font-size:clamp(3rem,6.4vw,6rem);line-height:.92;margin:14px 0 0;letter-spacing:.01em;text-transform:uppercase}
 .lf-hand{font-family:"Patrick Hand",cursive;color:var(--red);font-size:clamp(1.8rem,4vw,2.8rem);display:block;margin-top:6px;transform:rotate(-2deg);transform-origin:left}
 .lf-hero p{max-width:470px;font-family:Newsreader,serif;font-size:1.3rem;line-height:1.5;margin:22px 0 0;color:var(--sub)}
 .lf-meta{display:flex;gap:18px;margin-top:26px;font-size:.85rem;color:var(--mut);flex-wrap:wrap}
@@ -39,10 +39,10 @@ a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 .lf-ch-h h2{font-family:Newsreader,serif;font-weight:800;font-size:2.6rem;line-height:1.1;margin:14px 0 8px}
 .lf-ch-h p{font-family:"Patrick Hand",cursive;font-size:1.45rem;color:var(--red);margin:0}
 .lf-st{display:grid;grid-template-columns:230px minmax(0,1fr);gap:34px;padding:38px 0;border-top:1px solid var(--line)}
-.lf-num{position:relative;align-self:start;text-align:center;padding:26px 10px}
+.lf-num{position:relative;align-self:start;text-align:center;padding:30px 22px;min-height:150px;display:flex;flex-direction:column;justify-content:center}
 .lf-num svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
 .lf-num b{display:block;font-family:Anton,sans-serif;font-weight:400;font-size:3.1rem;line-height:1;color:var(--ink)}
-.lf-num span{display:block;font-family:"Patrick Hand",cursive;font-size:1.15rem;color:var(--red);margin-top:6px;line-height:1.15}
+.lf-num span{display:block;font-family:"Patrick Hand",cursive;font-size:1.1rem;color:var(--red);margin:6px auto 0;line-height:1.15;max-width:150px}
 .lf-st h3{font-family:Newsreader,serif;font-weight:800;font-size:1.7rem;line-height:1.2;margin:0 0 12px}
 .lf-st p{font-size:1.02rem;line-height:1.75;color:var(--sub);margin:0 0 18px}
 .lf-st p cite{font-style:normal;color:var(--mut);white-space:nowrap}
@@ -82,8 +82,8 @@ a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 .lf-toc a{flex:none;border-left:0;border-bottom:3px solid transparent;padding:12px 14px;white-space:nowrap}
 .lf-toc a b{display:inline;margin-right:6px}
 .lf-toc a.on{border-color:var(--red)}
-.lf-hero{min-height:auto;flex-direction:column;align-items:stretch}
-.lf-hero img{position:static;height:auto;aspect-ratio:4/3;object-position:92% 30%}
+.lf-hero{min-height:auto;flex-direction:column;align-items:stretch}.lf-hero .in>*{max-width:none}
+.lf-hero img{position:static;width:100%;height:auto;aspect-ratio:4/3;object-position:92% 30%}
 .lf-hero::after{display:none}
 .lf-hero .in{padding:26px 20px 36px}
 .lf-intro{padding-top:44px}.lf-intro p{font-size:1.18rem}
@@ -101,7 +101,7 @@ a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 <img src="https://dykhoa.com/blog/wp-content/uploads/2026/10/boc-mac-y-khoa-banner.webp" alt="">
 <div class="in">
 <div class="lf-kick">Chuyên đề · Dy Khoa Blog</div>
-<h1>Bóc mác y khoa</h1><span class="lf-hand">...trong quảng cáo</span>
+<h1>Bóc mác<br>y khoa</h1><span class="lf-hand">...trong quảng cáo</span>
 <p>Đọc quảng cáo như một biên tập viên cầm bút đỏ: khoanh con số, gạch chứng nhận, và hỏi lại nguồn của mọi câu "nghe như khoa học".</p>
 <div class="lf-meta"><span><b>9</b> bài viết</span><span><b>3</b> chương</span><span><b>1</b> bộ lọc tự kiểm tra</span></div>
 <a class="lf-down" href="#mo-dau"><span>↓</span>Bắt đầu đọc</a>
