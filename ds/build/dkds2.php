@@ -18,7 +18,7 @@ if ( ! function_exists( 'dkds_posts' ) ) {
     }
     function dkds_meta( $id ) {
         $out = array();
-        if ( function_exists( 'dkx_byline' ) && preg_match( '/(\d+)\s*phút đọc/u', wp_strip_all_tags( dkx_byline( $id, true ) ), $m ) ) {
+        if ( function_exists( 'dkx_byline' ) && preg_match( '/(?<!\d)(\d{1,3})\s*phút đọc/u', preg_replace( '/<[^>]*>/', ' ', dkx_byline( $id, true ) ), $m ) ) {
             $out[] = $m[1] . ' phút đọc';
         }
         $ch = substr_count( (string) get_post_field( 'post_content', $id ), 'class="ds-op"' );
