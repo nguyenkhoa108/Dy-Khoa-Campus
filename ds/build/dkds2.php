@@ -111,7 +111,7 @@ if ( ! function_exists( 'dkds_posts' ) ) {
 .dsb>*{max-width:1180px;margin-left:auto;margin-right:auto;padding:0 24px;box-sizing:border-box;position:relative;z-index:1}
 .dsb-h{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px}.dsb-h img{height:44px;width:auto;display:block}
 .dsb .dsb-all{color:#cfe3d6;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap}.dsb-all:after{content:" →"}
-.dsb-g{display:grid;grid-template-columns:7fr 5fr;gap:40px;align-items:center}.dsb-img img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.dsb-g{display:grid;grid-template-columns:7fr 5fr;gap:40px;align-items:center}.dsb-img img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
 .dsb .dsb-no{font:900 72px/.85 "Be Vietnam Pro",sans-serif;color:transparent;-webkit-text-stroke:1.2px #cfe3d6;margin:0 0 12px}
 .dsb .dsb-t{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:clamp(26px,2.8vw,40px);line-height:1.15;margin:0 0 12px}.dsb .dsb-t a{color:#fff;text-decoration:none}
 .dsb .dsb-d{font-family:Newsreader,Georgia,serif;font-size:18px;line-height:1.5;color:#c9d2cd;margin:0 0 12px}.dsb .dsb-m{font-size:12px;color:#aebcb4;margin:0 0 18px}
@@ -133,12 +133,12 @@ if ( ! function_exists( 'dkds_posts' ) ) {
 .dsa .dsa-t{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:clamp(32px,3.6vw,50px);line-height:1.08;margin:0 0 16px;letter-spacing:-.01em}.dsa-t a{color:#1b1d1c;text-decoration:none}
 .dsa .dsa-d{font-family:Newsreader,Georgia,serif;font-size:20px;line-height:1.5;color:#2a3b33;margin:0 0 20px}.dsa .dsa-meta{font-size:13px;color:#6f7772;margin:0 0 26px}
 .dsa .dsa-btn{display:inline-flex;gap:10px;align-items:center;background:#13241d;color:#fff;padding:13px 22px;font-weight:700;font-size:14px;text-decoration:none;border-radius:2px}.dsa-btn:after{content:"→"}
-.dsa-img img{width:100%;aspect-ratio:4/3.2;object-fit:cover;display:block;box-shadow:18px 18px 0 #13241d}
+.dsa-img img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;box-shadow:18px 18px 0 #13241d}
 .dsa-list{padding:56px 0 30px}.dsa .dsa-lh{font:900 13px "Be Vietnam Pro",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#6f7772;margin:0 0 10px}
 .dsa-row{display:grid;grid-template-columns:1fr 260px;gap:28px;align-items:center;padding:26px 0;border-top:1px solid var(--dk-line,#d6ddd8)}
 .dsa-rn{font:900 64px/.8 "Be Vietnam Pro",sans-serif;color:transparent;-webkit-text-stroke:1.2px currentColor}
 .dsa-row h3{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 8px}.dsa-row h3 a{color:inherit;text-decoration:none}
-.dsa-row p{font-family:Newsreader,Georgia,serif;font-size:17px;line-height:1.5;margin:0 0 8px;opacity:.85}.dsa-row small{font-size:12px;opacity:.7}.dsa-rimg img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.dsa-row p{font-family:Newsreader,Georgia,serif;font-size:17px;line-height:1.5;margin:0 0 8px;opacity:.85}.dsa-row small{font-size:12px;opacity:.7}.dsa-rimg img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
 @media(max-width:860px){.dsa-mast{padding:40px 0 36px}.dsa-fg{grid-template-columns:1fr;gap:28px}.dsa-img{order:-1}.dsa-img img{box-shadow:10px 10px 0 #13241d}.dsa .dsa-no{font-size:80px}.dsa-feat{padding:36px 0 44px}.dsa .dsa-d{font-size:18px}.dsa-row{grid-template-columns:1fr;gap:12px}.dsa-rimg{display:none}.dsa-rn{font-size:44px}.dsa-row h3{font-size:21px}}
 CSS;
     }
@@ -150,6 +150,11 @@ CSS;
         }
         echo '<style id="dkds2-css">' . dkds2_css() . '</style>' . "\n";
     }, 30 );
+    /* Ảnh đầu bài Đọc Sâu: điện thoại hiện đủ khung 16:9 (không cắt nhãn ĐỌC SÂU); máy tính ảnh bị cắt dọc nên gắn nhãn riêng ở góc */
+    add_action( 'wp_head', function () {
+        if ( ! function_exists( 'dkds_is' ) || ! dkds_is() ) { return; }
+        echo '<style id="dkds-hero-badge">@media(min-width:861px){.dkds .dkx-hero-media::after{content:"";position:absolute;right:24px;bottom:24px;width:150px;height:40px;padding:8px 12px;background:rgba(12,23,18,.78) url(https://dykhoa.com/blog/wp-content/uploads/2026/10/doc-sau-logo-trang.png) center/130px auto no-repeat;border-radius:4px;box-sizing:content-box;pointer-events:none}}@media(max-width:860px){.dkds .dkx-hero-media{height:56.25vw!important}.dkds .dkx-hero-media img{object-position:center!important}}</style>' . "\n";
+    }, 40 );
     add_action( 'template_redirect', function () {
         if ( ! is_category( 'doc-sau' ) || is_paged() || is_feed() ) { return; }
         get_header();
