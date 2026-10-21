@@ -1,0 +1,46 @@
+# Ghi chép nguồn - bài Đọc Sâu 1: tin giả khoa học
+
+## NASEM (2025) Understanding and Addressing Misinformation About Science. DOI 10.17226/27894. Read online https://www.nationalacademies.org/read/27894 . Chủ tịch hội đồng: K. "Vish" Viswanath (Harvard T.H. Chan).
+- Định nghĩa (Summary/Concl 2-1): "information that asserts or implies claims that are inconsistent with the weight of accepted scientific evidence at the time (reflecting both quality and quantity of evidence)"; có thể thay đổi theo thời gian khi bằng chứng tích lũy.
+- C3-1: thay đổi hệ sinh thái thông tin (công nghệ nhanh, khối lượng lớn; môi trường tham gia khó đánh giá độ tin cậy nguồn; năng lực báo chí suy giảm) làm tăng độ hiển thị.
+- C3-2: niềm tin vào khoa học giảm gần đây nhưng vẫn tương đối cao so với các thiết chế dân sự khác.
+- C4-1: nguồn gồm doanh nghiệp/tổ chức phi lợi nhuận dùng truyền thông chiến lược, chính phủ, chính trị gia, truyền thông "khoa học thay thế", giải trí, chính các tổ chức khoa học (truyền thông kém, công bố sớm, gian lận), văn phòng báo chí, báo chí, cá nhân.
+- C4-2: không phải tin giả nào cũng có ảnh hưởng như nhau; mạnh hơn khi từ nguồn có thẩm quyền, được khuếch đại, tiếp cận lớn, nhắm mục tiêu, có phối hợp.
+- C4-4: báo chí khoa học có thể vô tình lan truyền: "giving equal weight to both sides", dựa vào thông cáo báo chí, bỏ chi tiết, thiếu chuyên môn.
+- C5-1: chia sẻ vô tình: nhầm độ tin cậy, không chú ý độ chính xác, muốn cảnh báo người khác.
+- C5-2: chia sẻ cố ý vì lợi nhuận, phần thưởng xã hội, quyền lực, gây mất niềm tin, troll; mạng xã hội có thể khuếch đại động cơ.
+- C5-3: thiết kế nền tảng, thuật toán, điều khoản dễ dãi hoặc thực thi yếu, kiểm duyệt hạn chế; công ty có thể không tự nguyện khắc phục khi xung đột lợi ích kinh doanh.
+- C5-4: uy tín khoa học bị chiếm dụng (giả chuyên gia; chuyên gia nói ngoài chuyên môn).
+- C6-1: cộng đồng thiệt thòi ít tiếp cận thông tin chính xác -> "information voids".
+- C6-2: phần lớn nghiên cứu đo niềm tin, ý định chứ không đo hành vi; tin giả có vai trò và đôi khi gây hại nhưng QUAN HỆ NHÂN QUẢ TRỰC TIẾP CHƯA ĐƯỢC XÁC LẬP DỨT KHOÁT. Dễ tiếp nhận khi hợp thế giới quan, từ nguồn tin cậy, lặp lại, chủ đề chưa có quan điểm. Hiểu biết khoa học quan trọng nhưng không đủ.
+- C6-4: độ chính xác chỉ là một yếu tố; giá trị, bản sắc, điều kiện vật chất (y tế, thực phẩm, đi lại).
+- C7-1: can thiệp nhắm vào cung, cầu, phân phối, tiếp nhận; chưa có điểm can thiệp nào tốt nhất.
+- C7-4: cảnh báo kỹ thuật thao túng (prebunking), đính chính có giải thích, khuyến khích tư duy đánh giá: hiệu quả ngăn tin và chia sẻ; độ bền là thách thức chung.
+- C7-5: can thiệp riêng cho khoa học ít hơn chính trị; thiếu phối hợp.
+- C8-1: nghiên cứu và can thiệp tập trung vào cá nhân -> "may inadvertently place the onus on the individual".
+- C8-2: thiếu dữ liệu toàn cảnh trên các nền tảng.
+- Text quanh đó: debunking mang tính phản ứng, hiệu quả phai dần, đính chính thường không đến được người đã xem tin sai.
+- Khuyến nghị 1-13 (Summary): 2 văn phòng báo chí duyệt thông cáo với nhà khoa học; 3 nhà khoa học hiểu cách bị hiểu sai; 4 liên minh độc lập tuyển chọn nguồn; 5 nền tảng ưu tiên thông tin dựa trên bằng chứng; 6 hỗ trợ báo chí khoa học, bỏ paywall chủ đề sức khỏe khẩn; 8 chuẩn bị truyền thông khẩn cấp; 9 theo dõi nguồn gốc lan truyền; 10 tài trợ tổ chức cộng đồng lấp khoảng trống thông tin; 11 prebunking trước, debunking sau, giải thích vì sao sai và động cơ nguồn; 12 nghiên cứu cấp hệ thống; 13 dữ liệu nền tảng cho nghiên cứu.
+
+## Royal Society (2022, tháng 1). The online information environment: Understanding how the internet shapes people's engagement with scientific information. ISBN 978-1-78252-567-7. PDF https://royalsociety.org/-/media/policy/projects/online-information-environment/the-online-information-environment.pdf
+- LƯU Ý: cụm "not a silver bullet" KHÔNG có trong báo cáo PDF (đã báo nhầm cho Dy Khoa ở chat trước, theo tóm tắt trang dự án). Dùng câu trong báo cáo: không nên "rely on content removal as a solution to online scientific misinformation" (KN2, tr.10); "little evidence to support the effectiveness of this approach for scientific misinformation"; gỡ bỏ "may cause more harm than good", đẩy nội dung "towards harder-to-address corners of the internet". Tr.11: thay thế: demonetisation, giảm khuếch đại, nhãn kiểm chứng.
+- Phát hiện (tr.7-8): tác động "questionable"; đa số người được khảo sát tin vắc-xin COVID an toàn, con người gây biến đổi khí hậu, 5G không hại. Buồng vang "less widespread than may be commonly assumed", "little evidence to support the filter bubble hypothesis". Tranh cãi chuyên gia lan ra công chúng -> "deserts" thông tin. Không có một phong trào "anti-vax" duy nhất. Công nghệ vai trò "important though limited"; đa số khó nhận ra deepfake. "Incentives for content production and consumption are the most significant factor".
+- Khảo sát Royal Society/YouGov 7/2021, n=2.019 (Hình 1, tr.28): 61% cho rằng internet làm hiểu biết khoa học của công chúng tốt hơn (17% nhiều hơn, 44% một chút); 18% không khác; 13% tệ hơn; 7% không biết. 5% không tin vắc-xin COVID an toàn; 5% không tin con người gây BĐKH; 15% tin 5G có hại. 83% cho rằng tin sai về BĐKH có hại; 67% với 5G. 68% nói sẽ kiểm chứng một tuyên bố khoa học đáng ngờ.
+- 11 khuyến nghị: không dựa vào gỡ bỏ; hỗ trợ kiểm chứng độc lập bền vững; chú ý nền tảng ngách; can thiệp trong nhắn tin riêng giữ mã hóa; dữ liệu cho nhà nghiên cứu; đa dạng truyền thông; giáo dục kỹ năng thông tin suốt đời; mở rộng xuất bản truy cập mở.
+
+## Lewandowsky, S., ... & Zaragoza, M. S. (2020). The Debunking Handbook 2020. DOI 10.17910/b7.1182. PDF: https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1247&context=scholcom  (22 tác giả: Lewandowsky, S., Cook, J., Ecker, U. K. H., Albarracín, D., Amazeen, M. A., Kendeou, P., Lombardi, D., Newman, E. J., Pennycook, G., Porter, E., Rand, D. G., Rapp, D. N., Reifler, J., Roozenbeek, J., Schmid, P., Seifert, C. M., Sinatra, G. M., Swire-Thompson, B., van der Linden, S., Vraga, E. K., Wood, T. J., Zaragoza, M. S.)
+- tr.5: continued influence effect = "The continued reliance on inaccurate information in people's memory and reasoning"; lặp lại khiến tin là thật: "we tend to believe falsehoods when they are repeated sufficiently often".
+- tr.6: "Misinformation is sticky—even when it seems to have been corrected."
+- tr.7: prebunking = cảnh báo trước + bác bỏ trước; như vắc-xin, liều yếu kỹ thuật thao túng -> "cognitive antibodies".
+- tr.10-11: phản tác dụng (backfire) "occur only occasionally"; "no reason to avoid debunking for fear of a backfire effect".
+- tr.12-13: cấu trúc FACT - WARN ABOUT THE MYTH - EXPLAIN FALLACY - FACT; mở bằng sự thật nếu "clear, pithy, and sticky".
+
+## Vosoughi, Roy & Aral (2018) Science 359(6380) 1146-1151 doi 10.1126/science.aap9559 (bản tác giả: politics.media.mit.edu/papers/Vosoughi_Science.pdf)
+- ~126.000 câu chuyện, ~3 triệu người, >4,5 triệu lần tweet, 2006-2017. Sai lan "farther, faster, deeper, and more broadly" ở mọi loại. Sự thật mất khoảng 6 lần thời gian để tới 1.500 người; 20 lần để đạt độ sâu 10. Tin sai có khả năng được retweet cao hơn 70%. Tin sai chính trị nhanh hơn. Bot tăng tốc cả hai như nhau; con người mới là bên lan tin sai. Tin sai "mới lạ" hơn, nhưng không khẳng định nhân quả.
+## Loomba, S., de Figueiredo, A., Piatek, S. J., de Graaf, K., & Larson, H. J. (2021) Nat Hum Behav 5, 337-348 doi 10.1038/s41562-021-01056-1 (số issue chưa xác minh)
+- 8.001 người (4.000 Anh, 4.001 Mỹ), 7-14/9/2020; 3.000/3.001 xem tin sai, 1.000/nước xem thông tin đúng. Tin sai làm tỷ lệ "chắc chắn tiêm" giảm 6,2 điểm % (Anh) và 6,4 điểm % (Mỹ) so với nhóm đối chứng.
+## University of Cambridge (24/8/2022) "Social media experiment reveals potential to 'inoculate' millions of users against misinformation" https://cam.ac.uk/node/233881 (về Roozenbeek et al. 2022 Science Advances, doi 10.1126/sciadv.abo6254 - KHÔNG đọc được toàn văn bài báo, chỉ dẫn thông cáo)
+- 7 thí nghiệm, gần 30.000 người. Video ngắn về kỹ thuật thao túng (ngôn ngữ cảm xúc quá mức, lưỡng phân giả, đổ lỗi, mâu thuẫn). Thử thực địa YouTube: khoảng 5,4 triệu người dùng Mỹ thấy video ở vị trí quảng cáo; gần 1 triệu xem ít nhất 30 giây; 22.632 người trả lời câu hỏi; khả năng nhận ra kỹ thuật tăng trung bình 5%; chi phí khoảng 0,05 USD mỗi lượt xem đủ dài; kiểm tra trung bình khoảng 18 giờ sau.
+## WHO (không ngày) Infodemic https://www.who.int/health-topics/infodemic : "too much information including false or misleading information in digital and physical environments during a disease outbreak"; gây nhầm lẫn, hành vi rủi ro, mất niềm tin cơ quan y tế, cản trở ứng phó.
+## Thủy Diệu (12/1/2021) VnEconomy "Việt Nam có Trung tâm Xử lý tin giả": Trung tâm Xử lý tin giả Việt Nam thuộc Cục Phát thanh, truyền hình và thông tin điện tử, Bộ TT&TT ra mắt 12/1/2021, cổng tingia.gov.vn; chức năng "tiếp nhận, phát hiện, thẩm định, gắn nhãn tin giả, công bố thông tin xác thực..." và "hướng dẫn cách nhận biết, phòng tránh, đối phó với tin giả".
+## Liên kết nội bộ đã xác nhận: /blog/thong-tin-khoa-hoc-tren-mang-co-dang-tin/ ; /blog/kiem-tra-nghien-cuu-chia-se-tren-mang/ . Chưa xác nhận được (không tải được trang): /blog/tin-gia-vac-xin-covid19-va-y-dinh-tiem-chung/ ; /blog/infodemic-covid19-va-who/
