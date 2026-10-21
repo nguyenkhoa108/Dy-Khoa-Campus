@@ -59,7 +59,7 @@ c += P('Trench (2008) nhấn mạnh ba mô hình không phải là các nấc ti
 
 c += H2('Vì sao truyền thông khoa học quan trọng?')
 c += P('Theo NASEM (2017), truyền thông khoa học giúp người dân và nhà hoạch định chính sách ra quyết định dựa trên bằng chứng, đồng thời giúp giới khoa học hiểu được góc nhìn và mối quan tâm của các nhóm công chúng khác nhau.')
-c += P('Vai trò này càng rõ khi niềm tin vào khoa học đang chịu áp lực. Khảo sát Wellcome Global Monitor 2026 cho thấy tỉ lệ người tin khoa học ở mức "khá" hoặc "rất nhiều" đã giảm từ 80% năm 2020 xuống 72% năm 2025 (Wellcome Trust, 2026).')
+c += P('Vai trò này càng rõ khi niềm tin vào khoa học đang chịu áp lực. Khảo sát ' + A('wellcome-global-monitor-2026-niem-tin-vao-khoa-hoc', 'Wellcome Global Monitor 2026') + ' cho thấy tỉ lệ người tin khoa học ở mức "khá" hoặc "rất nhiều" đã giảm từ 80% năm 2020 xuống 72% năm 2025 (Wellcome Trust, 2026).')
 
 c += H2('Truyền thông khoa học có giống báo chí khoa học không?')
 c += P('Không hoàn toàn. Báo chí khoa học là một hình thức cụ thể của truyền thông khoa học, tuân theo chuẩn mực nghề báo. Truyền thông khoa học là khái niệm rộng hơn, bao gồm cả báo chí khoa học lẫn bảo tàng, lễ hội, blog, tham vấn công chúng và tương tác giữa bác sĩ với bệnh nhân (Davies, 2019). Bài ' + A('ttkh-khac-gi-bao-chi-giao-duc-pr-khoa-hoc', 'truyền thông khoa học khác gì báo chí, giáo dục và PR khoa học') + ' so sánh chi tiết hơn.')
